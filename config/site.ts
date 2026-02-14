@@ -1,12 +1,11 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "前端导航",
-  description: "基于 Next.js 的前端导航网站",
+  name: "独立掘金网",
+  description: "独立掘金网 - 网址导航",
   mainNav: [],
   links: {
-    twitter: "https://twitter.com/liwenka1",
-    github: "https://github.com/liwenka1/next-web-nav"
+    twitter: "https://x.com/mundane799699"
   }
 }
 
@@ -28,7 +27,7 @@ type NavData = {
 
 export const NavData: NavData[] = [
   {
-    title: "常用工具",
+    title: "需求挖掘",
     items: [
       {
         icon: "https://caniuse.com/img/favicon-128.png",
@@ -94,7 +93,7 @@ export const NavData: NavData[] = [
   },
 
   {
-    title: "React",
+    title: "SEO优化",
     items: [
       {
         icon: "https://zh-hans.reactjs.org/favicon.ico",
@@ -177,7 +176,7 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "Vue",
+    title: "UI设计",
     items: [
       {
         icon: "https://cn.vuejs.org/logo.svg",
@@ -254,7 +253,7 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "JavaScript",
+    title: "网站模板",
     items: [
       {
         icon: "https://svelte.dev/svelte-logo-horizontal.svg",
@@ -283,7 +282,7 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "CSS",
+    title: "教程推荐",
     items: [
       {
         icon: "https://postcss.org/assets/logo-3e39b0aa.svg",
@@ -408,7 +407,7 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "Node",
+    title: "服务器推荐",
     items: [
       {
         icon: "https://deno.com/logo.svg",
@@ -479,7 +478,7 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "构建工具",
+    title: "心灵加油站",
     items: [
       {
         icon: "https://www.webpackjs.com/icon_180x180.png",
@@ -526,7 +525,7 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "前端文档",
+    title: "公众号推荐",
     items: [
       {
         icon: "https://developer.mozilla.org/apple-touch-icon.6803c6f0.png",
@@ -561,7 +560,7 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "UI设计",
+    title: "博主推荐",
     items: [
       {
         title: "Mastergo",
@@ -596,7 +595,7 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "字体图标",
+    title: "域名查询",
     items: [
       {
         title: "iconify",
@@ -661,7 +660,7 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "跨平台",
+    title: "其他导航站",
     items: [
       {
         title: "Electron",
@@ -692,88 +691,6 @@ export const NavData: NavData[] = [
         desc: "Taro 是一个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发 微信 / 京东 / 百度 / 支付宝 / 字节跳动 / QQ / 飞书 小程序 / H5 / RN 等应用",
         icon: "/icons/taro.png",
         link: "https://taro.jd.com"
-      }
-    ]
-  },
-  {
-    title: "站点生成",
-    items: [
-      {
-        title: "VitePress",
-        desc: "Vue 驱动并使用Vite构建的静态网站生成器",
-        icon: "https://vuepress.vuejs.org/hero.png",
-        link: "https://vitepress.vuejs.org"
-      },
-      {
-        title: "VuePress",
-        desc: "Vue 驱动的静态网站生成器",
-        icon: "https://vuepress.vuejs.org/hero.png",
-        link: "https://vuepress.vuejs.org"
-      },
-      {
-        title: "Docusaurus",
-        desc: "快速构建以内容为核心的最佳网站",
-        icon: "/icons/docusaurus.svg",
-        link: "https://docusaurus.io"
-      },
-      {
-        title: "Hexo",
-        desc: "快速、简洁且高效的博客框架",
-        icon: "https://hexo.io/favicon.ico",
-        link: "https://hexo.io"
-      },
-      {
-        title: "GitBook",
-        desc: "GitBook帮助您为用户发布漂亮的文档，并集中您的团队的知识进行高级协作",
-        icon: "https://assets-global.website-files.com/600ead1452cf056d0e52dbed/6246d2036225eac4d74cff27_Favicon_Blue.png",
-        link: "https://www.gitbook.com/"
-      },
-      {
-        title: "Docsify",
-        desc: "docsify 可以快速帮你生成文档网站",
-        icon: "https://docsify.js.org/_media/icon.svg",
-        link: "https://docsify.js.org"
-      },
-      {
-        title: "WordPress",
-        desc: "WordPress是一款能让您建立出色网站、博客或应用程序的开源软件",
-        icon: "https://s.w.org/images/wmark.png",
-        link: "https://cn.wordpress.org/"
-      }
-    ]
-  },
-  {
-    title: "代码托管",
-    items: [
-      {
-        title: "Github",
-        icon: "/icons/github.ico",
-        desc: "一个面向开源及私有软件项目的托管平台",
-        link: "https://github.com"
-      },
-      {
-        title: "Gitee",
-        desc: "Gitee 是中国领先的基于 Git 的代码托管平台，类似于全球知名的 GitHub",
-        icon: "/icons/gitee.ico",
-        link: "https://gitee.com/"
-      },
-      {
-        title: "Gitlab",
-        desc: "更快地交付安全代码，部署到任何云，并推动业务成果",
-        icon: "https://gitlab.com/uploads/-/system/group/avatar/6543/logo-extra-whitespace.png?width=64",
-        link: "https://gitlab.com/"
-      },
-      {
-        title: "Gitea",
-        desc: "Gitea 是一个开源社区驱动的轻量级代码托管解决方案，后端采用 Go 编写，采用 MIT 许可证.",
-        icon: "https://gitea.io/images/favicon.png",
-        link: "https://gitea.io/"
-      },
-      {
-        title: "Coding",
-        desc: "提供一站式研发管理平台及云原生开发工具，让软件研发如同工业生产般简单高效，助力企业提升研发管理效能",
-        icon: "/icons/coding.png",
-        link: "https://coding.net/"
       }
     ]
   },
