@@ -2,6 +2,3 @@ name = "next-web-nav"
 compatibility_date = "2025-02-01"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
-
-[build]
-command = "pnpm install && pnpm pages:build"
