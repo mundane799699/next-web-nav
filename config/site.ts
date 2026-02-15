@@ -595,67 +595,36 @@ export const NavData: NavData[] = [
     ]
   },
   {
+    title: "新手专区",
+    items: [
+      {
+        title: "待补充",
+        desc: "待补充",
+        icon: "/icons/baidu.com-favicon-large.ico",
+        link: "https://www.baidu.com"
+      }
+    ]
+  },
+  {
     title: "域名查询",
     items: [
       {
-        title: "iconify",
-        desc: "数千个图标，一个统一的框架",
-        icon: "https://icon-sets.iconify.design/favicon.ico",
-        link: "https://icon-sets.iconify.design/"
+        title: "Query.Domains",
+        desc: "免费批量域名可用性检查工具，基于WHOIS查询获得即时结果。支持批量WHOIS查询API。",
+        icon: "/icons/query.domains-favicon-large.ico",
+        link: "https://query.domains"
       },
       {
-        title: "icones",
-        desc: "Icon Explorer with Instant searching, powered by Iconify",
-        icon: "https://icones.js.org/favicon.svg",
-        link: "https://icones.js.org/"
+        title: "NameBeta",
+        desc: "即时检查域名是否可注册，并对比各注册商的实时价格。快速找到最优惠的域名注册渠道。",
+        icon: "/icons/namebeta.com-favicon-large.ico",
+        link: "https://namebeta.com"
       },
       {
-        title: "iconfont",
-        desc: "iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能",
-        icon: "https://img.alicdn.com/imgextra/i4/O1CN01EYTRnJ297D6vehehJ_!!6000000008020-55-tps-64-64.svg",
-        link: "https://www.iconfont.cn/"
-      },
-      {
-        title: "feathericons",
-        desc: "简单美丽的开源图标",
-        icon: "https://feathericons.com/favicon.ico",
-        link: "https://feathericons.com/"
-      },
-      {
-        title: "undraw",
-        desc: "一个不断更新的设计项目与美丽的SVG图像，使用完全免费",
-        icon: "https://undraw.co/apple-touch-icon.png",
-        link: "https://undraw.co/"
-      },
-      {
-        title: "igoutu",
-        desc: "图标、插图、照片、音乐和设计工具",
-        icon: "/icons/igoutu.png",
-        link: "https://igoutu.cn/"
-      },
-      {
-        title: "Emojiall",
-        desc: "Emoji表情大全",
-        icon: "https://www.emojiall.com/apple-touch-icon.png",
-        link: "https://www.emojiall.com/zh-hans"
-      },
-      {
-        title: "渐变色网站",
-        desc: "数百万个自动生成的渐变的网站",
-        icon: "https://gradihunt.com/favicon.ico",
-        link: "https://gradihunt.com/"
-      },
-      {
-        title: "谷歌字体",
-        desc: "一个生成渐变色背景的网站",
-        icon: "/icons/google_fonts.ico",
-        link: "https://googlefonts.cn/"
-      },
-      {
-        title: "Typing SVG",
-        desc: "一个动态生成的可自定义 SVG 打字效果",
-        icon: "/icons/typing-svg.png",
-        link: "https://readme-typing-svg.herokuapp.com/demo/"
+        title: "zh-hans.tld-list.com",
+        desc: "比较来自注册商3,495域扩展54的价格。检查域可用性，发现免费功能，并找到最佳域注册商。",
+        icon: "/icons/zh-hans.tld-list.com-favicon.ico",
+        link: "https://zh-hans.tld-list.com/"
       }
     ]
   },
