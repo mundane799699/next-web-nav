@@ -30,64 +30,28 @@ export const NavData: NavData[] = [
     title: "需求挖掘",
     items: [
       {
-        icon: "https://caniuse.com/img/favicon-128.png",
-        title: "Can I use",
-        desc: "前端 API 兼容性查询",
-        link: "https://caniuse.com"
+        title: "Google 趋势",
+        icon: "/icons/trends.google.com-favicon-large.ico",
+        desc: "Google 趋势是一个免费的工具，可以让你了解当前的热门搜索和趋势。",
+        link: "https://trends.google.com/trends/"
       },
       {
-        icon: "https://tinypng.com/images/apple-touch-icon.png",
-        title: "TinyPNG",
-        desc: "在线图片压缩工具",
-        link: "https://tinypng.com"
+        title: "Traffic.cv",
+        icon: "/icons/traffic.cv-favicon-large.ico",
+        desc: "Traffic.cv is a free website traffic checker that allows you to check the traffic of any website. Get traffic volume, sources, trends, top keywords and more.",
+        link: "https://traffic.cv"
       },
       {
-        icon: "https://tool.lu/favicon.ico",
-        title: "在线工具",
-        desc: "开发人员的工具箱",
-        link: "https://tool.lu"
+        title: "boringcashcow",
+        icon: "/icons/boringcashcow.com-favicon-large.ico",
+        desc: "Find out about boring businesses that make a lot of money quietly. Learn how they succeed and build your own.",
+        link: "https://boringcashcow.com"
       },
       {
-        icon: "https://processon.com/favicon.ico",
-        title: "ProcessOn",
-        desc: "免费在线流程图思维导图",
-        link: "https://processon.com/"
-      },
-      {
-        icon: "/icons/json-cn.ico",
-        title: "Json 中文网",
-        desc: "JSON 在线解析及格式化验证",
-        link: "https://www.json.cn"
-      },
-      {
-        icon: "https://www.terminalgif.com/favicon.ico",
-        title: "Terminal Gif Maker",
-        desc: "在线生成 Terminal GIF",
-        link: "https://www.terminalgif.com"
-      },
-      {
-        icon: "https://astexplorer.net/favicon.png",
-        title: "AST Explorer",
-        desc: "一个 Web 工具，用于探索由各种解析器生成的 AST 语法树",
-        link: "https://astexplorer.net/"
-      },
-      {
-        icon: "https://transform.tools/static/favicon.png",
-        title: "transform",
-        desc: "各类数据格式与对象转换",
-        link: "https://transform.tools"
-      },
-      {
-        icon: "/icons/hoppscotch.png",
-        title: "Hoppscotch",
-        desc: "开源 API 开发生态系统",
-        link: "https://hoppscotch.io/"
-      },
-      {
-        icon: "/icons/apifox.png",
-        title: "Apifox",
-        desc: "API 文档、API 调试、API Mock、API 自动化测试",
-        link: "https://www.apifox.cn/"
+        title: "toolify",
+        icon: "/icons/www.toolify.ai-favicon-large.ico",
+        desc: "Toolify is the largest AI tools directory & GPT Store Apps. Over 28100+ AI Websites and AI Tools. AI Tools list and GPTs Store Apps list are auto updated by ChatGPT.",
+        link: "https://www.toolify.ai"
       }
     ]
   },
@@ -253,7 +217,7 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "网站模板",
+    title: "代码模板",
     items: [
       {
         icon: "https://svelte.dev/svelte-logo-horizontal.svg",
