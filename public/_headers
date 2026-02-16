@@ -1,0 +1,19 @@
+# 针对所有页面（HTML），禁止缓存，强制验证
+/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+# 针对 Next.js 的静态资源（带有哈希值），长期缓存
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 针对图标资源，缓存 1 天
+/icons/*
+  Cache-Control: public, max-age=86400
+
+# 针对其他图片/静态文件（png, svg, ico 等），缓存 1 天
+/*.png
+  Cache-Control: public, max-age=86400
+/*.svg
+  Cache-Control: public, max-age=86400
+/*.ico
+  Cache-Control: public, max-age=86400
