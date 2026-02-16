@@ -117,6 +117,12 @@ export const NavData: NavData[] = [
         icon: "/icons/shipany.ai-favicon-large.ico",
         desc: "ShipAny 是一个基于 NextJS 的 AI SaaS 开发框架，内置丰富的功能模块和业务组件，开箱即用，帮助你快速上线网站。",
         link: "https://shipany.ai"
+      },
+      {
+        title: "NEXTY.DEV",
+        icon: "/icons/nexty.dev-favicon-large.ico",
+        desc: "NEXTY.DEV 是一个功能齐全的 Next.js SaaS 全栈模板，让你能够快速构建各种商业网站，无论是内容站、工具站还是集成 AI 能力的付费网站。",
+        link: "https://nexty.dev"
       }
     ]
   },
@@ -313,6 +319,53 @@ export const NavData: NavData[] = [
         desc: "速度快、节省磁盘空间的软件包管理器",
         icon: "https://www.pnpm.cn/img/favicon.png",
         link: "https://pnpm.io"
+      }
+    ]
+  },
+  {
+    title: "API供应商",
+    items: [
+      {
+        title: "Kie.ai",
+        icon: "/icons/kie.ai-favicon-large.ico",
+        desc: "通过一个API接入最强大的AI模型，支持AI聊天、视频、图像和音乐生成。获取免费API密钥，稳定的表现，以及比Replicate和Fal.ai更优惠的定价。",
+        link: "https://kie.ai/zh-CN"
+      },
+      {
+        title: "fal.ai",
+        icon: "/icons/fal.ai-favicon-large.ico",
+        desc: "Easiest & most cost-effective way to use Gen AI. fal.ai is how devs integrate dozens of generative media models. FLUX, King, Hailuo +600 more",
+        link: "https://fal.ai"
+      },
+      {
+        title: "Replicate",
+        icon: "/icons/replicate.com-favicon-large.ico",
+        desc: "Run open-source machine learning models with a cloud API",
+        link: "https://replicate.com"
+      },
+      {
+        title: "WaveSpeedAI",
+        icon: "/icons/wavespeed.ai-favicon-large.ico",
+        desc: "WaveSpeedAI home – explore the platform that speeds up image, video and audio generation so you can build AI features, creative tools and workflows faster.",
+        link: "https://wavespeed.ai"
+      },
+      {
+        title: "evolink.ai",
+        icon: "/icons/evolink.ai-favicon-large.ico",
+        desc: "Access 40+ AI models for chat, video, image, and music through one EvoLink API, with 99.9% uptime, smart routing, and pricing up to 70% cheaper than direct use.",
+        link: "https://evolink.ai"
+      },
+      {
+        title: "rapidapi",
+        icon: "/icons/rapidapi.com-favicon-large.ico",
+        desc: "Nokia today announced that it has acquired Rapid’s technology assets, including the world’s largest API marketplace, and its highly skilled team.",
+        link: "https://rapidapi.com"
+      },
+      {
+        title: "兔子API",
+        icon: "/icons/logo-tuzi.png",
+        desc: "兔子AI - 专业的AI接口服务平台，支持GPT-4o、Claude-3.7、Grok-3、DeepSeek-V3等300+AI模型。价格仅为官方9.56%起，提供图像生成、联网搜索、文件分析等全功能服务。注册即送0.4美金试用额度，支持API调用、桌面应用、浏览器插件等多种接入方式。",
+        link: "https://api.tu-zi.com"
       }
     ]
   },
