@@ -93,6 +93,12 @@ export const NavData: NavData[] = [
         icon: "/icons/www.logo.surf-favicon.ico",
         desc: "Create professional logos and favicons from text in seconds. Free online tool with instant preview, multiple formats, and customizable designs.",
         link: "https://www.logo.surf"
+      },
+      {
+        title: "favicon.io",
+        icon: "/icons/favicon.io-favicon-large.ico",
+        desc: "The only favicon generator you need for your next project. Quickly generate your favicon from text, image, or choose from hundreds of emojis.",
+        link: "https://favicon.io"
       }
     ]
   },
@@ -100,28 +106,16 @@ export const NavData: NavData[] = [
     title: "代码模板",
     items: [
       {
-        icon: "https://svelte.dev/svelte-logo-horizontal.svg",
-        title: "Svelte",
-        desc: "将声明性组件转换为精准高效更新 DOM 的 JavaScript 代码",
-        link: "https://svelte.dev"
+        title: "MkSaaS",
+        icon: "/icons/mksaas.com-favicon-large.ico",
+        desc: "MkSaaS 是一个使用最先进的技术栈构建的 AI SaaS 模板，它可以帮助你更快更好地构建你的 AI SaaS 网站。",
+        link: "https://mksaas.com"
       },
       {
-        icon: "/icons/jquery.svg",
-        title: "jQuery API 中文文档",
-        desc: "一个兼容多浏览器的 JavaScript 框架",
-        link: "https://jquery.cuishifeng.cn"
-      },
-      {
-        title: "ECharts",
-        desc: "一个基于 JavaScript 的开源可视化图表库",
-        icon: "https://echarts.apache.org/zh/images/favicon.png",
-        link: "https://echarts.apache.org/"
-      },
-      {
-        title: "AntV",
-        desc: "蚂蚁集团全新一代数据可视化解决方案,让数据栩栩如生",
-        icon: "/icons/antv.png",
-        link: "https://antv.vision/"
+        title: "ShipAny",
+        icon: "/icons/shipany.ai-favicon-large.ico",
+        desc: "ShipAny 是一个基于 NextJS 的 AI SaaS 开发框架，内置丰富的功能模块和业务组件，开箱即用，帮助你快速上线网站。",
+        link: "https://shipany.ai"
       }
     ]
   },
