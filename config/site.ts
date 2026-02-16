@@ -56,7 +56,6 @@ export const NavData: NavData[] = [
       }
     ]
   },
-
   {
     title: "SEO优化",
     items: [
@@ -81,6 +80,17 @@ export const NavData: NavData[] = [
     ]
   },
   {
+    title: "浏览器插件推荐",
+    items: [
+      {
+        title: "SiteData",
+        icon: "/icons/sitedata.dev-favicon-large.ico",
+        desc: "Instantly analyze website traffic, discover AdSense networks, and uncover SEO opportunities — all privacy-first and completely free. Website Traffic Analytics & SEO Intelligence Platform, Reverse AdSense Lookup, Keyword Research, WHOIS Data",
+        link: "https://sitedata.dev"
+      }
+    ]
+  },
+  {
     title: "UI设计",
     items: [
       {
@@ -100,6 +110,18 @@ export const NavData: NavData[] = [
         icon: "/icons/favicon.io-favicon-large.ico",
         desc: "The only favicon generator you need for your next project. Quickly generate your favicon from text, image, or choose from hundreds of emojis.",
         link: "https://favicon.io"
+      },
+      {
+        title: "tweakcn",
+        icon: "/icons/tweakcn.com-favicon-large.ico",
+        desc: "Customize theme for shadcn/ui with tweakcn's interactive editor. Supports Tailwind CSS v4, Shadcn UI, and custom styles. Modify properties, preview changes, and get the code in real time.",
+        link: "https://tweakcn.com"
+      },
+      {
+        title: "Favicon.im",
+        icon: "/icons/favicon.im-favicon-large.ico",
+        desc: "即时获取、显示和下载任何网站的图标。为开发者提供简单、快速、免费的图标API。",
+        link: "https://favicon.im"
       }
     ]
   },
@@ -157,6 +179,12 @@ export const NavData: NavData[] = [
         desc: "本仓库旨在分享在开发海外网站过程中积累的经验。无论您是刚开始计划将业务拓展到海外，还是已经在这个领域有所尝试，希望这里的内容能为您提供有价值的参考。",
         icon: "/icons/overseas-website-note.png",
         link: "https://github.com/princehuang/overseas-website-note"
+      },
+      {
+        title: "Awesome-independent-tools",
+        desc: "收录独立开发、AI 出海领域最新、最实用的免费工具与资源",
+        icon: "/icons/Awesome-independent-tools.gif",
+        link: "https://github.com/yaolifeng0629/Awesome-independent-tools"
       }
     ]
   },
@@ -164,70 +192,10 @@ export const NavData: NavData[] = [
     title: "服务器推荐",
     items: [
       {
-        icon: "https://deno.com/logo.svg",
-        title: "deno",
-        desc: "Deno is the open-source JavaScript runtime for the modern web.",
-        link: "https://deno.com/"
-      },
-      {
-        icon: "https://nodejs.org/static/images/favicons/favicon.png",
-        title: "Node.js",
-        desc: "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境",
-        link: "https://nodejs.org/zh-cn"
-      },
-      {
-        icon: "https://expressjs.com/images/favicon.png",
-        title: "Express",
-        desc: "基于 Node.js 平台，快速、开放、极简的 Web 开发框架",
-        link: "https://expressjs.com"
-      },
-      {
-        icon: "https://nodejs.org/static/images/favicons/favicon.png",
-        title: "Koa",
-        desc: "基于 Node.js 平台的下一代 web 开发框架",
-        link: "https://koajs.com"
-      },
-      {
-        icon: "https://www.eggjs.org/favicon.png",
-        title: "Egg",
-        desc: "为企业级框架和应用而生",
-        link: "https://www.eggjs.org/zh-CN"
-      },
-      {
-        icon: "https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg",
-        title: "Nest.js 中文文档",
-        desc: "用于构建高效且可伸缩的服务端应用程序的渐进式 Node.js 框架",
-        link: "https://docs.nestjs.cn"
-      },
-      {
-        title: "TypeORM",
-        desc: "TypeORM 是一个 ORM 框架，它可以运行在 NodeJS、Browser、Cordova、PhoneGap、Ionic、React Native、Expo 和 Electron 平台上，可以与 TypeScript 和 JavaScript (ES5,ES6,ES7,ES8)一起使用",
-        icon: "/icons/typeorm.ico",
-        link: "https://typeorm.bootcss.com"
-      },
-      {
-        title: "Axios",
-        desc: "Axios 是一个基于 promise 的网络请求库，可以用于浏览器和 node.js",
-        icon: "/icons/axios.ico",
-        link: "https://axios-http.cn/"
-      },
-      {
-        title: "NPM",
-        desc: "NPM是世界上最大的包管理器",
-        icon: "https://static.npmjs.com/58a19602036db1daee0d7863c94673a4.png",
-        link: "https://www.npmjs.com"
-      },
-      {
-        title: "Yarn",
-        desc: "Yarn 是一个软件包管理器，还可以作为项目管理工具。无论你是小型项目还是大型单体仓库（monorepos），无论是业余爱好者还是企业用户，Yarn 都能满足你的需求",
-        icon: "https://www.yarnpkg.cn/favicon-32x32.png",
-        link: "https://www.yarnpkg.cn"
-      },
-      {
-        title: "Pnpm",
-        desc: "速度快、节省磁盘空间的软件包管理器",
-        icon: "https://www.pnpm.cn/img/favicon.png",
-        link: "https://pnpm.io"
+        title: "待补充",
+        desc: "待补充",
+        icon: "/icons/baidu.com-favicon-large.ico",
+        link: "https://www.baidu.com"
       }
     ]
   },
@@ -282,46 +250,10 @@ export const NavData: NavData[] = [
     title: "心灵加油站",
     items: [
       {
-        icon: "https://www.webpackjs.com/icon_180x180.png",
-        title: "Webpack 中文网",
-        desc: "一个用于现代 JavaScript 应用程序的静态模块打包工具",
-        link: "https://www.webpackjs.com"
-      },
-      {
-        icon: "https://cn.vitejs.dev/logo.svg",
-        title: "Vite 中文文档",
-        desc: "下一代前端工具链",
-        link: "https://cn.vitejs.dev"
-      },
-      {
-        icon: "https://www.rollupjs.com/img/favicon.png",
-        title: "Rollup",
-        desc: "Rollup 是一个 JavaScript 模块打包器",
-        link: "https://www.rollupjs.com"
-      },
-      {
-        icon: "https://turbo.build/images/favicon-dark/apple-touch-icon.png",
-        title: "Turbo",
-        desc: "Turbo is an incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust",
-        link: "https://turbo.build"
-      },
-      {
-        icon: "https://www.babeljs.cn/img/favicon.png",
-        title: "Babel",
-        desc: "Babel 是一个 JavaScript 编译器",
-        link: "https://www.babeljs.cn"
-      },
-      {
-        icon: "https://esbuild.github.io/favicon.svg",
-        title: "esbuild",
-        desc: "An extremely fast bundler for the web",
-        link: "https://esbuild.github.io"
-      },
-      {
-        icon: "https://swc.rs/favicon/apple-touch-icon.png",
-        title: "SWC",
-        desc: "Rust-based platform for the Web",
-        link: "https://swc.rs"
+        title: "待补充",
+        desc: "待补充",
+        icon: "/icons/baidu.com-favicon-large.ico",
+        link: "https://www.baidu.com"
       }
     ]
   },
@@ -329,34 +261,10 @@ export const NavData: NavData[] = [
     title: "公众号推荐",
     items: [
       {
-        icon: "https://developer.mozilla.org/apple-touch-icon.6803c6f0.png",
-        title: "MDN | Web 开发者指南",
-        desc: "Mozilla 的开发者平台，提供了大量关于 HTML、CSS 和 JavaScript 的详细文档以及广泛的 Web API 参考资料",
-        link: "https://developer.mozilla.org/zh-CN"
-      },
-      {
-        icon: "https://static.runoob.com/images/favicon.ico",
-        title: "菜鸟教程",
-        desc: "学的不仅是技术，更是梦想！",
-        link: "https://www.runoob.com"
-      },
-      {
-        icon: "/icons/es6.png",
-        title: "ES6 入门教程",
-        desc: "《ECMAScript 6 入门教程》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性",
-        link: "https://es6.ruanyifeng.com/"
-      },
-      {
-        icon: "/icons/typescript.png",
-        title: "深入理解 TypeScript",
-        desc: "《TypeScript Deep Dive》 是一本很好的开源书，从基础到深入，很全面的阐述了 TypeScript 的各种魔法",
-        link: "https://jkchao.github.io/typescript-book-chinese/"
-      },
-      {
-        icon: "/icons/rust.svg",
-        title: "Rust语言圣经",
-        desc: "一份高质量 Rust 教程",
-        link: "https://course.rs"
+        title: "待补充",
+        desc: "待补充",
+        icon: "/icons/baidu.com-favicon-large.ico",
+        link: "https://www.baidu.com"
       }
     ]
   },
@@ -364,34 +272,10 @@ export const NavData: NavData[] = [
     title: "博主推荐",
     items: [
       {
-        title: "Mastergo",
-        desc: "面向团队的专业 UI/UX 设计工具，多人同时编辑、随时在线评审、设计一键交付，让想法更快实现",
-        icon: "https://mastergo.com/favicon.ico",
-        link: "https://mastergo.com/"
-      },
-      {
-        title: "即时设计",
-        desc: "可云端编辑的专业级 UI 设计工具，为中国设计师量身打造，Windows 也能用的「协作版 Sketch」",
-        icon: "https://img.js.design/assets/webImg/favicon.ico",
-        link: "https://js.design/"
-      },
-      {
-        title: "Figma",
-        desc: "Figma 是为 UI 设计而生的设计工具，除了有和 Sketch 一样基本的操作和功能，还有许多专为 UI 设计而生的强大功能。",
-        icon: "/icons/figma.png",
-        link: "https://www.figma.com/"
-      },
-      {
-        title: "Pixso",
-        desc: "一站式完成原型、设计、交互与交付，为数字化团队协作提效",
-        icon: "https://cms.pixso.cn/images/logo.svg",
-        link: "https://pixso.cn/"
-      },
-      {
-        title: "AIDesign",
-        desc: "10秒创建您的LOGO！",
-        icon: "https://ailogo.qq.com//favicon.ico?v=1.1",
-        link: "https://ailogo.qq.com/"
+        title: "待补充",
+        desc: "待补充",
+        icon: "/icons/baidu.com-favicon-large.ico",
+        link: "https://www.baidu.com"
       }
     ]
   },
@@ -433,34 +317,22 @@ export const NavData: NavData[] = [
     title: "其他导航站",
     items: [
       {
-        title: "Electron",
-        desc: "使用 JavaScript，HTML 和 CSS 构建跨平台的桌面应用程序",
-        icon: "/icons/electron.ico",
-        link: "https://www.electronjs.org/"
+        title: "IndieHub",
+        desc: "IndieHub is a community for Indie Makers to discover tools, launch products, and ship applications faster and better.",
+        icon: "/icons/indiehub.best-favicon-large.ico",
+        link: "https://indiehub.best"
       },
       {
-        title: "Tauri",
-        desc: "Tauri是一个框架，用于为所有主要桌面平台构建小巧、快速的二进制文件",
-        icon: "https://tauri.app/meta/favicon-96x96.png",
-        link: "https://tauri.app/"
+        title: "Indie Tools",
+        desc: "Discover SEO tools & community for indie developers, hackers, and SaaS makers. Learn Google SEO strategies, growth hacking, digital marketing for independently developed projects, startups, and online business. Free resources for solopreneurs.",
+        icon: "/icons/indietools-work.svg",
+        link: "https://indietools.work"
       },
       {
-        title: "Flutter",
-        desc: "Flutter 是 Google 开源的应用开发框架，仅通过一套代码库，就能构建精美的、原生平台编译的多平台应用",
-        icon: "https://flutter.cn/assets/images/cn/flutter-icon.png",
-        link: "https://flutter.cn/"
-      },
-      {
-        title: "Uni-app",
-        desc: "uni-app 是一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/QQ/快手/钉钉/淘宝）、快应用等多个平台",
-        icon: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-a90b5f95-90ba-4d30-a6a7-cd4d057327db/d23e842c-58fc-4574-998d-17fdc7811cc3.png",
-        link: "https://uniapp.dcloud.io/"
-      },
-      {
-        title: "Taro",
-        desc: "Taro 是一个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发 微信 / 京东 / 百度 / 支付宝 / 字节跳动 / QQ / 飞书 小程序 / H5 / RN 等应用",
-        icon: "/icons/taro.png",
-        link: "https://taro.jd.com"
+        title: "Indie Hacker Tools - 独立开发者出海工具箱",
+        desc: "Indie Hacker Tools 精心为出海独立开发者和创业者挑选并分类优质的开发、设计、营销和商业分析工具。我们帮助您发现实用高效的工具组合，提高工作效率，实现营利。",
+        icon: "/icons/indiehackertools.net-favicon-large.ico",
+        link: "https://indiehackertools.net"
       }
     ]
   },
@@ -480,28 +352,10 @@ export const NavData: NavData[] = [
         link: "https://www.netlify.com"
       },
       {
-        title: "Coolify",
-        desc: "一个开源和自我托管的 Heroku/Netlify 替代品",
-        icon: "/icons/coolify.png",
-        link: "https://coolify.io"
-      },
-      {
-        title: "GitHub Codespace",
-        desc: "全球最大的软件项目托管平台，发现优质开源项目",
-        icon: "https://github.githubassets.com/favicons/favicon.svg",
-        link: "https://github.com/codespaces"
-      },
-      {
         title: "Railway",
         desc: "带上你的代码，剩下交给我们 ",
         icon: "/icons/railway.png",
         link: "https://railway.app/"
-      },
-      {
-        title: "Supabase",
-        desc: "Supabase 是一个开源的后端即服务（BaaS）平台，它可以帮助开发者快速构建应用程序，无需编写后端代码。",
-        icon: "/icons/supabase.png",
-        link: "https://supabase.com/"
       }
     ]
   },
@@ -509,40 +363,10 @@ export const NavData: NavData[] = [
     title: "社区",
     items: [
       {
-        icon: "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a",
-        title: "Stack Overflow",
-        desc: "全球最大的技术问答网站",
-        link: "https://stackoverflow.com"
-      },
-      {
-        title: "稀土掘金",
-        icon: "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/apple-touch-icon.png",
-        desc: "面向全球中文开发者的技术内容分享与交流平台",
-        link: "https://juejin.cn"
-      },
-      {
         title: "V2EX",
         icon: "https://www.v2ex.com/static/icon-192.png",
         desc: "一个关于分享和探索的地方",
         link: "https://www.v2ex.com"
-      },
-      {
-        title: "SegmentFault 思否",
-        icon: "https://static.segmentfault.com/main_site_next/0dc4bace/touch-icon.png",
-        desc: "技术问答开发者社区",
-        link: "https://segmentfault.com"
-      },
-      {
-        title: "博客园",
-        icon: "/icons/cnblogs.svg",
-        desc: "博客园是一个面向开发者的知识分享社区",
-        link: "https://www.cnblogs.com"
-      },
-      {
-        title: "知乎",
-        icon: "https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.362a8eac.png",
-        desc: "中文互联网高质量的问答社区和创作者聚集的原创内容平台",
-        link: "https://zhihu.com"
       }
     ]
   }
