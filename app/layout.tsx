@@ -8,11 +8,15 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: {
     default: siteConfig.name,
     template: `%s - ${siteConfig.name}`
   },
-  description: siteConfig.description
+  description: siteConfig.description,
+  alternates: {
+    canonical: "/"
+  }
 }
 
 interface RootLayoutProps {

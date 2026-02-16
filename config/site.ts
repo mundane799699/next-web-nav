@@ -2,6 +2,7 @@ export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   name: "独立掘金网",
+  url: "https://indiegolden.com",
   description: "独立掘金网 - 网址导航",
   mainNav: [],
   links: {
