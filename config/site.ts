@@ -130,124 +130,33 @@ export const NavData: NavData[] = [
     title: "教程推荐",
     items: [
       {
-        icon: "https://postcss.org/assets/logo-3e39b0aa.svg",
-        title: "PostCSS",
-        desc: "一个用 JavaScript 转换 CSS 的工具",
-        link: "https://postcss.org"
+        title: "待补充",
+        desc: "待补充",
+        icon: "/icons/baidu.com-favicon-large.ico",
+        link: "https://www.baidu.com"
+      }
+    ]
+  },
+  {
+    title: "github仓库",
+    items: [
+      {
+        title: "indie-hacker-tools",
+        desc: "出海第一步，搞定工具库。本仓库只收录独立开发者出海技术栈和工具，持续整理中……",
+        icon: "/icons/indie-hacker-tools.jpeg",
+        link: "https://github.com/weijunext/indie-hacker-tools"
       },
       {
-        icon: "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
-        title: "Sass",
-        desc: "一个成熟，稳定，功能强大的专业级 CSS 扩展语言",
-        link: "https://sass-lang.com"
+        title: "awesome-indie-hacker-tools",
+        desc: "开发第一站，搞定技术栈。独立开发/出海开发相关技术栈及工具。持续收录独立开发/出海开发相关技术栈及工具",
+        icon: "/icons/awesome-indie-hacker-tools.jpeg",
+        link: "https://github.com/iAmCorey/awesome-indie-hacker-tools"
       },
       {
-        icon: "https://www.tailwindcss.cn/apple-touch-icon.png",
-        title: "TailwindCSS 中文网",
-        desc: "一个功能类优先的 CSS 框架",
-        link: "https://www.tailwindcss.cn"
-      },
-      {
-        title: "WindiCSS",
-        desc: "Windi CSS 是下一代工具优先的 CSS 框架",
-        icon: "https://windicss.org/assets/logo.svg",
-        link: "https://windicss.org"
-      },
-      {
-        title: "Twind",
-        desc: "现存最小、最快、功能最齐全的完整 Tailwind-in-JS 解决方案",
-        icon: "/icons/twind.svg",
-        link: "https://github.com/tw-in-js/twind"
-      },
-      {
-        title: "UnoCSS",
-        desc: "即时按需原子 CSS 引擎",
-        icon: "https://uno.antfu.me//favicon.svg",
-        link: "https://uno.antfu.me/"
-      },
-      {
-        title: "Bootstrap",
-        desc: "Bootstrap 是全球最受欢迎的前端开源工具库，它支持 Sass 变量和 mixin、响应式栅格系统、自带大量组件和众多强大的 JavaScript 插件。基于 Bootstrap 提供的强大功能，能够让你快速设计并定制你的网站",
-        icon: "https://img.kuizuo.cn/20210907055816.png",
-        link: "https://v5.bootcss.com/"
-      },
-      {
-        title: "w3schools Css 教程",
-        desc: "w3schools 从基础到高级的CSS教程",
-        icon: "https://www.w3schools.com/favicon.ico",
-        link: "https://www.w3schools.com/css"
-      },
-      {
-        title: "CSS-Inspiration",
-        desc: "CSS灵感",
-        icon: "/icons/css-inspiration.png",
-        link: "https://csscoco.com/inspiration"
-      },
-      {
-        title: "CSS常用样式",
-        desc: "CSS常用样式",
-        icon: "https://tse1-mm.cn.bing.net/th?id=OIP-C.EgSPriuEnAtlIWJV8R_E1QHaGs&w=107&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
-        link: "https://github.com/QiShaoXuan/css_tricks"
-      },
-      {
-        title: "CSSFX",
-        desc: "一个精心制作的集合设计的重点是流动性，简单性和易用性。使用最小标记的 CSS 支持",
-        icon: "/icons/cssfx.png",
-        link: "https://cssfx.netlify.app/"
-      },
-      {
-        title: "NES.css",
-        desc: "一个像素风格的CSS框架",
-        icon: "https://nostalgic-css.github.io/NES.css/favicon.png",
-        link: "https://nostalgic-css.github.io/NES.css/"
-      },
-      {
-        title: "clay.css",
-        desc: "claymorphism 泥陶态风格CSS",
-        icon: "https://codeadrian.github.io/clay.css/apple-touch-icon.png",
-        link: "https://codeadrian.github.io/clay.css/"
-      },
-      {
-        title: "loading.io",
-        desc: "Animation Made Easy",
-        icon: "/icons/loading.ico",
-        link: "https://loading.io/"
-      },
-      {
-        title: "神奇UI样式",
-        desc: "我们赋予任何人创建、分享和使用用 CSS 和 HTML 制作的漂亮自定义元素的权力。",
-        icon: "/icons/uiverse.png",
-        link: "https://uiverse.io"
-      },
-      {
-        title: "HYPE4",
-        desc: "透明玻璃态生成器",
-        icon: "https://hype4.academy/_next/static/media/logorwd@2x.b40bc92c.png",
-        link: "https://hype4.academy/tools/glassmorphism-generator"
-      },
-      {
-        title: "Omatsuri",
-        desc: "收集不同的发电机，让您的生活更轻松。",
-        icon: "https://omatsuri.app/assets/favicon.ico",
-        link: "https://omatsuri.app"
-      },
-      {
-        title: "smooth shadow",
-        desc: "快速轻松地实现基于 CSS 阴影的绝佳工具。您只需要指定一些阴影设置，代码就在您的路上。",
-        icon: "https://shadows.brumm.af/favicon.svg",
-        link: "https://shadows.brumm.af/"
-      },
-      {
-        title: "FANCY-BORDER-RADIUS",
-        desc: "花式边界半径,有助于创建 CSS 花式边框。",
-        icon: "https://9elements.github.io/fancy-border-radius/favicon-32x32.png",
-        link: "https://9elements.github.io/fancy-border-radius/"
-      },
-      {
-        title: "Coolors",
-        desc: "创建调色板",
-        icon: "/icons/coolors.png",
-        link: "https://coolors.co/"
+        title: "overseas-website-note",
+        desc: "本仓库旨在分享在开发海外网站过程中积累的经验。无论您是刚开始计划将业务拓展到海外，还是已经在这个领域有所尝试，希望这里的内容能为您提供有价值的参考。",
+        icon: "/icons/overseas-website-note.png",
+        link: "https://github.com/princehuang/overseas-website-note"
       }
     ]
   },
