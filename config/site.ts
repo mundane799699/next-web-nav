@@ -249,6 +249,12 @@ export const NavData: NavData[] = [
         icon: "/icons/logo-tuzi.png",
         desc: "兔子AI - 专业的AI接口服务平台，支持GPT-4o、Claude-3.7、Grok-3、DeepSeek-V3等300+AI模型。价格仅为官方9.56%起，提供图像生成、联网搜索、文件分析等全功能服务。注册即送0.4美金试用额度，支持API调用、桌面应用、浏览器插件等多种接入方式。",
         link: "https://api.tu-zi.com"
+      },
+      {
+        title: "302.AI",
+        icon: "/icons/302.ai-favicon-large.ico",
+        desc: "302.AI是按用量付费的企业级AI平台，提供最新图像、视频、音频及语言模型API，一站式接入无需多供应商付费。享企业级稳定性、无TPM限制、丰富开源应用生态，支持私有化部署。立即体验高效AI开发，适用于企业及爱好者",
+        link: "https://302.ai"
       }
     ]
   },
