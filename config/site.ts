@@ -158,10 +158,10 @@ export const NavData: NavData[] = [
     title: "教程推荐",
     items: [
       {
-        title: "待补充",
-        desc: "待补充",
-        icon: "/icons/baidu.com-favicon-large.ico",
-        link: "https://www.baidu.com"
+        title: "如何从头至尾制作一款App",
+        desc: "只有一集，虽然是讲iOS App的开发，但是这一集的产品和需求思维是非常值得学习的",
+        icon: "/icons/angela.png",
+        link: "https://www.bilibili.com/video/BV1eA4m1V7mM"
       }
     ]
   },
@@ -262,10 +262,10 @@ export const NavData: NavData[] = [
     title: "心灵加油站",
     items: [
       {
-        title: "待补充",
-        desc: "待补充",
-        icon: "/icons/baidu.com-favicon-large.ico",
-        link: "https://www.baidu.com"
+        title: "海外AI产品新手复盘：4个月赚到1刀，15天破1000刀",
+        icon: "/icons/wangmazha.jpg",
+        desc: "王马扎大佬的复盘文章，非常值得一读",
+        link: "https://zhizhe888.feishu.cn/docx/Z40jdqs7woO8sxxDtgFcG6sDnVb"
       }
     ]
   },
