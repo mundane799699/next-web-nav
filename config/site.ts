@@ -93,6 +93,12 @@ export const NavData: NavData[] = [
         icon: "/icons/sitedata.dev-favicon-large.ico",
         desc: "Instantly analyze website traffic, discover AdSense networks, and uncover SEO opportunities — all privacy-first and completely free. Website Traffic Analytics & SEO Intelligence Platform, Reverse AdSense Lookup, Keyword Research, WHOIS Data",
         link: "https://sitedata.dev"
+      },
+      {
+        title: "TrendsBar",
+        icon: "/icons/trendsbar.net-favicon-large.ico",
+        desc: "TrendsBar 是一款专门为 Google Trends 提供帮助的浏览器插件，旨在帮助用户批量查看和比较关键词的趋势，提升挖掘关键词的效率。",
+        link: "https://trendsbar.net"
       }
     ]
   },
