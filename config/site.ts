@@ -86,6 +86,17 @@ export const NavData: NavData[] = [
     ]
   },
   {
+    title: "外链建设",
+    items: [
+      {
+        title: "掌握这些方法，外链多到根本发不完",
+        icon: "/icons/chengyi.png",
+        desc: "程艺Truman分享的关于外链发布方法和寻找外链发布渠道",
+        link: "https://mp.weixin.qq.com/s/OhcyI51O-gKPo8cbWwmX0A"
+      }
+    ]
+  },
+  {
     title: "浏览器插件推荐",
     items: [
       {
