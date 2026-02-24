@@ -11,7 +11,8 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Settings, Trash2, PlusCircle, RotateCcw } from "lucide-react"
-import { useConfigStore, NavCategory, NavLinkItem, initialNavData } from "@/stores"
+import { useConfigStore, NavCategory, initialNavData } from "@/stores"
+import { NavLink } from "@/config/site"
 import { useState, useEffect } from "react"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { ScrollArea } from "@/components/ui/scroll-area"
@@ -38,7 +39,7 @@ const SettingDialog = () => {
     setLocalCategories(updated)
   }
 
-  const handleLinkChange = (catIndex: number, linkIndex: number, field: keyof NavLinkItem, value: string) => {
+  const handleLinkChange = (catIndex: number, linkIndex: number, field: keyof NavLink, value: string) => {
     const updated = [...localCategories]
     const updatedItems = [...updated[catIndex].items]
     updatedItems[linkIndex] = { ...updatedItems[linkIndex], [field]: value }
@@ -116,7 +117,7 @@ const SettingDialog = () => {
         </Button>
       </DialogTrigger>
       {/* 修复移动端下dialogcontent 不显示圆角矩形、按钮错位等问题 */}
-      <DialogContent className="flex h-[80vh] max-h-[80vh] flex-col rounded-lg border-border bg-card text-card-foreground mx-auto px-4 sm:max-w-[640px]">
+      <DialogContent className="mx-auto flex h-[80vh] max-h-[80vh] flex-col rounded-lg border-border bg-card px-4 text-card-foreground sm:max-w-[640px]">
         <DialogHeader className="flex-shrink-0 space-y-1.5 border-b border-border pb-4">
           <DialogTitle className="text-xl font-semibold tracking-tight">编辑网站数据</DialogTitle>
           <DialogDescription className="text-sm text-muted-foreground">
@@ -132,7 +133,7 @@ const SettingDialog = () => {
                 key={catIndex}
                 className="rounded-lg border border-border shadow-sm transition-colors hover:bg-accent/5"
               >
-              {/* 1. 外层 flex 容器，负责整体布局。把 padding 放在这里，上面classname的px-4去掉让下面控制 */}
+                {/* 1. 外层 flex 容器，负责整体布局。把 padding 放在这里，上面classname的px-4去掉让下面控制 */}
                 <div className="flex w-full items-center px-4">
                   <AccordionTrigger className="flex-1 py-4 text-left hover:no-underline [&>svg]:hidden">
                     <Input
@@ -148,8 +149,8 @@ const SettingDialog = () => {
                       variant="ghost"
                       size="icon"
                       onClick={(e) => {
-                        e.stopPropagation();
-                        handleRemoveCategory(catIndex);
+                        e.stopPropagation()
+                        handleRemoveCategory(catIndex)
                       }}
                       className="h-7 w-7 flex-shrink-0 text-destructive hover:bg-destructive/10 hover:text-destructive"
                     >
@@ -175,8 +176,8 @@ const SettingDialog = () => {
                         >
                           <Trash2 className="h-4 w-4" />
                         </Button>
-                        
-                        <div className="grid grid-cols-4 items-center gap-y-3 gap-x-3 pr-8">
+
+                        <div className="grid grid-cols-4 items-center gap-x-3 gap-y-3 pr-8">
                           <Label className="text-sm font-medium text-muted-foreground">图标 URL</Label>
                           <Input
                             value={item.icon}
@@ -232,17 +233,17 @@ const SettingDialog = () => {
             onClick={handleResetClick}
             className={cn(
               "h-9 text-sm transition-all",
-              "sm:mr-auto", 
+              "sm:mr-auto",
               isResetting && "animate-pulse bg-destructive/90 hover:bg-destructive"
             )}
           >
             <RotateCcw className={cn("mr-1.5 h-4 w-4", isResetting && "animate-spin")} />
             {isResetting ? "再次点击确认重置" : "重置数据"}
           </Button>
-            <Button variant="outline" onClick={handleCancel}>
-              取消
-            </Button>
-            <Button onClick={handleSave}>保存更改</Button>
+          <Button variant="outline" onClick={handleCancel}>
+            取消
+          </Button>
+          <Button onClick={handleSave}>保存更改</Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>
