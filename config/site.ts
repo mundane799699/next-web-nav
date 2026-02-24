@@ -100,6 +100,12 @@ export const NavData: NavData[] = [
     title: "浏览器插件推荐",
     items: [
       {
+        title: "AITDK",
+        icon: "/icons/aitdk.svg",
+        desc: "探索一系列免费的AI SEO工具和AI生成器，旨在提升您的搜索引擎优化策略。利用人工智能技术，提升您网站的可见性和排名。",
+        link: "https://aitdk.com"
+      },
+      {
         title: "SiteData",
         icon: "/icons/sitedata.dev-favicon-large.ico",
         desc: "Instantly analyze website traffic, discover AdSense networks, and uncover SEO opportunities — all privacy-first and completely free. Website Traffic Analytics & SEO Intelligence Platform, Reverse AdSense Lookup, Keyword Research, WHOIS Data",
@@ -168,6 +174,47 @@ export const NavData: NavData[] = [
         icon: "/icons/nexty.dev-favicon-large.ico",
         desc: "NEXTY.DEV 是一个功能齐全的 Next.js SaaS 全栈模板，让你能够快速构建各种商业网站，无论是内容站、工具站还是集成 AI 能力的付费网站。",
         link: "https://nexty.dev"
+      }
+    ]
+  },
+  {
+    title: "模仿对象",
+    items: [
+      {
+        title: "MkSaaS Showcase",
+        icon: "/icons/mksaas.com-favicon-large.ico",
+        desc: "Explore SaaS products built by the community",
+        link: "https://mksaas.com/showcase"
+      },
+      {
+        title: "ShipAny Showcase",
+        icon: "/icons/shipany.ai-favicon-large.ico",
+        desc: "Products built with ShipAny",
+        link: "https://shipany.ai/showcases"
+      },
+      {
+        title: "NEXTY.DEV Showcase",
+        icon: "/icons/nexty.dev-favicon-large.ico",
+        desc: "Products built with NEXTY.DEV",
+        link: "https://nexty.dev/showcases"
+      },
+      {
+        title: "imgeditor.co",
+        icon: "/icons/imgeditor.co-favicon-large.ico",
+        desc: "Edit images with natural language using Nano Banana's advanced AI powered by Google DeepMind. Ranked #1 on LMArena. Transform any photo with simple text prompts.",
+        link: "https://imgeditor.co"
+      },
+      {
+        title: "z-image.ai",
+        icon: "/icons/z-image.ai-favicon-large.ico",
+        desc: "Z-Image is an efficient 6-billion-parameter foundation model for image generation with Single-Stream Diffusion Transformer. Open-source, fast inference, and excellent photorealistic quality.",
+        link: "https://z-image.ai"
+      },
+      {
+        title: "PixToArt",
+        icon: "/icons/ghiblio.art-favicon-large.ico",
+        desc: "从PixToArt免费开始。使用专业AI模型、模板和多样化风格，生成精美的AI艺术、视频和动漫作品。加入我们的创作社区，探索灵感，轻松创作。",
+        link: "https://ghiblio.art"
       }
     ]
   },
