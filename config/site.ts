@@ -95,6 +95,12 @@ export const NavData: NavData[] = [
         icon: "/icons/chengyi.png",
         desc: "程艺Truman分享的关于外链发布方法和寻找外链发布渠道",
         link: "https://mp.weixin.qq.com/s/OhcyI51O-gKPo8cbWwmX0A"
+      },
+      {
+        title: "外链建设文档",
+        icon: "/icons/ove.jpg",
+        desc: "独立开发者欧维分享的外链建设文档，包括外链建设策略、免费外链资源、付费外链资源、外链导航、外链建设工具",
+        link: "https://lownrain.feishu.cn/wiki/RY9EwA4XJixz1AkSRyycw6binMe"
       }
     ]
   },
@@ -321,6 +327,12 @@ export const NavData: NavData[] = [
         icon: "/icons/302.ai-favicon-large.ico",
         desc: "302.AI是按用量付费的企业级AI平台，提供最新图像、视频、音频及语言模型API，一站式接入无需多供应商付费。享企业级稳定性、无TPM限制、丰富开源应用生态，支持私有化部署。立即体验高效AI开发，适用于企业及爱好者",
         link: "https://302.ai"
+      },
+      {
+        title: "apimart",
+        icon: "/icons/apimart.ai-favicon-large.ico",
+        desc: "The most affordable unified AI API. Integrate GPT-5, Claude 4.5, Sora 2 & Flux.1 with a single key. Developer-friendly, high uptime, and low latency.",
+        link: "https://apimart.ai"
       }
     ]
   },
