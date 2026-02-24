@@ -13,6 +13,7 @@ export const HoverEffect = ({
     description: string
     link: string
     icon: string
+    tip?: string
   }[]
   className?: string
 }) => {
@@ -65,6 +66,7 @@ export const HoverEffect = ({
                 {item.title}
               </CardTitle>
               <CardDescription>{item.description}</CardDescription>
+              {item.tip && <CardTip>{item.tip}</CardTip>}
             </Card>
           </Link>
         </motion.div>
@@ -92,4 +94,16 @@ export const CardTitle = ({ className, children }: { className?: string; childre
 }
 export const CardDescription = ({ className, children }: { className?: string; children: React.ReactNode }) => {
   return <p className={cn("mt-4 text-sm leading-relaxed tracking-wide", className)}>{children}</p>
+}
+export const CardTip = ({ className, children }: { className?: string; children: React.ReactNode }) => {
+  return (
+    <span
+      className={cn(
+        "mt-3 inline-block rounded-md bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary",
+        className
+      )}
+    >
+      {children}
+    </span>
+  )
 }

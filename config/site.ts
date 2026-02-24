@@ -19,6 +19,8 @@ export interface NavLink {
   desc: string
   /** 站点链接 */
   link: string
+  /** 提示 */
+  tip?: string
 }
 
 type NavData = {
@@ -337,10 +339,11 @@ export const NavData: NavData[] = [
     title: "公众号推荐",
     items: [
       {
-        title: "待补充",
-        desc: "待补充",
-        icon: "/icons/baidu.com-favicon-large.ico",
-        link: "https://www.baidu.com"
+        title: "哥飞",
+        desc: "哥飞是一个专注于出海赚美刀的公众号",
+        icon: "/icons/gefei.png",
+        link: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5OTIzMzYyMA==&scene=124#wechat_redirect",
+        tip: "请在微信中打开链接"
       }
     ]
   },

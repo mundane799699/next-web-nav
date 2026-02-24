@@ -1,21 +1,14 @@
 import { NavData as DefaultNavConfig } from "@/config/site"
 import { create } from "zustand"
 import { createJSONStorage, persist } from "zustand/middleware"
+import { NavLink } from "@/config/site"
 
 // Export initial data for reset functionality
 export const initialNavData = DefaultNavConfig
 
-// 类型命名优化：使用更明确的命名
-export interface NavLinkItem {
-  icon: string
-  title: string
-  desc: string
-  link: string
-}
-
 export interface NavCategory {
   title: string
-  items: NavLinkItem[]
+  items: NavLink[]
 }
 
 interface NavConfigState {
@@ -26,8 +19,8 @@ interface NavConfigState {
   addCategory: (category: NavCategory) => void
   updateCategory: (index: number, category: NavCategory) => void
   removeCategory: (index: number) => void
-  addLink: (categoryIndex: number, link: NavLinkItem) => void
-  updateLink: (categoryIndex: number, linkIndex: number, link: NavLinkItem) => void
+  addLink: (categoryIndex: number, link: NavLink) => void
+  updateLink: (categoryIndex: number, linkIndex: number, link: NavLink) => void
   removeLink: (categoryIndex: number, linkIndex: number) => void
 }
 

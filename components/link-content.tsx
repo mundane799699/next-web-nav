@@ -19,11 +19,12 @@ export function LinkContent() {
                 <h1 className="mb-2 text-2xl font-bold text-primary/80 sm:text-3xl">{category.title}</h1>
               </div>
               <HoverEffect
-                items={category.items.map(({ title, desc, link, icon }) => ({
+                items={category.items.map(({ title, desc, link, icon, tip }) => ({
                   link,
                   title,
                   description: desc,
-                  icon
+                  icon,
+                  tip
                 }))}
               />
             </div>
