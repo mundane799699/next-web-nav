@@ -213,7 +213,7 @@ export const NavData: NavData[] = [
         link: "https://nexty.dev/showcases"
       },
       {
-        title: "imgeditor.co",
+        title: "imgeditor.co(原nanobanana.ai)",
         icon: "/icons/imgeditor.co-favicon-large.ico",
         desc: "Edit images with natural language using Nano Banana's advanced AI powered by Google DeepMind. Ranked #1 on LMArena. Transform any photo with simple text prompts.",
         link: "https://imgeditor.co"
