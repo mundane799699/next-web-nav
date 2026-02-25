@@ -375,10 +375,10 @@ export const NavData: NavData[] = [
     title: "博主推荐",
     items: [
       {
-        title: "待补充",
-        desc: "待补充",
-        icon: "/icons/baidu.com-favicon-large.ico",
-        link: "https://www.baidu.com"
+        title: "软件工程师Tim",
+        desc: "软件工程师Tim的B站账号，主要分享关于adsense、副业网站、cloudflare等话题。",
+        icon: "/icons/tim.jpg",
+        link: "https://space.bilibili.com/368778383"
       }
     ]
   },
