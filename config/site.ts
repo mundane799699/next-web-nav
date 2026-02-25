@@ -61,6 +61,12 @@ export const NavData: NavData[] = [
         icon: "/icons/huntscreens.com-favicon-large.ico",
         desc: "第一时间发现新鲜出炉的好产品。这里有最新的AI工具、创新应用，以及各种新奇有趣的产品和项目。",
         link: "https://huntscreens.com/zh"
+      },
+      {
+        title: "TrustMRR",
+        icon: "/icons/trustmrr.com-favicon-large.ico",
+        desc: "The database of verified startup revenues. Browse Stripe-verified MRR and revenue from real startups. Prove your revenue publicly.",
+        link: "https://trustmrr.com"
       }
     ]
   },
@@ -344,6 +350,12 @@ export const NavData: NavData[] = [
         icon: "/icons/wangmazha.jpg",
         desc: "王马扎大佬的复盘文章，非常值得一读",
         link: "https://zhizhe888.feishu.cn/docx/Z40jdqs7woO8sxxDtgFcG6sDnVb"
+      },
+      {
+        title: "独立开发两年如何收入10万美刀",
+        icon: "/icons/mksaas.me-favicon-large.ico",
+        desc: "来自fox的独立开发经验分享。fox毕业于清华大学，目前就职于微信团队。",
+        link: "https://mksaas.me/blog/2025"
       }
     ]
   },
