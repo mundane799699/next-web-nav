@@ -171,6 +171,12 @@ export const NavData: NavData[] = [
         icon: "/icons/favicon.im-favicon-large.ico",
         desc: "即时获取、显示和下载任何网站的图标。为开发者提供简单、快速、免费的图标API。",
         link: "https://favicon.im"
+      },
+      {
+        title: "Ideogram",
+        icon: "/icons/ideogram.ai-favicon-large.ico",
+        desc: "Generate stunning images, explore creative ideas, and turn inspiration into reality with Ideogram.",
+        link: "https://ideogram.ai"
       }
     ]
   },
@@ -290,17 +296,7 @@ export const NavData: NavData[] = [
       }
     ]
   },
-  {
-    title: "服务器推荐",
-    items: [
-      {
-        title: "待补充",
-        desc: "待补充",
-        icon: "/icons/baidu.com-favicon-large.ico",
-        link: "https://www.baidu.com"
-      }
-    ]
-  },
+
   {
     title: "API供应商",
     items: [
@@ -374,6 +370,40 @@ export const NavData: NavData[] = [
         icon: "/icons/boat.png",
         desc: "出海研习社（与其国内卷，不如出海浪。）",
         link: "https://minibook.notion.site/b39d0ac975a44f3089639215d96135a0"
+      }
+    ]
+  },
+  {
+    title: "网站托管",
+    items: [
+      {
+        title: "Vercel",
+        desc: "Vercel gives developers the frameworks, workflows, and infrastructure to build a faster, more personalized web.",
+        icon: "/icons/vercel.com-favicon-large.ico",
+        link: "https://vercel.com"
+      },
+      {
+        title: "Netlify",
+        desc: "Build with AI or code, deploy instantly. One platform with everything you need to make real apps live.",
+        icon: "/icons/www.netlify.com-favicon-large.ico",
+        link: "https://www.netlify.com"
+      },
+      {
+        title: "Railway",
+        desc: "Railway is a full-stack cloud for deploying web apps, servers, databases, and more with automatic scaling, monitoring, and security.",
+        icon: "/icons/railway.com-favicon-large.ico",
+        link: "https://railway.app/"
+      }
+    ]
+  },
+  {
+    title: "服务器推荐",
+    items: [
+      {
+        title: "待补充",
+        desc: "待补充",
+        icon: "/icons/baidu.com-favicon-large.ico",
+        link: "https://www.baidu.com"
       }
     ]
   },
@@ -474,29 +504,7 @@ export const NavData: NavData[] = [
       }
     ]
   },
-  {
-    title: "网站托管",
-    items: [
-      {
-        title: "Vercel",
-        desc: "Vercel将最好的开发人员体验与对最终用户性能的执着关注相结合",
-        icon: "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/57x57.png",
-        link: "https://vercel.com"
-      },
-      {
-        title: "Netlify",
-        desc: "Netlify 是一家提供静态网站托管的云平台，支持从 Github, GitLab, Bitbucket 等代码仓库中自动拉取代码 然后进行项目打包和部署等功能",
-        icon: "/icons/netlify.png",
-        link: "https://www.netlify.com"
-      },
-      {
-        title: "Railway",
-        desc: "带上你的代码，剩下交给我们 ",
-        icon: "/icons/railway.png",
-        link: "https://railway.app/"
-      }
-    ]
-  },
+
   {
     title: "社区",
     items: [
