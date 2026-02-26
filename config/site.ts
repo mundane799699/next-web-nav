@@ -343,6 +343,17 @@ export const NavData: NavData[] = [
     ]
   },
   {
+    title: "支付接入",
+    items: [
+      {
+        title: "全球收款手册",
+        icon: "/icons/www.setupyourpay.com-favicon-large.ico",
+        desc: "远程注册美国公司，开通 Stripe 收款账户，并开始收款。本站一站式解决跨境收款难题的专业指南。涵盖从个人creem收款到美国公司注册到全球收款通道配置的完整流程，开通水星银行，助你轻松实现全球业务拓展。",
+        link: "https://www.setupyourpay.com"
+      }
+    ]
+  },
+  {
     title: "心灵加油站",
     items: [
       {
