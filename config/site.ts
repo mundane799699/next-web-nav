@@ -86,12 +86,6 @@ export const NavData: NavData[] = [
         link: "https://ahrefs.com/zh/seo"
       },
       {
-        title: "1000UserGuide",
-        icon: "/icons/1000userguide.com-favicon.ico",
-        desc: "本手册旨在为开发者提供一个全面的获客资源，列出国内外适合独立开发者和创业者早期产品启动的曝光渠道。通过利用这些渠道，你可以有效地推广你的产品，接触目标受众，并找到你的第一批1000个用户.",
-        link: "https://1000userguide.com"
-      },
-      {
         title: "Free Backlink Checker by Ahrefs",
         icon: "/icons/ahrefs.com-favicon.ico",
         desc: "With the world's biggest index of live backlinks (over 15 trillion), Ahrefs Backlink Checker will show you the most complete backlink profile for any website.",
@@ -102,6 +96,12 @@ export const NavData: NavData[] = [
   {
     title: "外链建设",
     items: [
+      {
+        title: "1000UserGuide",
+        icon: "/icons/1000userguide.com-favicon.ico",
+        desc: "本手册旨在为开发者提供一个全面的获客资源，列出国内外适合独立开发者和创业者早期产品启动的曝光渠道。通过利用这些渠道，你可以有效地推广你的产品，接触目标受众，并找到你的第一批1000个用户.",
+        link: "https://1000userguide.com"
+      },
       {
         title: "掌握这些方法，外链多到根本发不完",
         icon: "/icons/chengyi.png",
