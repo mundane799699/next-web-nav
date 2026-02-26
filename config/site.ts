@@ -246,6 +246,12 @@ export const NavData: NavData[] = [
         desc: "只有一集，虽然是讲iOS App的开发，但是这一集的产品和需求思维是非常值得学习的",
         icon: "/icons/angela.png",
         link: "https://www.bilibili.com/video/BV1eA4m1V7mM"
+      },
+      {
+        title: "入门全栈开发最短路径",
+        desc: "james zhou老哥写的全栈入门路径。james zhou之前是一位上班的产品经理，目前他已经入门全栈开发，并且全职投入到出海网站的事业中。",
+        icon: "/icons/jameszhou.jpg",
+        link: "https://guui24rhwg.feishu.cn/docx/TG3kdTydvoW1kJx170ac5H73nCg"
       }
     ]
   },
