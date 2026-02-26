@@ -113,6 +113,12 @@ export const NavData: NavData[] = [
         icon: "/icons/ove.jpg",
         desc: "独立开发者欧维分享的外链建设文档，包括外链建设策略、免费外链资源、付费外链资源、外链导航、外链建设工具",
         link: "https://lownrain.feishu.cn/wiki/RY9EwA4XJixz1AkSRyycw6binMe"
+      },
+      {
+        title: "BacklinkHelper",
+        icon: "/icons/backlinkhelper.com-favicon-large.ico",
+        desc: "BacklinkHelper：适用于SEO用户的免费浏览器插件。快速填充链接表单，生成自然评论，管理、去重并追踪外链。",
+        link: "https://backlinkhelper.com"
       }
     ]
   },
