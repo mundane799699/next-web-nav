@@ -67,6 +67,12 @@ export const NavData: NavData[] = [
         icon: "/icons/trustmrr.com-favicon-large.ico",
         desc: "The database of verified startup revenues. Browse Stripe-verified MRR and revenue from real startups. Prove your revenue publicly.",
         link: "https://trustmrr.com"
+      },
+      {
+        title: "Chrome-Stats",
+        icon: "/icons/chrome-stats.com-favicon-large.ico",
+        desc: "All-in-one platform to grow your Chrome extensions, Android apps, and other other add-ons. Download current and past extensions, access historical stats, and run competitive analysis for extensions and apps.",
+        link: "https://chrome-stats.com"
       }
     ]
   },
@@ -350,6 +356,12 @@ export const NavData: NavData[] = [
         icon: "/icons/www.setupyourpay.com-favicon-large.ico",
         desc: "远程注册美国公司，开通 Stripe 收款账户，并开始收款。本站一站式解决跨境收款难题的专业指南。涵盖从个人creem收款到美国公司注册到全球收款通道配置的完整流程，开通水星银行，助你轻松实现全球业务拓展。",
         link: "https://www.setupyourpay.com"
+      },
+      {
+        title: "出海研习社",
+        icon: "/icons/boat.png",
+        desc: "出海研习社（与其国内卷，不如出海浪。）",
+        link: "https://minibook.notion.site/b39d0ac975a44f3089639215d96135a0"
       }
     ]
   },
