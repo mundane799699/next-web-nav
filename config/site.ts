@@ -235,6 +235,12 @@ export const NavData: NavData[] = [
         icon: "/icons/ghiblio.art-favicon-large.ico",
         desc: "从PixToArt免费开始。使用专业AI模型、模板和多样化风格，生成精美的AI艺术、视频和动漫作品。加入我们的创作社区，探索灵感，轻松创作。",
         link: "https://ghiblio.art"
+      },
+      {
+        title: "Gemini Watermark Cleaner",
+        icon: "/icons/geminiwatermarkcleaner.com-favicon-large.ico",
+        desc: "Gemini Watermark Cleaner is a gemini watermark remover and Google AI Studio watermark remover for remove Gemini Nano Banana watermark from images. It is designed for gemini.google.com and aistudio.google.com, automatically detecting and removing watermarks as users download images.",
+        link: "https://geminiwatermarkcleaner.com"
       }
     ]
   },

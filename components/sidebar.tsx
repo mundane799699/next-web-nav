@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import Image from "next/image"
 import { AnimatePresence, motion } from "framer-motion"
 import { useConfigStore } from "@/stores"
 
@@ -62,8 +63,15 @@ export function Sidebar({ onLinkClick }: SidebarProps) {
 
   return (
     <nav className="flex h-screen w-full flex-col flex-nowrap bg-background px-4 pt-16 font-semibold sm:w-60 sm:bg-background sm:px-6 sm:pb-6 sm:pt-0">
-      <div className="mx-6 hidden sm:block">
-        <h2 className="h-14 text-lg font-semibold leading-[4rem] tracking-tight">独立掘金网</h2>
+      <div className="mx-6 hidden sm:flex sm:h-14 sm:items-center sm:gap-2">
+        <Image
+          src="/logo.png"
+          alt="Logo"
+          width={28}
+          height={28}
+          className="overflow-hidden border border-slate-600 object-fill"
+        />
+        <h2 className="text-lg font-semibold tracking-tight">独立掘金网</h2>
       </div>
       <div className="flex-start relative z-40 flex min-h-0 w-full flex-1 flex-col overflow-y-auto overflow-x-hidden rounded pt-4 opacity-100">
         <div className="flex list-none flex-col md:min-w-full md:flex-col">
