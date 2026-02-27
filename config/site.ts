@@ -267,7 +267,7 @@ export const NavData: NavData[] = [
       },
       {
         title: "入门全栈开发最短路径",
-        desc: "james zhou老哥写的全栈入门路径。james zhou之前是一位上班的产品经理，目前他已经入门全栈开发，并且全职投入到出海网站的事业中。",
+        desc: "james zhou写的全栈入门路径。james zhou之前是一位上班的产品经理，目前他已经入门全栈开发，并且全职投入到出海网站的事业中。",
         icon: "/icons/jameszhou.jpg",
         link: "https://guui24rhwg.feishu.cn/docx/TG3kdTydvoW1kJx170ac5H73nCg"
       }
@@ -457,10 +457,16 @@ export const NavData: NavData[] = [
     title: "新手专区",
     items: [
       {
-        title: "待补充",
-        desc: "待补充",
-        icon: "/icons/baidu.com-favicon-large.ico",
-        link: "https://www.baidu.com"
+        title: "读完哥飞的几百篇文章，我整理了这份“出海保姆级”实战指南。",
+        desc: "浅滩小虾米整理的出海保姆级实战指南。",
+        icon: "/icons/xiaoxiami.png",
+        link: "https://mp.weixin.qq.com/s/iHfC87WfCuYaQnAaXDwcJA"
+      },
+      {
+        title: "整理了哥飞大佬的几百篇文章，我总结了这套“关键词价值”判断流程。",
+        desc: "浅滩小虾米整理的关键词价值判断流程。",
+        icon: "/icons/xiaoxiami.png",
+        link: "https://mp.weixin.qq.com/s/bG7VMwdIjjKrW4Y2Jc0q-w"
       }
     ]
   },
@@ -516,9 +522,21 @@ export const NavData: NavData[] = [
     items: [
       {
         title: "V2EX",
-        icon: "https://www.v2ex.com/static/icon-192.png",
-        desc: "一个关于分享和探索的地方",
+        icon: "/icons/v2ex.com-favicon-large.ico",
+        desc: "创意工作者的社区。讨论编程、设计、硬件、游戏等令人激动的话题。",
         link: "https://www.v2ex.com"
+      },
+      {
+        title: "Product Hunt",
+        icon: "/icons/www.producthunt.com-favicon.ico",
+        desc: "Product Hunt is a curation of the best new products, every day. Discover the latest mobile apps, websites, and technology products that everyone's talking about.",
+        link: "https://www.producthunt.com"
+      },
+      {
+        title: "Hacker News",
+        icon: "/icons/y18.svg",
+        desc: "Hacker News is a social news website focusing on computer science and entrepreneurship. It is run by the investment fund and startup incubator Y Combinator.",
+        link: "https://news.ycombinator.com"
       }
     ]
   }
