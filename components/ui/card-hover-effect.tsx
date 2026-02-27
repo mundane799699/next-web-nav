@@ -1,22 +1,11 @@
+import { NavLink } from "@/config/site"
 import { cn } from "@/lib/utils"
 import { AnimatePresence, motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 
-export const HoverEffect = ({
-  items,
-  className
-}: {
-  items: {
-    title: string
-    description: string
-    link: string
-    icon: string
-    tip?: string
-  }[]
-  className?: string
-}) => {
+export const HoverEffect = ({ items, className }: { items: NavLink[]; className?: string }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
   return (
@@ -67,7 +56,7 @@ export const HoverEffect = ({
                 )}
                 {item.title}
               </CardTitle>
-              {item.description && <CardDescription>{item.description}</CardDescription>}
+              {item.desc && <CardDescription>{item.desc}</CardDescription>}
               {item.tip && <CardTip>{item.tip}</CardTip>}
             </Card>
           </Link>
