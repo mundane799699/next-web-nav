@@ -435,9 +435,16 @@ export const NavData: NavData[] = [
     items: [
       {
         title: "哥飞",
-        desc: "哥飞是一个专注于出海赚美刀的公众号",
+        desc: "哥飞，出海鼓励师，SEO爱好者，Adsense玩家，AI工具出海创业者。V: gefeisvip",
         icon: "/icons/gefei.png",
         link: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5OTIzMzYyMA==&scene=124#wechat_redirect",
+        tip: "请在微信中打开链接"
+      },
+      {
+        title: "droidHZ",
+        desc: "网站出海生意人：专注网站出海、SEO增长、AI工具实战 分享我的 实战经验、踩坑教训 和 变现思路 希望和你一起探索网站出海的新机会 🌍",
+        icon: "/icons/droidHZ.png",
+        link: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzNzYzNzE3Mg==&scene=124#wechat_redirect",
         tip: "请在微信中打开链接"
       }
     ]
