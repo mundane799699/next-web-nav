@@ -12,11 +12,11 @@ export const siteConfig = {
 
 export interface NavLink {
   /** 站点图标 */
-  icon: string
+  icon?: string
   /** 站点名称 */
   title: string
   /** 站点名称 */
-  desc: string
+  desc?: string
   /** 站点链接 */
   link: string
   /** 提示 */
@@ -119,6 +119,17 @@ export const NavData: NavData[] = [
         icon: "/icons/backlinkhelper.com-favicon-large.ico",
         desc: "BacklinkHelper：适用于SEO用户的免费浏览器插件。快速填充链接表单，生成自然评论，管理、去重并追踪外链。",
         link: "https://backlinkhelper.com"
+      },
+      {
+        title: "BestLinks",
+        desc: "Ahrefs反向链接批量获取工具。BestLinks可以帮助您获取任意网站的高质量反向链接，批量导出方便SEO分析。",
+        link: "https://bestlinks.530.news"
+      },
+      {
+        title: "AISAC - AI摘要&评论生成器",
+        icon: "/icons/aisac.co-favicon-large.ico",
+        desc: "快速添加博客外链，比较适合游戏站，用于快速添加博客评论",
+        link: "https://aisac.co"
       }
     ]
   },
@@ -183,6 +194,18 @@ export const NavData: NavData[] = [
         icon: "/icons/ideogram.ai-favicon-large.ico",
         desc: "Generate stunning images, explore creative ideas, and turn inspiration into reality with Ideogram.",
         link: "https://ideogram.ai"
+      },
+      {
+        title: "v0 by Vercel",
+        icon: "/icons/v0.app-favicon-large.ico",
+        desc: "您的协作式 AI 助手，帮助您设计、迭代和扩展全栈 Web 应用程序。",
+        link: "https://v0.app"
+      },
+      {
+        title: "Stitch",
+        icon: "/icons/stitch.withgoogle.com-favicon-large.ico",
+        desc: "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
+        link: "https://stitch.withgoogle.com"
       }
     ]
   },
@@ -427,6 +450,11 @@ export const NavData: NavData[] = [
         icon: "/icons/mksaas.me-favicon-large.ico",
         desc: "来自fox的独立开发经验分享。fox毕业于清华大学，目前就职于微信团队。",
         link: "https://mksaas.me/blog/2025"
+      },
+      {
+        title: "加入哥飞社群一年，终于做出一个月近 900K流量的网站.",
+        icon: "/icons/quan.png",
+        link: "https://mp.weixin.qq.com/s/FDqID4-yVeakVdFzA_vqAQ"
       }
     ]
   },
@@ -464,14 +492,17 @@ export const NavData: NavData[] = [
     title: "新手专区",
     items: [
       {
+        title: "网站出海每日分享：月入3千美刀达成，每日分享梳理",
+        icon: "/icons/droidHZ.png",
+        link: "https://mp.weixin.qq.com/s/NS7dMsR4yqwqo__urBcLLQ"
+      },
+      {
         title: "读完哥飞的几百篇文章，我整理了这份“出海保姆级”实战指南。",
-        desc: "浅滩小虾米整理的出海保姆级实战指南。",
         icon: "/icons/xiaoxiami.png",
         link: "https://mp.weixin.qq.com/s/iHfC87WfCuYaQnAaXDwcJA"
       },
       {
         title: "整理了哥飞大佬的几百篇文章，我总结了这套“关键词价值”判断流程。",
-        desc: "浅滩小虾米整理的关键词价值判断流程。",
         icon: "/icons/xiaoxiami.png",
         link: "https://mp.weixin.qq.com/s/bG7VMwdIjjKrW4Y2Jc0q-w"
       }

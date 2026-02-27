@@ -55,17 +55,19 @@ export const HoverEffect = ({
             </AnimatePresence>
             <Card>
               <CardTitle>
-                <Image
-                  src={item.icon}
-                  className="overflow-hidden rounded-lg object-fill"
-                  alt=""
-                  width={40}
-                  height={40}
-                  unoptimized
-                />
+                {item.icon && (
+                  <Image
+                    src={item.icon}
+                    className="overflow-hidden rounded-lg object-fill"
+                    alt=""
+                    width={40}
+                    height={40}
+                    unoptimized
+                  />
+                )}
                 {item.title}
               </CardTitle>
-              <CardDescription>{item.description}</CardDescription>
+              {item.description && <CardDescription>{item.description}</CardDescription>}
               {item.tip && <CardTip>{item.tip}</CardTip>}
             </Card>
           </Link>
