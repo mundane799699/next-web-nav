@@ -488,7 +488,7 @@ export const NavData: NavData[] = [
       },
       {
         title: "空弦Uni",
-        desc: "前字节跳动工程师，现全职投入到出海网站事业。分享关于网站出海、SEO、saas等话题。做事严谨，逻辑清晰，口号是真诚地做产品，做真诚的产品。",
+        desc: "空弦的即刻账号。空弦是前字节跳动工程师，现全职投入到出海网站事业。分享关于网站出海、SEO、saas等话题。做事严谨，逻辑清晰，口号是真诚地做产品，做真诚的产品。",
         icon: "/icons/kongxian.jpg",
         link: "https://okjk.co/HL4oq7"
       }
