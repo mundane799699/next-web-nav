@@ -551,6 +551,18 @@ export const NavData: NavData[] = [
         desc: "Indie Hacker Tools 精心为出海独立开发者和创业者挑选并分类优质的开发、设计、营销和商业分析工具。我们帮助您发现实用高效的工具组合，提高工作效率，实现营利。",
         icon: "/icons/indiehackertools.net-favicon-large.ico",
         link: "https://indiehackertools.net"
+      },
+      {
+        title: "独立开发者出海技术栈",
+        desc: "出海第一站，搞定技术栈, 聚合全网独立开发者出海技术栈和工具, 技术出海相关的技术实践经验、合规解读、方案选型等",
+        icon: "/icons/www.chuhai.tools-favicon-large.ico",
+        link: "https://www.chuhai.tools"
+      },
+      {
+        title: "网址导航_独立开发前线",
+        desc: "独立开发前线是独立开发指南网站，内容包含独立开发创意发现，产品实现，获取增长，流量变现等方面，旨在帮助独立开发者更快的成长，打造属于自己的盈利产品。",
+        icon: "/icons/91wink.com-favicon-large.ico",
+        link: "https://91wink.com/sites"
       }
     ]
   },
