@@ -130,6 +130,12 @@ export const NavData: NavData[] = [
         icon: "/icons/aisac.co-favicon-large.ico",
         desc: "快速添加博客外链，比较适合游戏站，用于快速添加博客评论",
         link: "https://aisac.co"
+      },
+      {
+        title: "500.tools",
+        icon: "/icons/500.tools-favicon-large.ico",
+        desc: "A curated list of the 500 best tools.",
+        link: "https://500.tools"
       }
     ]
   },
