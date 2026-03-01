@@ -212,6 +212,12 @@ export const NavData: NavData[] = [
         icon: "/icons/stitch.withgoogle.com-favicon-large.ico",
         desc: "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
         link: "https://stitch.withgoogle.com"
+      },
+      {
+        title: "opengraph.design",
+        icon: "/icons/opengraph.design-favicon-large.ico",
+        desc: "Generate beautiful Open Graph & Twitter images with zero effort.",
+        link: "https://opengraph.design"
       }
     ]
   },
