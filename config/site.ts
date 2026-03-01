@@ -148,6 +148,12 @@ export const NavData: NavData[] = [
         icon: "/icons/500.tools-favicon-large.ico",
         desc: "A curated list of the 500 best tools.",
         link: "https://500.tools"
+      },
+      {
+        title: "Products by Indie Hackers",
+        icon: "/icons/www.indiehackers.com-favicon-large.ico",
+        desc: "Discover hundreds of businesses, startups, and side projects that are making money online, and learn how they got to where they are today.",
+        link: "https://indiehackers.com/products"
       }
     ]
   },
@@ -617,6 +623,12 @@ export const NavData: NavData[] = [
         icon: "/icons/y18.svg",
         desc: "Hacker News is a social news website focusing on computer science and entrepreneurship. It is run by the investment fund and startup incubator Y Combinator.",
         link: "https://news.ycombinator.com"
+      },
+      {
+        title: "Indie Hackers",
+        icon: "/icons/www.indiehackers.com-favicon-large.ico",
+        desc: "Connect with developers sharing the strategies and revenue numbers behind their companies and side projects.",
+        link: "https://www.indiehackers.com"
       }
     ]
   }
