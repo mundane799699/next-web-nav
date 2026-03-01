@@ -90,6 +90,18 @@ export const NavData: NavData[] = [
         icon: "/icons/ahrefs.com-favicon.ico",
         desc: "With the world's biggest index of live backlinks (over 15 trillion), Ahrefs Backlink Checker will show you the most complete backlink profile for any website.",
         link: "https://ahrefs.com/backlink-checker"
+      },
+      {
+        title: "Website Authority Checker",
+        icon: "/icons/ahrefs.com-favicon.ico",
+        desc: "Free tool to check the authority of any website based on the quality and quantity of its external backlinks.",
+        link: "https://ahrefs.com/website-authority-checker"
+      },
+      {
+        title: "FrogDR",
+        icon: "/icons/frogdr.com-favicon-large.ico",
+        desc: "FrogDR helps you tracking and growing your Domain Rating. Get more backlinks, improve your SEO and increase your Domain Authority.",
+        link: "https://frogdr.com"
       }
     ]
   },
