@@ -98,6 +98,12 @@ export const NavData: NavData[] = [
         link: "https://ahrefs.com/website-authority-checker"
       },
       {
+        title: "Website Traffic Checker",
+        icon: "/icons/ahrefs.com-favicon.ico",
+        desc: "Dig into the traffic data for any website and find growth opportunities for yours. Try the free version of Ahrefs’ traffic checker.",
+        link: "https://ahrefs.com/traffic-checker"
+      },
+      {
         title: "FrogDR",
         icon: "/icons/frogdr.com-favicon-large.ico",
         desc: "FrogDR helps you tracking and growing your Domain Rating. Get more backlinks, improve your SEO and increase your Domain Authority.",
@@ -527,6 +533,11 @@ export const NavData: NavData[] = [
   {
     title: "新手专区",
     items: [
+      {
+        title: "【收藏】51个挖掘需求时能用得上的财富密码关键词哥飞免费赠送给大家",
+        icon: "/icons/gefei.png",
+        link: "https://mp.weixin.qq.com/s/pFi683ZoT_WJXO_t770vSQ"
+      },
       {
         title: "网站出海每日分享：月入3千美刀达成，每日分享梳理",
         icon: "/icons/droidHZ.png",
