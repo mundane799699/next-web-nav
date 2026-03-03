@@ -545,6 +545,13 @@ export const NavData: NavData[] = [
         icon: "/icons/droidHZ.png",
         link: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzNzYzNzE3Mg==&scene=124#wechat_redirect",
         tip: "请在微信中打开链接"
+      },
+      {
+        title: "程艺Truman",
+        desc: "聊聊出海，聊聊流量，聊聊AI编程。V:trumansoho",
+        icon: "/icons/chengyi.png",
+        link: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxMzc5NjA2Mw==&scene=124#wechat_redirect",
+        tip: "请在微信中打开链接"
       }
     ]
   },
