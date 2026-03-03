@@ -77,6 +77,35 @@ export const NavData: NavData[] = [
     ]
   },
   {
+    title: "社区",
+    items: [
+      {
+        title: "V2EX",
+        icon: "/icons/v2ex.com-favicon-large.ico",
+        desc: "创意工作者的社区。讨论编程、设计、硬件、游戏等令人激动的话题。",
+        link: "https://www.v2ex.com"
+      },
+      {
+        title: "Product Hunt",
+        icon: "/icons/www.producthunt.com-favicon.ico",
+        desc: "Product Hunt is a curation of the best new products, every day. Discover the latest mobile apps, websites, and technology products that everyone's talking about.",
+        link: "https://www.producthunt.com"
+      },
+      {
+        title: "Hacker News",
+        icon: "/icons/y18.svg",
+        desc: "Hacker News is a social news website focusing on computer science and entrepreneurship. It is run by the investment fund and startup incubator Y Combinator.",
+        link: "https://news.ycombinator.com"
+      },
+      {
+        title: "Indie Hackers",
+        icon: "/icons/www.indiehackers.com-favicon-large.ico",
+        desc: "Connect with developers sharing the strategies and revenue numbers behind their companies and side projects.",
+        link: "https://www.indiehackers.com"
+      }
+    ]
+  },
+  {
     title: "SEO优化",
     items: [
       {
@@ -610,36 +639,6 @@ export const NavData: NavData[] = [
         desc: "独立开发前线是独立开发指南网站，内容包含独立开发创意发现，产品实现，获取增长，流量变现等方面，旨在帮助独立开发者更快的成长，打造属于自己的盈利产品。",
         icon: "/icons/91wink.com-favicon-large.ico",
         link: "https://91wink.com/sites"
-      }
-    ]
-  },
-
-  {
-    title: "社区",
-    items: [
-      {
-        title: "V2EX",
-        icon: "/icons/v2ex.com-favicon-large.ico",
-        desc: "创意工作者的社区。讨论编程、设计、硬件、游戏等令人激动的话题。",
-        link: "https://www.v2ex.com"
-      },
-      {
-        title: "Product Hunt",
-        icon: "/icons/www.producthunt.com-favicon.ico",
-        desc: "Product Hunt is a curation of the best new products, every day. Discover the latest mobile apps, websites, and technology products that everyone's talking about.",
-        link: "https://www.producthunt.com"
-      },
-      {
-        title: "Hacker News",
-        icon: "/icons/y18.svg",
-        desc: "Hacker News is a social news website focusing on computer science and entrepreneurship. It is run by the investment fund and startup incubator Y Combinator.",
-        link: "https://news.ycombinator.com"
-      },
-      {
-        title: "Indie Hackers",
-        icon: "/icons/www.indiehackers.com-favicon-large.ico",
-        desc: "Connect with developers sharing the strategies and revenue numbers behind their companies and side projects.",
-        link: "https://www.indiehackers.com"
       }
     ]
   }
