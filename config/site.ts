@@ -80,6 +80,12 @@ export const NavData: NavData[] = [
     title: "社区",
     items: [
       {
+        title: "Reddit",
+        icon: "/icons/www.reddit.com-favicon-large.ico",
+        desc: "Reddit is where millions of people gather for conversations about the things they care about, in over 100,000 subreddit communities.",
+        link: "https://www.reddit.com"
+      },
+      {
         title: "V2EX",
         icon: "/icons/v2ex.com-favicon-large.ico",
         desc: "创意工作者的社区。讨论编程、设计、硬件、游戏等令人激动的话题。",
