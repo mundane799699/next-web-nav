@@ -1,22 +1,33 @@
 import { NavLink } from "@/config/site"
 import { cn } from "@/lib/utils"
 import { AnimatePresence, motion } from "framer-motion"
+import { Check, Copy } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react"
+import { useCallback, useState } from "react"
 
 export const HoverEffect = ({ items, className }: { items: NavLink[]; className?: string }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
+  const [copiedIndex, setCopiedIndex] = useState<number | null>(null)
+
+  const handleCopy = useCallback((e: React.MouseEvent, link: string, idx: number) => {
+    e.preventDefault()
+    e.stopPropagation()
+    navigator.clipboard.writeText(link).then(() => {
+      setCopiedIndex(idx)
+      setTimeout(() => setCopiedIndex(null), 1500)
+    })
+  }, [])
 
   return (
     <div className={cn("grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3", className)}>
       {items.map((item, idx) => (
         <motion.div
           key={item.link}
-          initial={{ opacity: 0, y: 20 }} // 完全透明，并且在 Y 轴上向下偏移 20px
-          whileInView={{ opacity: 1, y: 0 }} // 完全不透明，Y 轴位置回归原位
-          viewport={{ once: false, amount: 0.1 }} // `once: true` 保证动画只播放一次。 `amount: 0.1` 表示元素可见10%时就触发动画
-          transition={{ duration: 0.3, delay: idx * 0.05 }} // 动画持续0.5秒，并根据索引值(idx)创建交错延迟效果
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, amount: 0.1 }}
+          transition={{ duration: 0.3, delay: idx * 0.05 }}
         >
           <Link
             href={item?.link}
@@ -57,7 +68,18 @@ export const HoverEffect = ({ items, className }: { items: NavLink[]; className?
                 {item.title}
               </CardTitle>
               {item.desc && <CardDescription>{item.desc}</CardDescription>}
-              {item.tip && <CardTip>{item.tip}</CardTip>}
+              {item.tip && (
+                <div className="mt-3 flex items-center gap-1.5">
+                  <CardTip>{item.tip}</CardTip>
+                  <button
+                    onClick={(e) => handleCopy(e, item.link, idx)}
+                    className="inline-flex items-center rounded-md p-1 text-muted-foreground transition-colors hover:bg-primary/10 hover:text-primary"
+                    title="复制"
+                  >
+                    {copiedIndex === idx ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
+                  </button>
+                </div>
+              )}
             </Card>
           </Link>
         </motion.div>
@@ -89,10 +111,7 @@ export const CardDescription = ({ className, children }: { className?: string; c
 export const CardTip = ({ className, children }: { className?: string; children: React.ReactNode }) => {
   return (
     <span
-      className={cn(
-        "mt-3 inline-block rounded-md bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary",
-        className
-      )}
+      className={cn("inline-block rounded-md bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary", className)}
     >
       {children}
     </span>
