@@ -3,7 +3,8 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "独立掘金网",
   url: "https://indiegolden.com",
-  description: "独立掘金网 - 独立开发者出海导航站，精选需求挖掘、SEO优化、外链建设、UI设计、代码模板、API供应商、支付接入等实用工具与资源，助你从零打造盈利的独立产品。",
+  description:
+    "独立掘金网 - 独立开发者出海导航站，精选需求挖掘、SEO优化、外链建设、UI设计、代码模板、API供应商、支付接入等实用工具与资源，助你从零打造盈利的独立产品。",
   mainNav: [],
   links: {
     twitter: "https://x.com/mundane799699"
@@ -149,12 +150,6 @@ export const NavData: NavData[] = [
         icon: "/icons/ahrefs.com-favicon.ico",
         desc: "Dig into the traffic data for any website and find growth opportunities for yours. Try the free version of Ahrefs’ traffic checker.",
         link: "https://ahrefs.com/traffic-checker"
-      },
-      {
-        title: "Free Keyword Generator Tool",
-        icon: "/icons/ahrefs.com-favicon.ico",
-        desc: "Generate hundreds of free keyword ideas for Google, Bing, YouTube, and Amazon, complete with monthly search volumes and Keyword Difficulty scores.",
-        link: "https://ahrefs.com/keyword-generator"
       },
       {
         title: "Free Keyword Generator Tool",
@@ -552,6 +547,17 @@ export const NavData: NavData[] = [
         desc: "待补充",
         icon: "/icons/baidu.com-favicon-large.ico",
         link: "https://www.baidu.com"
+      }
+    ]
+  },
+  {
+    title: "机场推荐",
+    items: [
+      {
+        title: "IKUUU VPN",
+        desc: "用下来感觉还不错的机场",
+        icon: "/icons/ikuuu.nl-favicon-large.ico",
+        link: "https://ikuuu.nl"
       }
     ]
   },
