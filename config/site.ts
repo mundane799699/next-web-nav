@@ -80,6 +80,12 @@ export const NavData: NavData[] = [
     title: "社区",
     items: [
       {
+        title: "Hugging Face",
+        icon: "/icons/huggingface.co-favicon-large.ico",
+        desc: "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+        link: "https://huggingface.co"
+      },
+      {
         title: "Reddit",
         icon: "/icons/www.reddit.com-favicon-large.ico",
         desc: "Reddit is where millions of people gather for conversations about the things they care about, in over 100,000 subreddit communities.",
