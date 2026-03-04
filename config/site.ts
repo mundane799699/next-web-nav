@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "独立掘金网",
   url: "https://indiegolden.com",
-  description: "独立掘金网 - 网址导航",
+  description: "独立掘金网 - 独立开发者出海导航站，精选需求挖掘、SEO优化、外链建设、UI设计、代码模板、API供应商、支付接入等实用工具与资源，助你从零打造盈利的独立产品。",
   mainNav: [],
   links: {
     twitter: "https://x.com/mundane799699"
