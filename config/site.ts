@@ -151,6 +151,24 @@ export const NavData: NavData[] = [
         link: "https://ahrefs.com/traffic-checker"
       },
       {
+        title: "Free Keyword Generator Tool",
+        icon: "/icons/ahrefs.com-favicon.ico",
+        desc: "Generate hundreds of free keyword ideas for Google, Bing, YouTube, and Amazon, complete with monthly search volumes and Keyword Difficulty scores.",
+        link: "https://ahrefs.com/keyword-generator"
+      },
+      {
+        title: "Free Keyword Generator Tool",
+        icon: "/icons/ahrefs.com-favicon.ico",
+        desc: "Generate hundreds of free keyword ideas for Google, Bing, YouTube, and Amazon, complete with monthly search volumes and Keyword Difficulty scores.",
+        link: "https://ahrefs.com/keyword-generator"
+      },
+      {
+        title: "Free Keyword Difficulty Checker",
+        icon: "/icons/ahrefs.com-favicon.ico",
+        desc: "Find the easiest keywords to rank for with our free Keyword Difficulty (KD) checker. No registration required.",
+        link: "https://ahrefs.com/keyword-difficulty"
+      },
+      {
         title: "FrogDR",
         icon: "/icons/frogdr.com-favicon-large.ico",
         desc: "FrogDR helps you tracking and growing your Domain Rating. Get more backlinks, improve your SEO and increase your Domain Authority.",
