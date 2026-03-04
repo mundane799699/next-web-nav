@@ -69,6 +69,12 @@ export const NavData: NavData[] = [
         link: "https://trustmrr.com"
       },
       {
+        title: "Free AI Tool",
+        icon: "/icons/freeaitool.ai-favicon-large.ico",
+        desc: "Explore the best free AI tool of 2026! Find the latest artificial intelligence innovations to enhance your work and creativity, all at no cost.",
+        link: "https://freeaitool.ai"
+      },
+      {
         title: "Chrome-Stats",
         icon: "/icons/chrome-stats.com-favicon-large.ico",
         desc: "All-in-one platform to grow your Chrome extensions, Android apps, and other other add-ons. Download current and past extensions, access historical stats, and run competitive analysis for extensions and apps.",
@@ -224,6 +230,24 @@ export const NavData: NavData[] = [
         icon: "/icons/trendsbar.net-favicon-large.ico",
         desc: "TrendsBar 是一款专门为 Google Trends 提供帮助的浏览器插件，旨在帮助用户批量查看和比较关键词的趋势，提升挖掘关键词的效率。",
         link: "https://trendsbar.net"
+      },
+      {
+        title: "PubSpy.io",
+        icon: "/icons/pubspy.io-favicon-large.ico",
+        desc: "The fastest AdSense reverse lookup tool - 50% faster, 65% smaller! Instantly find publisher IDs, discover competitor domains, analyze ads.txt files with 99.9% accuracy. Free Chrome extension.",
+        link: "https://pubspy.io"
+      },
+      {
+        title: "TrendsRadar",
+        icon: "/icons/trendsradar.org-favicon-large.ico",
+        desc: "Discover the power of TrendsRadar to enhance your keyword analysis efficiency. Analyze trends in batch, track market movements, and make data-driven decisions with ease.",
+        link: "https://trendsradar.org"
+      },
+      {
+        title: "Google Trends Everywhere",
+        icon: "/icons/google_trends_everywhere.png",
+        desc: "在谷歌搜索结果旁直接对比关键词的搜索趋势，并通过右键菜单快速打开谷歌趋势",
+        link: "https://www.crxsoso.com/webstore/detail/lkjapnejglpmnnpljfnnpndjbbopddge"
       }
     ]
   },
@@ -532,6 +556,17 @@ export const NavData: NavData[] = [
         title: "加入哥飞社群一年，终于做出一个月近 900K流量的网站.",
         icon: "/icons/quan.png",
         link: "https://mp.weixin.qq.com/s/FDqID4-yVeakVdFzA_vqAQ"
+      }
+    ]
+  },
+  {
+    title: "技术总结",
+    items: [
+      {
+        title: "咔叽哇老师的分享内容笔记",
+        icon: "/icons/chenjin.jpg",
+        desc: "给哥飞深圳场当课代表。整理了 @教练我想上站 咔叽哇老师的分享内容笔记。（搜了下6月场发现这次真的非常新人友好）",
+        link: "https://m.okjike.com/originalPosts/693d02e68d2d7e459676164f"
       }
     ]
   },
