@@ -617,6 +617,13 @@ export const NavData: NavData[] = [
         icon: "/icons/chengyi.png",
         link: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxMzc5NjA2Mw==&scene=124#wechat_redirect",
         tip: "请在微信中打开链接"
+      },
+      {
+        title: "A梦进化论",
+        desc: "A梦，原阿里设计师，现在出海独立开发者，分享和剖析一系列独立开发者的成功案例。",
+        icon: "/icons/ameng.png",
+        link: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5NDQ3ODI3NQ==&scene=124#wechat_redirect",
+        tip: "请在微信中打开链接"
       }
     ]
   },
