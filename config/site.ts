@@ -445,7 +445,6 @@ export const NavData: NavData[] = [
       }
     ]
   },
-
   {
     title: "API供应商",
     items: [
@@ -506,6 +505,23 @@ export const NavData: NavData[] = [
     ]
   },
   {
+    title: "AI编程工具",
+    items: [
+      {
+        title: "Ai Go Code",
+        icon: "/icons/www.aigocode.com-favicon-large.ico",
+        desc: "Ai Go Code 提供稳定、高效的AI编程服务。支持Claude、ChatGPT等多种AI模型，帮助开发者提升10倍编程效率。立即体验AI驱动的编程助手。",
+        link: "https://www.aigocode.com"
+      },
+      {
+        title: "兔小店",
+        icon: "/icons/store.tu-zi.com-favicon-large.ico",
+        desc: "提供claude code、codex、gemini、cursor、gpt账号、google账户等账号购买服务。",
+        link: "https://store.tu-zi.com"
+      }
+    ]
+  },
+  {
     title: "支付接入",
     items: [
       {
@@ -519,6 +535,12 @@ export const NavData: NavData[] = [
         icon: "/icons/boat.png",
         desc: "出海研习社（与其国内卷，不如出海浪。）",
         link: "https://minibook.notion.site/b39d0ac975a44f3089639215d96135a0"
+      },
+      {
+        title: "无需信用卡/海外公司，一天内搞定海外 saas 支付问题（包括stripe、俄罗斯支付）",
+        icon: "/icons/mowang.png",
+        desc: "介绍了302 pay这个支付渠道",
+        link: "https://mp.weixin.qq.com/s/f4SBwNP2AIjr37i7UnpALg"
       }
     ]
   },
