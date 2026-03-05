@@ -121,6 +121,12 @@ export const NavData: NavData[] = [
         icon: "/icons/www.indiehackers.com-favicon-large.ico",
         desc: "Connect with developers sharing the strategies and revenue numbers behind their companies and side projects.",
         link: "https://www.indiehackers.com"
+      },
+      {
+        title: "Pinterest",
+        icon: "/icons/www.pinterest.com-favicon-large.ico",
+        desc: "发现想要尝试的食谱、家居创意、时尚灵感及其他创意点子。",
+        link: "https://www.pinterest.com"
       }
     ]
   },
