@@ -58,6 +58,12 @@ export const NavData: NavData[] = [
         link: "https://www.toolify.ai"
       },
       {
+        title: "There's An AI For That®",
+        icon: "/icons/theresanaiforthat.com-favicon-large.ico",
+        desc: "The #1 website for AI tools. Used by 80 million people to find the right tool for any task or use case.",
+        link: "https://theresanaiforthat.com"
+      },
+      {
         title: "HuntScreens",
         icon: "/icons/huntscreens.com-favicon-large.ico",
         desc: "第一时间发现新鲜出炉的好产品。这里有最新的AI工具、创新应用，以及各种新奇有趣的产品和项目。",
