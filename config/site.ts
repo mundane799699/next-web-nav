@@ -34,6 +34,18 @@ export const NavData: NavData[] = [
     title: "需求挖掘",
     items: [
       {
+        title: "网站出海每日分享：找词找站找需求",
+        icon: "/icons/droidHZ.png",
+        desc: "词找站、站找词、站找站",
+        link: "https://mp.weixin.qq.com/s/fbCxrI2JZGoraXpOgNQeKA"
+      },
+      {
+        title: "打洞周报第21期-假期总结",
+        icon: "/icons/lixiang.png",
+        desc: "文章分享了怎么通过站找站来挖掘需求",
+        link: "https://mp.weixin.qq.com/s/uLK7umg6-9qz2lSdPiTu5A"
+      },
+      {
         title: "Google 趋势",
         icon: "/icons/trends.google.com-favicon-large.ico",
         desc: "Google 趋势是一个免费的工具，可以让你了解当前的热门搜索和趋势。",
