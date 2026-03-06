@@ -158,6 +158,12 @@ export const NavData: NavData[] = [
     title: "SEO优化",
     items: [
       {
+        title: "🚀独立开发前线|SEO从0到100",
+        icon: "/icons/ove.jpg",
+        desc: "独立开发者欧维分享的SEO从0到100的知识库，包括SEO基础、关键词研究、内容营销、外链建设、市场营销、GEO等内容",
+        link: "https://lownrain.feishu.cn/wiki/RY9EwA4XJixz1AkSRyycw6binMe"
+      },
+      {
         title: "SEO：新手必备完全指南",
         icon: "/icons/ahrefs.com-favicon.ico",
         desc: "建立强大的SEO知识基础并提升谷歌排名所需的一切资源。",
@@ -221,13 +227,6 @@ export const NavData: NavData[] = [
         icon: "/icons/1000userguide.com-favicon.ico",
         desc: "本手册旨在为开发者提供一个全面的获客资源，列出国内外适合独立开发者和创业者早期产品启动的曝光渠道。通过利用这些渠道，你可以有效地推广你的产品，接触目标受众，并找到你的第一批1000个用户.",
         link: "https://1000userguide.com"
-      },
-
-      {
-        title: "外链建设文档",
-        icon: "/icons/ove.jpg",
-        desc: "独立开发者欧维分享的外链建设文档，包括外链建设策略、免费外链资源、付费外链资源、外链导航、外链建设工具",
-        link: "https://lownrain.feishu.cn/wiki/RY9EwA4XJixz1AkSRyycw6binMe"
       },
       {
         title: "BacklinkHelper",
