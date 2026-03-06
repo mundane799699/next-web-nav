@@ -379,6 +379,30 @@ export const NavData: NavData[] = [
         icon: "/icons/nexty.dev-favicon-large.ico",
         desc: "NEXTY.DEV 是一个功能齐全的 Next.js SaaS 全栈模板，让你能够快速构建各种商业网站，无论是内容站、工具站还是集成 AI 能力的付费网站。",
         link: "https://nexty.dev"
+      },
+      {
+        title: "raphael-starterkit-v1",
+        icon: "/icons/liuxiaopai.jpeg",
+        desc: "这是一个基于 Next.js、Supabase 和 Creem.io 构建的现代化、生产就绪的启动套件。非常适合快速构建具有身份验证、订阅和积分系统的 SaaS 应用程序，让您的 MVP 开发速度提升10倍。",
+        link: "https://github.com/Idea-To-Business/raphael-starterkit-v1"
+      },
+      {
+        title: "flux-kontext-template",
+        icon: "/icons/liangchenmei.png",
+        desc: "FluxKontext.space 是一个基于Next.js 15的现代化AI图像生成平台，集成了Cloudflare Turnstile安全验证、Stripe支付系统、Supabase数据库和多语言支持。",
+        link: "https://github.com/CharlieLZ/flux-kontext-template"
+      },
+      {
+        title: "ShipFree",
+        icon: "/icons/shipfree.png",
+        desc: "ShipFree is a free alternative to ShipFast, designed to simplify and optimize your shipping process. It’s built using modern web technologies like Next.js, Bun, Stripe, Drizzle ORM, Postgres and Tailwindcss.",
+        link: "https://github.com/revokslab/ShipFree"
+      },
+      {
+        title: "get-saas",
+        icon: "/icons/get-saas.jpeg",
+        desc: "Get SaaS 是一个功能完整的 SaaS 模版，集成了用户认证、支付系统、多语言支持、SEO优化等企业级功能。基于 Next.js 和现代化技术栈构建，让您专注于业务逻辑，快速推向全球市场。",
+        link: "https://github.com/ItusiAI/get-saas"
       }
     ]
   },
