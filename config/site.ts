@@ -699,6 +699,11 @@ export const NavData: NavData[] = [
         link: "https://mp.weixin.qq.com/s/pFi683ZoT_WJXO_t770vSQ"
       },
       {
+        title: "出海需求怎么挖？我用 Google “新词”找到 0-1 的机会（附 122 个词根）",
+        icon: "/icons/mengjian.png",
+        link: "https://mp.weixin.qq.com/s/sBhDHvb15oI3TGTB5qhCTw"
+      },
+      {
         title: "网站出海每日分享：月入3千美刀达成，每日分享梳理",
         icon: "/icons/droidHZ.png",
         link: "https://mp.weixin.qq.com/s/NS7dMsR4yqwqo__urBcLLQ"
