@@ -205,17 +205,24 @@ export const NavData: NavData[] = [
     title: "外链建设",
     items: [
       {
-        title: "1000UserGuide",
-        icon: "/icons/1000userguide.com-favicon.ico",
-        desc: "本手册旨在为开发者提供一个全面的获客资源，列出国内外适合独立开发者和创业者早期产品启动的曝光渠道。通过利用这些渠道，你可以有效地推广你的产品，接触目标受众，并找到你的第一批1000个用户.",
-        link: "https://1000userguide.com"
-      },
-      {
         title: "掌握这些方法，外链多到根本发不完",
         icon: "/icons/chengyi.png",
         desc: "程艺Truman分享的关于外链发布方法和寻找外链发布渠道",
         link: "https://mp.weixin.qq.com/s/OhcyI51O-gKPo8cbWwmX0A"
       },
+      {
+        title: "网站出海每日分享：搜索语法找外链",
+        icon: "/icons/droidHZ.png",
+        desc: "droidHZ分享的通过搜索语法找外链的方法",
+        link: "https://mp.weixin.qq.com/s/_zc6_RuTnJ8LVLn0MGIwOw"
+      },
+      {
+        title: "1000UserGuide",
+        icon: "/icons/1000userguide.com-favicon.ico",
+        desc: "本手册旨在为开发者提供一个全面的获客资源，列出国内外适合独立开发者和创业者早期产品启动的曝光渠道。通过利用这些渠道，你可以有效地推广你的产品，接触目标受众，并找到你的第一批1000个用户.",
+        link: "https://1000userguide.com"
+      },
+
       {
         title: "外链建设文档",
         icon: "/icons/ove.jpg",
