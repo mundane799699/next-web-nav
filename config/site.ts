@@ -51,35 +51,12 @@ export const NavData: NavData[] = [
         desc: "Find out about boring businesses that make a lot of money quietly. Learn how they succeed and build your own.",
         link: "https://boringcashcow.com"
       },
-      {
-        title: "toolify",
-        icon: "/icons/www.toolify.ai-favicon-large.ico",
-        desc: "Toolify is the largest AI tools directory & GPT Store Apps. Over 28100+ AI Websites and AI Tools. AI Tools list and GPTs Store Apps list are auto updated by ChatGPT.",
-        link: "https://www.toolify.ai"
-      },
-      {
-        title: "There's An AI For That®",
-        icon: "/icons/theresanaiforthat.com-favicon-large.ico",
-        desc: "The #1 website for AI tools. Used by 80 million people to find the right tool for any task or use case.",
-        link: "https://theresanaiforthat.com"
-      },
-      {
-        title: "HuntScreens",
-        icon: "/icons/huntscreens.com-favicon-large.ico",
-        desc: "第一时间发现新鲜出炉的好产品。这里有最新的AI工具、创新应用，以及各种新奇有趣的产品和项目。",
-        link: "https://huntscreens.com/zh"
-      },
+
       {
         title: "TrustMRR",
         icon: "/icons/trustmrr.com-favicon-large.ico",
         desc: "The database of verified startup revenues. Browse Stripe-verified MRR and revenue from real startups. Prove your revenue publicly.",
         link: "https://trustmrr.com"
-      },
-      {
-        title: "Free AI Tool",
-        icon: "/icons/freeaitool.ai-favicon-large.ico",
-        desc: "Explore the best free AI tool of 2026! Find the latest artificial intelligence innovations to enhance your work and creativity, all at no cost.",
-        link: "https://freeaitool.ai"
       },
       {
         title: "Chrome-Stats",
@@ -133,6 +110,35 @@ export const NavData: NavData[] = [
         icon: "/icons/www.pinterest.com-favicon-large.ico",
         desc: "发现想要尝试的食谱、家居创意、时尚灵感及其他创意点子。",
         link: "https://www.pinterest.com"
+      }
+    ]
+  },
+  {
+    title: "AI导航站",
+    items: [
+      {
+        title: "toolify",
+        icon: "/icons/www.toolify.ai-favicon-large.ico",
+        desc: "Toolify is the largest AI tools directory & GPT Store Apps. Over 28100+ AI Websites and AI Tools. AI Tools list and GPTs Store Apps list are auto updated by ChatGPT.",
+        link: "https://www.toolify.ai"
+      },
+      {
+        title: "There's An AI For That®",
+        icon: "/icons/theresanaiforthat.com-favicon-large.ico",
+        desc: "The #1 website for AI tools. Used by 80 million people to find the right tool for any task or use case.",
+        link: "https://theresanaiforthat.com"
+      },
+      {
+        title: "HuntScreens",
+        icon: "/icons/huntscreens.com-favicon-large.ico",
+        desc: "第一时间发现新鲜出炉的好产品。这里有最新的AI工具、创新应用，以及各种新奇有趣的产品和项目。",
+        link: "https://huntscreens.com/zh"
+      },
+      {
+        title: "Free AI Tool",
+        icon: "/icons/freeaitool.ai-favicon-large.ico",
+        desc: "Explore the best free AI tool of 2026! Find the latest artificial intelligence innovations to enhance your work and creativity, all at no cost.",
+        link: "https://freeaitool.ai"
       }
     ]
   },
