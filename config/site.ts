@@ -427,6 +427,12 @@ export const NavData: NavData[] = [
         icon: "/icons/geminiwatermarkcleaner.com-favicon-large.ico",
         desc: "Gemini Watermark Cleaner is a gemini watermark remover and Google AI Studio watermark remover for remove Gemini Nano Banana watermark from images. It is designed for gemini.google.com and aistudio.google.com, automatically detecting and removing watermarks as users download images.",
         link: "https://geminiwatermarkcleaner.com"
+      },
+      {
+        title: "remusic.ai",
+        icon: "/icons/remusic.ai-favicon-large.ico",
+        desc: "Generate full-length songs in seconds with Remusic - a free AI music generator that generates high-quality tracks up to 4 minutes long instantly.",
+        link: "https://remusic.ai"
       }
     ]
   },
@@ -712,6 +718,16 @@ export const NavData: NavData[] = [
   {
     title: "新手专区",
     items: [
+      {
+        title: "人人都能学会的发掘 web 产品需求方法入门",
+        icon: "/icons/gefei.png",
+        link: "https://mp.weixin.qq.com/s/rzqgRubYO8Em3xuWRGufuw"
+      },
+      {
+        title: "人人都能学会的挖掘 web 产品需求之从出站域名发现新需求新产品",
+        icon: "/icons/gefei.png",
+        link: "https://mp.weixin.qq.com/s/D77kXZ9_RCifP9iil6fGxQ"
+      },
       {
         title: "【收藏】51个挖掘需求时能用得上的财富密码关键词哥飞免费赠送给大家",
         icon: "/icons/gefei.png",
