@@ -58,6 +58,12 @@ export const NavData: NavData[] = [
         link: "https://traffic.cv"
       },
       {
+        title: "Products by Indie Hackers",
+        icon: "/icons/www.indiehackers.com-favicon-large.ico",
+        desc: "Discover hundreds of businesses, startups, and side projects that are making money online, and learn how they got to where they are today.",
+        link: "https://www.indiehackers.com/products"
+      },
+      {
         title: "boringcashcow",
         icon: "/icons/boringcashcow.com-favicon-large.ico",
         desc: "Find out about boring businesses that make a lot of money quietly. Learn how they succeed and build your own.",
