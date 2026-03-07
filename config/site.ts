@@ -75,6 +75,12 @@ export const NavData: NavData[] = [
         icon: "/icons/chrome-stats.com-favicon-large.ico",
         desc: "All-in-one platform to grow your Chrome extensions, Android apps, and other other add-ons. Download current and past extensions, access historical stats, and run competitive analysis for extensions and apps.",
         link: "https://chrome-stats.com"
+      },
+      {
+        title: "AppSumo",
+        icon: "/icons/appsumo.com-favicon-large.ico",
+        desc: "Top software deals for entrepreneurs at incredible prices. Discover the latest productivity, marketing, and content tools for your business with no monthly fees.",
+        link: "https://appsumo.com"
       }
     ]
   },
