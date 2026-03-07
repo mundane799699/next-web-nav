@@ -232,18 +232,13 @@ export const NavData: NavData[] = [
         title: "BacklinkHelper",
         icon: "/icons/backlinkhelper.com-favicon-large.ico",
         desc: "BacklinkHelper：适用于SEO用户的免费浏览器插件。快速填充链接表单，生成自然评论，管理、去重并追踪外链。",
+        link: "https://potent-measure-31f.notion.site/14368f418f50804ba419d3ce7a333fa8?v=14368f418f508191a695000c6fcd329a"
+      },
+      {
+        title: "100+ DIR",
+        icon: "/icons/globe_with_meridians.png",
+        desc: "100多个导航站合集，免费提交的和付费提交的都有",
         link: "https://backlinkhelper.com"
-      },
-      {
-        title: "BestLinks",
-        desc: "Ahrefs反向链接批量获取工具。BestLinks可以帮助您获取任意网站的高质量反向链接，批量导出方便SEO分析。",
-        link: "https://bestlinks.530.news"
-      },
-      {
-        title: "AISAC - AI摘要&评论生成器",
-        icon: "/icons/aisac.co-favicon-large.ico",
-        desc: "快速添加博客外链，比较适合游戏站，用于快速添加博客评论",
-        link: "https://aisac.co"
       },
       {
         title: "500.tools",
@@ -256,6 +251,17 @@ export const NavData: NavData[] = [
         icon: "/icons/www.indiehackers.com-favicon-large.ico",
         desc: "Discover hundreds of businesses, startups, and side projects that are making money online, and learn how they got to where they are today.",
         link: "https://indiehackers.com/products"
+      },
+      {
+        title: "BestLinks",
+        desc: "Ahrefs反向链接批量获取工具。BestLinks可以帮助您获取任意网站的高质量反向链接，批量导出方便SEO分析。",
+        link: "https://bestlinks.530.news"
+      },
+      {
+        title: "AISAC - AI摘要&评论生成器",
+        icon: "/icons/aisac.co-favicon-large.ico",
+        desc: "快速添加博客外链，比较适合游戏站，用于快速添加博客评论",
+        link: "https://aisac.co"
       }
     ]
   },
