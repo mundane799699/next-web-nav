@@ -579,6 +579,18 @@ export const NavData: NavData[] = [
         icon: "/icons/apimart.ai-favicon-large.ico",
         desc: "The most affordable unified AI API. Integrate GPT-5, Claude 4.5, Sora 2 & Flux.1 with a single key. Developer-friendly, high uptime, and low latency.",
         link: "https://apimart.ai"
+      },
+      {
+        title: "ZenMux",
+        icon: "/icons/zenmux.svg",
+        desc: "The Enterprise LLM Platform. Get a Unified API for all models, intelligent routing, and AI Model Insurance to eliminate hallucination risk.",
+        link: "https://zenmux.ai"
+      },
+      {
+        title: "OpenRouter",
+        icon: "/icons/openrouter.ai-favicon-large.ico",
+        desc: "The unified interface for LLMs. Find the best models & prices for your prompts",
+        link: "https://openrouter.ai"
       }
     ]
   },
