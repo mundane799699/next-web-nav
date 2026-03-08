@@ -421,6 +421,12 @@ export const NavData: NavData[] = [
         icon: "/icons/get-saas.jpeg",
         desc: "Get SaaS 是一个功能完整的 SaaS 模版，集成了用户认证、支付系统、多语言支持、SEO优化等企业级功能。基于 Next.js 和现代化技术栈构建，让您专注于业务逻辑，快速推向全球市场。",
         link: "https://github.com/ItusiAI/get-saas"
+      },
+      {
+        title: "Open-Launch",
+        icon: "/icons/open-launch.com-favicon-large.ico",
+        desc: "The first complete open source alternative to Product Hunt. Built with modern web technologies.",
+        link: "https://github.com/openlaunch-org/Open-Launch"
       }
     ]
   },
