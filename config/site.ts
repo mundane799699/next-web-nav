@@ -328,6 +328,12 @@ export const NavData: NavData[] = [
         link: "https://www.iloveimg.com"
       },
       {
+        title: "TinyPNG",
+        icon: "/icons/tinypng.com-favicon-large.ico",
+        desc: "Free online image optimizer for faster websites! Reduce the file size of your WEBP, JPEG and PNG Images with TinyPNG’s smart lossy compression engine.",
+        link: "https://tinypng.com"
+      },
+      {
         title: "Logo.Surf",
         icon: "/icons/www.logo.surf-favicon.ico",
         desc: "Create professional logos and favicons from text in seconds. Free online tool with instant preview, multiple formats, and customizable designs.",
