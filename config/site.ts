@@ -175,6 +175,12 @@ export const NavData: NavData[] = [
         icon: "/icons/freeaitool.ai-favicon-large.ico",
         desc: "Explore the best free AI tool of 2026! Find the latest artificial intelligence innovations to enhance your work and creativity, all at no cost.",
         link: "https://freeaitool.ai"
+      },
+      {
+        title: "500.tools",
+        icon: "/icons/500.tools-favicon-large.ico",
+        desc: "A curated list of the 500 best tools.",
+        link: "https://500.tools"
       }
     ]
   },
@@ -270,12 +276,7 @@ export const NavData: NavData[] = [
         desc: "100多个导航站合集，免费提交的和付费提交的都有",
         link: "https://backlinkhelper.com"
       },
-      {
-        title: "500.tools",
-        icon: "/icons/500.tools-favicon-large.ico",
-        desc: "A curated list of the 500 best tools.",
-        link: "https://500.tools"
-      },
+
       {
         title: "Products by Indie Hackers",
         icon: "/icons/www.indiehackers.com-favicon-large.ico",
@@ -649,6 +650,12 @@ export const NavData: NavData[] = [
         icon: "/icons/www.setupyourpay.com-favicon-large.ico",
         desc: "远程注册美国公司，开通 Stripe 收款账户，并开始收款。本站一站式解决跨境收款难题的专业指南。涵盖从个人creem收款到美国公司注册到全球收款通道配置的完整流程，开通水星银行，助你轻松实现全球业务拓展。",
         link: "https://www.setupyourpay.com"
+      },
+      {
+        title: "Polar",
+        icon: "/icons/polar.sh-favicon-large.ico",
+        desc: "Monetize your software with ease",
+        link: "https://polar.sh"
       },
       {
         title: "出海研习社",
