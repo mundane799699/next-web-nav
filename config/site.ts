@@ -87,6 +87,12 @@ export const NavData: NavData[] = [
         icon: "/icons/appsumo.com-favicon-large.ico",
         desc: "Top software deals for entrepreneurs at incredible prices. Discover the latest productivity, marketing, and content tools for your business with no monthly fees.",
         link: "https://appsumo.com"
+      },
+      {
+        title: "AI Graveyard",
+        icon: "/icons/dang.ai-favicon-large.ico",
+        desc: "The AI industry moves fast, here's a list of legacy AI tools and services that didn't make the cut. A tribute to AI and creators building in the AI space.",
+        link: "https://dang.ai/ai-graveyard"
       }
     ]
   },
@@ -151,6 +157,12 @@ export const NavData: NavData[] = [
         icon: "/icons/theresanaiforthat.com-favicon-large.ico",
         desc: "The #1 website for AI tools. Used by 80 million people to find the right tool for any task or use case.",
         link: "https://theresanaiforthat.com"
+      },
+      {
+        title: "Dang.ai",
+        icon: "/icons/dang.ai-favicon-large.ico",
+        desc: "Dang.ai is the best AI tools directory. Browse from over 5000+ AI tools from categories like AI copywriting, AI image generators, AI video creators and more.",
+        link: "https://dang.ai"
       },
       {
         title: "HuntScreens",
