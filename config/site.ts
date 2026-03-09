@@ -247,6 +247,12 @@ export const NavData: NavData[] = [
         link: "https://mp.weixin.qq.com/s/_zc6_RuTnJ8LVLn0MGIwOw"
       },
       {
+        title: "学会“抄”，出海网站的外链多到根本发不完",
+        icon: "/icons/ai-biancheng-chuhai.png",
+        desc: "教你如何通过抄作业的方式，快速获取外链。",
+        link: "https://mp.weixin.qq.com/s/DLIW-egBucY-EOcMS_9_Sw"
+      },
+      {
         title: "1000UserGuide",
         icon: "/icons/1000userguide.com-favicon.ico",
         desc: "本手册旨在为开发者提供一个全面的获客资源，列出国内外适合独立开发者和创业者早期产品启动的曝光渠道。通过利用这些渠道，你可以有效地推广你的产品，接触目标受众，并找到你的第一批1000个用户.",
@@ -751,6 +757,13 @@ export const NavData: NavData[] = [
         desc: "网站出海生意人：专注网站出海、SEO增长、AI工具实战 分享我的 实战经验、踩坑教训 和 变现思路 希望和你一起探索网站出海的新机会 🌍",
         icon: "/icons/droidHZ.png",
         link: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzNzYzNzE3Mg==&scene=124#wechat_redirect",
+        tip: "请在微信中打开链接"
+      },
+      {
+        title: "AI编程出海",
+        desc: "探索AI编程思路与自动批量思维，分享AI最新应用和出海赚钱机会。关注“AI·编程·出海”，一起编写未来的无限可能。",
+        icon: "/icons/ai-biancheng-chuhai.png",
+        link: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkwMDcxNjU3MA==&scene=124#wechat_redirect",
         tip: "请在微信中打开链接"
       },
       {
