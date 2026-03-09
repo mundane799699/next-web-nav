@@ -685,10 +685,10 @@ export const NavData: NavData[] = [
     title: "服务器推荐",
     items: [
       {
-        title: "待补充",
-        desc: "待补充",
-        icon: "/icons/baidu.com-favicon-large.ico",
-        link: "https://www.baidu.com"
+        title: "hetzner",
+        desc: "Hetzner（赫兹纳）是一家总部位于德国的老牌基础架构（IaaS）提供商。在开发者圈子里，它被公认为“性价比之王”。缺点是账号注册严苛。",
+        icon: "/icons/www.hetzner.com-favicon-large.ico",
+        link: "https://www.hetzner.com"
       }
     ]
   },
