@@ -706,13 +706,19 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "机场推荐",
+    title: "网络环境",
     items: [
       {
         title: "IKUUU VPN",
         desc: "用下来感觉还不错的机场",
         icon: "/icons/ikuuu.nl-favicon-large.ico",
         link: "https://ikuuu.nl"
+      },
+      {
+        title: "AdsPower指纹浏览器",
+        desc: "AdsPower指纹浏览器是一款为跨境电商,广告投放,海外社媒营销等业务提供账号矩阵管理的防关联浏览器,模拟浏览器指纹实现一台电脑多开窗口,Ads指纹浏览器适用于多个平台如跨境电商亚马逊,FB,Google等,是可以实现浏览器多开和高效团队管理协作的超级浏览器。",
+        icon: "/icons/www.adspower.net-favicon-large.ico",
+        link: "https://www.adspower.net"
       }
     ]
   },
