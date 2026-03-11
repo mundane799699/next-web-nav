@@ -456,7 +456,7 @@ export const NavData: NavData[] = [
       {
         title: "Next-js-Boilerplate",
         icon: "/icons/saas-boilerplate.png",
-        desc: "🚀 Boilerplate and Starter for Next.js with App Router, Tailwind CSS, and TypeScript ⚡️ Prioritizing developer experience first: Next.js, TypeScript, ESLint, Prettier, Lefthook (replacing Husky), Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS, Authentication with Clerk, Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Local database with PGlite and production with Prisma Postgres, Error Monitoring with Sentry, Logging with LogTape (replacing Pino.js) and Log Management, Monitoring as Code, Storybook, Multi-language (i18n), AI-powered code reviews with CodeRabbit, Secure with Arcjet (Bot detection, Rate limiting, Attack protection, etc.), and more.",
+        desc: "🚀 Boilerplate and Starter for Next.js with App Router, Tailwind CSS, and TypeScript ⚡️ Prioritizing developer experience first: Next.js, TypeScript, ESLint, Prettier...",
         link: "https://github.com/ixartz/Next-js-Boilerplate"
       },
       {
