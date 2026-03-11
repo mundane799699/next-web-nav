@@ -448,6 +448,18 @@ export const NavData: NavData[] = [
         link: "https://nexty.dev"
       },
       {
+        title: "SaaS-Boilerplate",
+        icon: "/icons/saas-boilerplate.png",
+        desc: "🚀 SaaS Boilerplate is a powerful and fully customizable template to kickstart your SaaS applications. Built with Next.js and Tailwind CSS, and the modular UI components of Shadcn UI. This Next.js SaaS Template helps you to quickly build and launch SaaS with minimal effort.",
+        link: "https://github.com/ixartz/SaaS-Boilerplate"
+      },
+      {
+        title: "Next-js-Boilerplate",
+        icon: "/icons/saas-boilerplate.png",
+        desc: "🚀 Boilerplate and Starter for Next.js with App Router, Tailwind CSS, and TypeScript ⚡️ Prioritizing developer experience first: Next.js, TypeScript, ESLint, Prettier, Lefthook (replacing Husky), Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS, Authentication with Clerk, Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Local database with PGlite and production with Prisma Postgres, Error Monitoring with Sentry, Logging with LogTape (replacing Pino.js) and Log Management, Monitoring as Code, Storybook, Multi-language (i18n), AI-powered code reviews with CodeRabbit, Secure with Arcjet (Bot detection, Rate limiting, Attack protection, etc.), and more.",
+        link: "https://github.com/ixartz/Next-js-Boilerplate"
+      },
+      {
         title: "raphael-starterkit-v1",
         icon: "/icons/liuxiaopai.jpeg",
         desc: "这是一个基于 Next.js、Supabase 和 Creem.io 构建的现代化、生产就绪的启动套件。非常适合快速构建具有身份验证、订阅和积分系统的 SaaS 应用程序，让您的 MVP 开发速度提升10倍。",
