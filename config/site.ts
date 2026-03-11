@@ -159,6 +159,18 @@ export const NavData: NavData[] = [
         link: "https://theresanaiforthat.com"
       },
       {
+        title: "Futurepedia",
+        icon: "/icons/www.futurepedia.io-favicon-large.ico",
+        desc: "Futurepedia is a free site to help you find the best AI tools and software to make your work and life more efficient and productive. Updated daily, join millions of followers of our website, newsletter, and YouTube.",
+        link: "https://www.futurepedia.io"
+      },
+      {
+        title: "aitools.fyi",
+        icon: "/icons/aitools.fyi-favicon-large.ico",
+        desc: "找到帮助您更快、更轻松地构建下一个令人印象深刻的项目的最佳AI工具。我们为您策划了最佳的AI工具，供您在下一个项目中使用。",
+        link: "https://aitools.fyi"
+      },
+      {
         title: "Dang.ai",
         icon: "/icons/dang.ai-favicon-large.ico",
         desc: "Dang.ai is the best AI tools directory. Browse from over 5000+ AI tools from categories like AI copywriting, AI image generators, AI video creators and more.",
