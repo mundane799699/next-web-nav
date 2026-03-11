@@ -517,6 +517,12 @@ export const NavData: NavData[] = [
         icon: "/icons/remusic.ai-favicon-large.ico",
         desc: "Generate full-length songs in seconds with Remusic - a free AI music generator that generates high-quality tracks up to 4 minutes long instantly.",
         link: "https://remusic.ai"
+      },
+      {
+        title: "vmake.ai",
+        icon: "/icons/vmake.ai-favicon-large.ico",
+        desc: "You can find all your projects created with Vmake and generated video records here.",
+        link: "https://vmake.ai"
       }
     ]
   },
@@ -557,6 +563,12 @@ export const NavData: NavData[] = [
         desc: "本仓库旨在分享在开发海外网站过程中积累的经验。无论您是刚开始计划将业务拓展到海外，还是已经在这个领域有所尝试，希望这里的内容能为您提供有价值的参考。",
         icon: "/icons/overseas-website-note.png",
         link: "https://github.com/princehuang/overseas-website-note"
+      },
+      {
+        title: "indiehackers-steps",
+        desc: "本教程将记录我的独立开发者出海之路，包含从最基本的如何注册美国公司到银行，使用stripe收款，出海的工作流选择以及如何营销。有疑问可以关注我的 twitter ,私信交流",
+        icon: "/icons/blue-sky.jpeg",
+        link: "https://github.com/hua1995116/indiehackers-steps"
       },
       {
         title: "Awesome-independent-tools",
