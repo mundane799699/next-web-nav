@@ -553,6 +553,12 @@ export const NavData: NavData[] = [
         icon: "/icons/seedance2.ai-favicon-large.ico",
         desc: "Create stunning AI videos with Seedance 2.0. Transform images and text into cinematic videos with advanced motion synthesis and professional quality.",
         link: "https://seedance2.ai"
+      },
+      {
+        title: "Superpower ChatGPT",
+        icon: "/icons/spchatgpt.com-favicon-large.ico",
+        desc: "ChatGPT with Folders, Search, Enhanced GPT Store, Image Gallery, Minimap, Side-by-Side Voice GPT, Right-click Functions, Reference chats, Auto GPT Folders, Auto Archive, Export, Prompt Optimizer, Prompt Chains, Hidden Models and more",
+        link: "https://spchatgpt.com"
       }
     ]
   },
