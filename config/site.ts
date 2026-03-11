@@ -547,6 +547,12 @@ export const NavData: NavData[] = [
         icon: "/icons/vmake.ai-favicon-large.ico",
         desc: "You can find all your projects created with Vmake and generated video records here.",
         link: "https://vmake.ai"
+      },
+      {
+        title: "Seedance 2.0",
+        icon: "/icons/seedance2.ai-favicon-large.ico",
+        desc: "Create stunning AI videos with Seedance 2.0. Transform images and text into cinematic videos with advanced motion synthesis and professional quality.",
+        link: "https://seedance2.ai"
       }
     ]
   },
