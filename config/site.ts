@@ -488,6 +488,12 @@ export const NavData: NavData[] = [
         icon: "/icons/open-launch.com-favicon-large.ico",
         desc: "The first complete open source alternative to Product Hunt. Built with modern web technologies.",
         link: "https://github.com/openlaunch-org/Open-Launch"
+      },
+      {
+        title: "vite-web-extension",
+        icon: "/icons/JohnBra.jpeg",
+        desc: "Minimalist Chrome/Firefox Extension Boilerplate with React + Vite + TypeScript + TailwindCSS",
+        link: "https://github.com/JohnBra/vite-web-extension"
       }
     ]
   },
