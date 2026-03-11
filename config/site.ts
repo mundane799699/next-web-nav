@@ -371,6 +371,12 @@ export const NavData: NavData[] = [
         link: "https://www.logo.surf"
       },
       {
+        title: "tinyshots",
+        icon: "/icons/tinyshots.png",
+        desc: "Upload a screenshot, style it with backgrounds, rounded corners, and shadows, then export as PNG.",
+        link: "https://www.tinyshots.app"
+      },
+      {
         title: "favicon.io",
         icon: "/icons/favicon.io-favicon-large.ico",
         desc: "The only favicon generator you need for your next project. Quickly generate your favicon from text, image, or choose from hundreds of emojis.",
@@ -405,6 +411,12 @@ export const NavData: NavData[] = [
         icon: "/icons/stitch.withgoogle.com-favicon-large.ico",
         desc: "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
         link: "https://stitch.withgoogle.com"
+      },
+      {
+        title: "Free Open Graph Generator",
+        icon: "/icons/og.indiehub.best-favicon-large.ico",
+        desc: "Generate beautiful Open Graph images with zero effort. Use our free online Open Graph Generator tool to generate open graph meta tags for website or blogs.",
+        link: "https://og.indiehub.best"
       },
       {
         title: "opengraph.design",
