@@ -589,6 +589,12 @@ export const NavData: NavData[] = [
         icon: "/icons/spchatgpt.com-favicon-large.ico",
         desc: "ChatGPT with Folders, Search, Enhanced GPT Store, Image Gallery, Minimap, Side-by-Side Voice GPT, Right-click Functions, Reference chats, Auto GPT Folders, Auto Archive, Export, Prompt Optimizer, Prompt Chains, Hidden Models and more",
         link: "https://spchatgpt.com"
+      },
+      {
+        title: "Banana Prompts",
+        icon: "/icons/www.bananaprompts.xyz-favicon-large.ico",
+        desc: "Discover and share AI-generated images and videos with the prompts that power them. Browse cinematic AI videos, explore stunning artwork, and learn from the community's most-loved creations.",
+        link: "https://www.bananaprompts.xyz"
       }
     ]
   },
