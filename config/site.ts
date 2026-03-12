@@ -573,10 +573,16 @@ export const NavData: NavData[] = [
         link: "https://vmake.ai"
       },
       {
-        title: "Seedance 2.0",
+        title: "seedance2.ai",
         icon: "/icons/seedance2.ai-favicon-large.ico",
         desc: "Create stunning AI videos with Seedance 2.0. Transform images and text into cinematic videos with advanced motion synthesis and professional quality.",
         link: "https://seedance2.ai"
+      },
+      {
+        title: "seedance2video.io",
+        icon: "/icons/seedance2video.io-favicon-large.ico",
+        desc: "High-quality AI video generation powered by Seedance 2.0. Turn a prompt, image, or simple script into consistent, stable videos with natural pacing.",
+        link: "https://seedance2video.io"
       },
       {
         title: "Superpower ChatGPT",
