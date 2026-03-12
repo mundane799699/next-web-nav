@@ -306,7 +306,6 @@ export const NavData: NavData[] = [
         desc: "100多个导航站合集，免费提交的和付费提交的都有",
         link: "https://potent-measure-31f.notion.site/14368f418f50804ba419d3ce7a333fa8?v=14368f418f508191a695000c6fcd329a"
       },
-
       {
         title: "Products by Indie Hackers",
         icon: "/icons/www.indiehackers.com-favicon-large.ico",
@@ -595,6 +594,12 @@ export const NavData: NavData[] = [
         icon: "/icons/www.bananaprompts.xyz-favicon-large.ico",
         desc: "Discover and share AI-generated images and videos with the prompts that power them. Browse cinematic AI videos, explore stunning artwork, and learn from the community's most-loved creations.",
         link: "https://www.bananaprompts.xyz"
+      },
+      {
+        title: "Cutout.Pro",
+        icon: "/icons/www.cutout.pro-favicon-large.ico",
+        desc: "All-in-one visual design platform with AI photo and video editing tools. Automatic background removal, image restoration, graphic design, content generation, text-to-speech, digital humans, AI image generation, image editing and image-to-video. With Cutout.Pro, optimize your content and transform your design ideas into special assets with just one click.",
+        link: "https://www.cutout.pro"
       }
     ]
   },
