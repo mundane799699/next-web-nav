@@ -93,6 +93,12 @@ export const NavData: NavData[] = [
         icon: "/icons/dang.ai-favicon-large.ico",
         desc: "The AI industry moves fast, here's a list of legacy AI tools and services that didn't make the cut. A tribute to AI and creators building in the AI space.",
         link: "https://dang.ai/ai-graveyard"
+      },
+      {
+        title: "ramen.tools",
+        icon: "/icons/ramen.tools-favicon-large.ico",
+        desc: "See the tools other indie makers, solopreneurs and startups are using to build, launch and promote their products. More than 4000+ tech stacks. Join us, it's free.",
+        link: "https://ramen.tools"
       }
     ]
   },
@@ -163,6 +169,18 @@ export const NavData: NavData[] = [
         icon: "/icons/www.futurepedia.io-favicon-large.ico",
         desc: "Futurepedia is a free site to help you find the best AI tools and software to make your work and life more efficient and productive. Updated daily, join millions of followers of our website, newsletter, and YouTube.",
         link: "https://www.futurepedia.io"
+      },
+      {
+        title: "ShowMeBest.AI",
+        icon: "/icons/showmebest.ai-favicon-large.ico",
+        desc: "The most comprehensive AI tools directory featuring 4269+ AI tools. Find the perfect AI tools for your business, creativity, and productivity needs.",
+        link: "https://showmebest.ai"
+      },
+      {
+        title: "Uneed",
+        icon: "/icons/www.uneed.best-favicon.ico",
+        desc: "Social Launchpad for tech products: get guaranteed homepage visibility, powerful SEO juice with a 72 DR backlink, and feedback from a community that actually cares",
+        link: "https://www.uneed.best"
       },
       {
         title: "aitools.fyi",
@@ -716,6 +734,12 @@ export const NavData: NavData[] = [
         icon: "/icons/www.setupyourpay.com-favicon-large.ico",
         desc: "远程注册美国公司，开通 Stripe 收款账户，并开始收款。本站一站式解决跨境收款难题的专业指南。涵盖从个人creem收款到美国公司注册到全球收款通道配置的完整流程，开通水星银行，助你轻松实现全球业务拓展。",
         link: "https://www.setupyourpay.com"
+      },
+      {
+        title: "creem",
+        icon: "/icons/www.creem.io-favicon-large.ico",
+        desc: "Smooth payments for SaaS and Indie Hackers that don't break the bank",
+        link: "https://www.creem.io"
       },
       {
         title: "Polar",
