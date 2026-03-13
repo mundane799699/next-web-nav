@@ -775,6 +775,23 @@ export const NavData: NavData[] = [
         icon: "/icons/mowang.png",
         desc: "介绍了302 pay这个支付渠道",
         link: "https://mp.weixin.qq.com/s/f4SBwNP2AIjr37i7UnpALg"
+      },
+      {
+        title: "香港开户，保姆级攻略，四小时速通版！",
+        icon: "/icons/liugongzi.webp",
+        desc: "转了码的刘公子的b站视频教程，介绍了如何香港开户",
+        link: "https://www.bilibili.com/video/BV1LTYAerEge"
+      },
+      {
+        title: "我用一天速通了中银香港、汇丰、众安、蚂蚁",
+        icon: "/icons/jonssonyan.png",
+        link: "https://mp.weixin.qq.com/s/wJgJFxl__k9djn87iBhfsA"
+      },
+      {
+        title: "从深圳去香港不去网点柜台最快开通汇丰银行账号全流程攻略分享",
+        icon: "/icons/gefei.png",
+        desc: "可以在手机上看评论区，更详细",
+        link: "https://mp.weixin.qq.com/s/V3KFdngsCnSybIWfRnd-lQ"
       }
     ]
   },
