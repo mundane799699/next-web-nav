@@ -843,6 +843,12 @@ export const NavData: NavData[] = [
         desc: "AdsPower指纹浏览器是一款为跨境电商,广告投放,海外社媒营销等业务提供账号矩阵管理的防关联浏览器,模拟浏览器指纹实现一台电脑多开窗口,Ads指纹浏览器适用于多个平台如跨境电商亚马逊,FB,Google等,是可以实现浏览器多开和高效团队管理协作的超级浏览器。",
         icon: "/icons/www.adspower.net-favicon-large.ico",
         link: "https://www.adspower.net"
+      },
+      {
+        title: "gmaibuy",
+        desc: "谷歌Google账号自助发货平台，购买出售谷歌google邮箱可用于游戏注册、Amazon注册等海外场景，Gmail辅助邮箱格式可直登已添加恢复邮件通常为hotmail、outlook等不区分大小写，Gmail邮箱采用美国姓名注册未添加任何号码，可少量免费谷歌账号进行测试项目，项目合适后再选择批发。",
+        icon: "/icons/gmailbuy.com-favicon-large.ico",
+        link: "https://gmailbuy.com"
       }
     ]
   },
