@@ -839,6 +839,18 @@ export const NavData: NavData[] = [
         link: "https://ikuuu.nl"
       },
       {
+        title: "如何用住宅IP防止Claude账号被封",
+        desc: "介绍了如何用指纹浏览器和住宅IP防止Claude账号被封",
+        icon: "/icons/x.com-favicon.ico",
+        link: "https://x.com/mkdir700/status/2031761011917848657"
+      },
+      {
+        title: "Cliproxy",
+        desc: "CliProxy是全球最快速的住宅代理，来自180+国家地区的1亿住宅IP",
+        icon: "/icons/cliproxy.com-favicon-large.ico",
+        link: "https://share.cliproxy.com/share/AI8888"
+      },
+      {
         title: "AdsPower指纹浏览器",
         desc: "AdsPower指纹浏览器是一款为跨境电商,广告投放,海外社媒营销等业务提供账号矩阵管理的防关联浏览器,模拟浏览器指纹实现一台电脑多开窗口,Ads指纹浏览器适用于多个平台如跨境电商亚马逊,FB,Google等,是可以实现浏览器多开和高效团队管理协作的超级浏览器。",
         icon: "/icons/www.adspower.net-favicon-large.ico",
