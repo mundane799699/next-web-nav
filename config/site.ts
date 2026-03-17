@@ -600,6 +600,12 @@ export const NavData: NavData[] = [
         icon: "/icons/www.cutout.pro-favicon-large.ico",
         desc: "All-in-one visual design platform with AI photo and video editing tools. Automatic background removal, image restoration, graphic design, content generation, text-to-speech, digital humans, AI image generation, image editing and image-to-video. With Cutout.Pro, optimize your content and transform your design ideas into special assets with just one click.",
         link: "https://www.cutout.pro"
+      },
+      {
+        title: "AI Song Generator",
+        icon: "/icons/aisonggenerator.io-favicon-large.ico",
+        desc: "AI Song Generator is a cutting-edge AI-powered tool that lets users create original music effortlessly. Anyone can generate royalty-free music.",
+        link: "https://aisonggenerator.io"
       }
     ]
   },
