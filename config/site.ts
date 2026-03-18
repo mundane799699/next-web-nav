@@ -207,6 +207,12 @@ export const NavData: NavData[] = [
         link: "https://freeaitool.ai"
       },
       {
+        title: "AlternativeTo",
+        icon: "/icons/alternativeto.net-favicon-large.ico",
+        desc: "AlternativeTo lets you find apps and software for Windows, Mac, Linux, iPhone, iPad, Android, Android Tablets, Web Apps, Online, Windows Tablets and more by recommending alternatives to apps you already know.",
+        link: "https://alternativeto.net"
+      },
+      {
         title: "500.tools",
         icon: "/icons/500.tools-favicon-large.ico",
         desc: "A curated list of the 500 best tools.",
