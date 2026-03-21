@@ -820,6 +820,17 @@ export const NavData: NavData[] = [
     ]
   },
   {
+    title: "游戏站",
+    items: [
+      {
+        title: "Poki",
+        icon: "/icons/poki.com-favicon.ico",
+        desc: "与Poki (宝玩)一起探索免费在线游戏的世界！即刻玩耍，无需下载，享受与所有设备兼容的游戏。",
+        link: "https://poki.com"
+      }
+    ]
+  },
+  {
     title: "网站托管",
     items: [
       {
