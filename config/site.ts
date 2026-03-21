@@ -814,7 +814,7 @@ export const NavData: NavData[] = [
       {
         title: "网站出海每日分享：香港办理银行卡流程",
         icon: "/icons/droidHZ.png",
-        desc: "哥飞的分享",
+        desc: "赫兹分享的香港办理银行卡流程",
         link: "https://mp.weixin.qq.com/s/gWbbt30NZJ4RCNK88XuRjA"
       }
     ]
