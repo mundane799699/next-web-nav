@@ -804,6 +804,18 @@ export const NavData: NavData[] = [
         icon: "/icons/gefei.png",
         desc: "可以在手机上看评论区，更详细",
         link: "https://mp.weixin.qq.com/s/V3KFdngsCnSybIWfRnd-lQ"
+      },
+      {
+        title: "一日速通赴港开银行卡攻略",
+        icon: "/icons/yujian.png",
+        desc: "芋见AI出海的分享",
+        link: "https://mp.weixin.qq.com/s/rm1r-lTPYR1u6KvPIAn2yA"
+      },
+      {
+        title: "网站出海每日分享：香港办理银行卡流程",
+        icon: "/icons/droidHZ.png",
+        desc: "哥飞的分享",
+        link: "https://mp.weixin.qq.com/s/gWbbt30NZJ4RCNK88XuRjA"
       }
     ]
   },
