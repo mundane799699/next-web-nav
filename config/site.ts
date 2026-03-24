@@ -612,6 +612,18 @@ export const NavData: NavData[] = [
         icon: "/icons/aisonggenerator.io-favicon-large.ico",
         desc: "AI Song Generator is a cutting-edge AI-powered tool that lets users create original music effortlessly. Anyone can generate royalty-free music.",
         link: "https://aisonggenerator.io"
+      },
+      {
+        title: "flux-context.org",
+        icon: "/icons/flux-context.org-favicon-large.ico",
+        desc: "The All-in-One AI platform for stunning image, video, and music creation. Harness the power of FLUX AI for hyper-realistic images, bring your ideas to life with leading video models, and generate original songs with AI Music.",
+        link: "https://flux-context.org"
+      },
+      {
+        title: "flux-ai.io",
+        icon: "/icons/flux-ai.io-favicon-large.ico",
+        desc: "Free to create image & video with Flux AI. Transform Text / Image into magic Image with official Flux AI, powered by Flux.2, Flux Kontext, Nano Banana, Seedream.",
+        link: "https://flux-ai.io"
       }
     ]
   },
