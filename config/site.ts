@@ -394,6 +394,24 @@ export const NavData: NavData[] = [
         link: "https://www.logo.surf"
       },
       {
+        title: "IconKitchen",
+        icon: "/icons/icon.kitchen-favicon-large.ico",
+        desc: "Quickly generate app icons for Android, iOS, the Web and more.",
+        link: "https://icon.kitchen"
+      },
+      {
+        title: "RealFaviconGenerator",
+        icon: "/icons/realfavicongenerator.net-favicon-large.ico",
+        desc: "The ultimate favicon generator. Design your icons platform per platform and make them look great everywhere. Including in Google results pages.",
+        link: "https://realfavicongenerator.net"
+      },
+      {
+        title: "Icon Maker by Raycast",
+        icon: "/icons/ray.so-favicon-large.ico",
+        desc: "Create beautiful icons for your next project, app, or Raycast extension.",
+        link: "https://ray.so/icon?q="
+      },
+      {
         title: "tinyshots",
         icon: "/icons/tinyshots.png",
         desc: "Upload a screenshot, style it with backgrounds, rounded corners, and shadows, then export as PNG.",
