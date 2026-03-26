@@ -624,6 +624,12 @@ export const NavData: NavData[] = [
         icon: "/icons/flux-ai.io-favicon-large.ico",
         desc: "Free to create image & video with Flux AI. Transform Text / Image into magic Image with official Flux AI, powered by Flux.2, Flux Kontext, Nano Banana, Seedream.",
         link: "https://flux-ai.io"
+      },
+      {
+        title: "Brand Maker",
+        icon: "/icons/brandmaker.so-favicon-large.ico",
+        desc: "AI-powered brand asset generation platform for creating complete brand systems including logos, color palettes, and visual assets",
+        link: "https://brandmaker.so"
       }
     ]
   },
