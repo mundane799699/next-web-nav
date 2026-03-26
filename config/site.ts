@@ -770,6 +770,18 @@ export const NavData: NavData[] = [
         icon: "/icons/store.tu-zi.com-favicon-large.ico",
         desc: "提供claude code、codex、gemini、cursor、gpt账号、google账户等账号购买服务。",
         link: "https://store.tu-zi.com"
+      },
+      {
+        title: "ChatGPT 团队席位",
+        icon: "/icons/chatgpt.com-favicon-large.ico",
+        desc: "ChatGPT Business Team 支付开通页面",
+        link: "https://gpt.xheai.cc"
+      },
+      {
+        title: "GPT Team 团队席位（质保）",
+        icon: "/icons/shop.cursorvip.com-favicon-large.ico",
+        desc: "GPT Team 团队席位（质保） - 一颗苹果",
+        link: "https://shop.cursorvip.com"
       }
     ]
   },
