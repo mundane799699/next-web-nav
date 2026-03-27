@@ -654,6 +654,12 @@ export const NavData: NavData[] = [
         icon: "/icons/remover.video-favicon-large.ico",
         desc: "Professional AI-powered tool to remove text, watermark and logos from videos online. Free video editor supporting TikTok, Instagram and all social media formats.",
         link: "https://remover.video"
+      },
+      {
+        title: "TikTok Comment Generator",
+        icon: "/icons/tokcomment.com-favicon-large.ico",
+        desc: "Create fake TikTok comments in seconds. Reply bubbles, video comments, verification badges, transparent PNG. Now with Instagram, YouTube & Twitter. Free, no signup.",
+        link: "https://tokcomment.com"
       }
     ]
   },
