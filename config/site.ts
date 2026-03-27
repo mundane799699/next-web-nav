@@ -648,6 +648,12 @@ export const NavData: NavData[] = [
         icon: "/icons/brandmaker.so-favicon-large.ico",
         desc: "AI-powered brand asset generation platform for creating complete brand systems including logos, color palettes, and visual assets",
         link: "https://brandmaker.so"
+      },
+      {
+        title: "Remover.video",
+        icon: "/icons/remover.video-favicon-large.ico",
+        desc: "Professional AI-powered tool to remove text, watermark and logos from videos online. Free video editor supporting TikTok, Instagram and all social media formats.",
+        link: "https://remover.video"
       }
     ]
   },
