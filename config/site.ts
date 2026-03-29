@@ -808,6 +808,12 @@ export const NavData: NavData[] = [
         link: "https://store.tu-zi.com"
       },
       {
+        title: "CodeProxy",
+        icon: "/icons/codeproxy.dev-favicon-large.ico",
+        desc: "CodeProxy 为 OpenClaw 重度用户、开发团队和深度 Codex 工作流提供稳定的大额度 Codex 订阅与 API 网关服务。",
+        link: "https://codeproxy.dev"
+      },
+      {
         title: "ChatGPT 团队席位",
         icon: "/icons/chatgpt.com-favicon-large.ico",
         desc: "ChatGPT Business Team 支付开通页面",
