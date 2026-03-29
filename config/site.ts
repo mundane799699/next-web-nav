@@ -412,6 +412,12 @@ export const NavData: NavData[] = [
         link: "https://ray.so/icon?q="
       },
       {
+        title: "AI Icon Generator",
+        icon: "/icons/perchance.org-favicon-large.ico",
+        desc: "AI icon maker. Create an icon for your app, Discord server, website, YouTube channel, app folders, Android custom icons, or anything else. Can do flat style, 3D style, grids of icons, game art icons, aesthetic, cyberpunk, or any other style you can imagine. Text-to-icon AI via Stable Diffusion. Great for brainstorming icon design ideas - can do logos too. Completely free, no sign-up, no watermark.",
+        link: "https://perchance.org/ai-icon-generator"
+      },
+      {
         title: "tinyshots",
         icon: "/icons/tinyshots.png",
         desc: "Upload a screenshot, style it with backgrounds, rounded corners, and shadows, then export as PNG.",
