@@ -5,7 +5,7 @@ import { useCallback, useState } from "react"
 
 import { siteConfig } from "@/config/site"
 
-import { Circle, Laptop, Moon, Sun, Menu } from "lucide-react"
+import { Circle, Laptop, Moon, Sun, Menu, Puzzle } from "lucide-react"
 import { useTheme } from "next-themes"
 import { DialogTitle } from "@radix-ui/react-dialog"
 
@@ -64,6 +64,16 @@ export function SiteHeader({ onMenuClick }: SiteHeaderProps) {
             >
               搜索网站...
             </Button>
+            <Link
+              href="https://chromewebstore.google.com/detail/indiegolden/lpnmgbkmnodaignjkcehgfbjhmooofif"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button className="rounded-full" variant="ghost" size="sm">
+                <Puzzle className="mr-1 h-4 w-4" />
+                <span className="hidden sm:inline">配套浏览器插件</span>
+              </Button>
+            </Link>
             <Link href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
               <Button className="rounded-full" variant="ghost" size="icon">
                 <Icons.twitter className="h-5 w-5 fill-current" />
