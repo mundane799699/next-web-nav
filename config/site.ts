@@ -69,12 +69,17 @@ export const NavData: NavData[] = [
         desc: "Find out about boring businesses that make a lot of money quietly. Learn how they succeed and build your own.",
         link: "https://boringcashcow.com"
       },
-
       {
         title: "TrustMRR",
         icon: "/icons/trustmrr.com-favicon-large.ico",
         desc: "The database of verified startup revenues. Browse Stripe-verified MRR and revenue from real startups. Prove your revenue publicly.",
         link: "https://trustmrr.com"
+      },
+      {
+        title: "arrfounder",
+        icon: "/icons/arrfounder.com-favicon-large.ico",
+        desc: "Find successful founders building in public with verified MRR and ARR data. Browse 1000+ entrepreneurs sharing their revenue journey transparently.",
+        link: "https://arrfounder.com"
       },
       {
         title: "Chrome-Stats",
