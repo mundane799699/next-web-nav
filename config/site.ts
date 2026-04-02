@@ -34,16 +34,16 @@ export const NavData: NavData[] = [
     title: "需求挖掘",
     items: [
       {
-        title: "网站出海每日分享：找词找站找需求",
-        icon: "/icons/droidHZ.png",
-        desc: "词找站、站找词、站找站",
-        link: "https://mp.weixin.qq.com/s/fbCxrI2JZGoraXpOgNQeKA"
+        title: "github trending",
+        icon: "/icons/github.com-favicon.ico",
+        desc: "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+        link: "https://github.com/trending"
       },
       {
-        title: "打洞周报第21期-假期总结",
-        icon: "/icons/lixiang.png",
-        desc: "文章分享了怎么通过站找站来挖掘需求",
-        link: "https://mp.weixin.qq.com/s/uLK7umg6-9qz2lSdPiTu5A"
+        title: "阮一峰周刊",
+        icon: "/icons/www.ruanyifeng.com-favicon-large.ico",
+        desc: "周刊 - 阮一峰的网络日志",
+        link: "https://www.ruanyifeng.com/blog/weekly"
       },
       {
         title: "Google 趋势",
@@ -104,6 +104,18 @@ export const NavData: NavData[] = [
         icon: "/icons/ramen.tools-favicon-large.ico",
         desc: "See the tools other indie makers, solopreneurs and startups are using to build, launch and promote their products. More than 4000+ tech stacks. Join us, it's free.",
         link: "https://ramen.tools"
+      },
+      {
+        title: "网站出海每日分享：找词找站找需求",
+        icon: "/icons/droidHZ.png",
+        desc: "词找站、站找词、站找站",
+        link: "https://mp.weixin.qq.com/s/fbCxrI2JZGoraXpOgNQeKA"
+      },
+      {
+        title: "打洞周报第21期-假期总结",
+        icon: "/icons/lixiang.png",
+        desc: "文章分享了怎么通过站找站来挖掘需求",
+        link: "https://mp.weixin.qq.com/s/uLK7umg6-9qz2lSdPiTu5A"
       }
     ]
   },
@@ -1053,6 +1065,18 @@ export const NavData: NavData[] = [
     title: "博主推荐",
     items: [
       {
+        title: "歸藏(guizang.ai)",
+        icon: "/icons/guizang.jpg",
+        desc: "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）",
+        link: "https://x.com/op7418"
+      },
+      {
+        title: "kate人不错",
+        icon: "/icons/kate.jpg",
+        desc: "kate人不错的b站账号",
+        link: "https://space.bilibili.com/346575605"
+      },
+      {
         title: "软件工程师Tim",
         desc: "软件工程师Tim的B站账号，主要分享关于adsense、副业网站、cloudflare等话题。",
         icon: "/icons/tim.jpg",
@@ -1069,6 +1093,12 @@ export const NavData: NavData[] = [
         desc: "零度解说的油管账号。带你发现有意思的、实用的软件或者网站。对于挖掘需求也很有用",
         icon: "/icons/lingdu.jpg",
         link: "https://www.youtube.com/channel/UCvijahEyGtvMpmMHBu4FS2w"
+      },
+      {
+        title: "无知便是罪",
+        icon: "/icons/wuzhibianshizui.jpg",
+        desc: "无知便是罪的b站账号",
+        link: "https://space.bilibili.com/26724530"
       }
     ]
   },
