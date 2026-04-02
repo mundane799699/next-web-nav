@@ -837,6 +837,12 @@ export const NavData: NavData[] = [
         link: "https://codeproxy.dev"
       },
       {
+        title: "anyrouter",
+        icon: "/icons/anyrouter.png",
+        desc: "linux.do用户登录会送额度",
+        link: "https://anyrouter.top"
+      },
+      {
         title: "ChatGPT 团队席位",
         icon: "/icons/chatgpt.com-favicon-large.ico",
         desc: "ChatGPT Business Team 支付开通页面",
