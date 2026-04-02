@@ -625,6 +625,12 @@ export const NavData: NavData[] = [
         link: "https://seedance2.ai"
       },
       {
+        title: "seedance2.so",
+        icon: "/icons/seedance2.so-favicon-large.ico",
+        desc: "Create cinematic AI videos with Seedance 2.0. Text-to-video, image-to-video, native audio. The Seedance 2.0 AI video generator. Free to start.",
+        link: "https://seedance2.so"
+      },
+      {
         title: "seedance2video.io",
         icon: "/icons/seedance2video.io-favicon-large.ico",
         desc: "High-quality AI video generation powered by Seedance 2.0. Turn a prompt, image, or simple script into consistent, stable videos with natural pacing.",
