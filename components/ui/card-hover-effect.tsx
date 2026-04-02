@@ -1,13 +1,11 @@
 import { NavLink } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { AnimatePresence, motion } from "framer-motion"
 import { Check, Copy } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { useCallback, useState } from "react"
 
 export const HoverEffect = ({ items, className }: { items: NavLink[]; className?: string }) => {
-  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null)
 
   const handleCopy = useCallback((e: React.MouseEvent, link: string, idx: number) => {
@@ -22,37 +20,12 @@ export const HoverEffect = ({ items, className }: { items: NavLink[]; className?
   return (
     <div className={cn("grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3", className)}>
       {items.map((item, idx) => (
-        <motion.div
-          key={item.link}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.1 }}
-          transition={{ duration: 0.3, delay: idx * 0.05 }}
-        >
+        <div key={item.link}>
           <Link
             href={item?.link}
             className="group relative block h-full w-full p-2"
-            onMouseEnter={() => setHoveredIndex(idx)}
-            onMouseLeave={() => setHoveredIndex(null)}
             target="_blank"
           >
-            <AnimatePresence>
-              {hoveredIndex === idx && (
-                <motion.span
-                  className="absolute inset-0 block h-full w-full rounded-xl bg-accent"
-                  layoutId="hoverBackground"
-                  initial={{ opacity: 0 }}
-                  animate={{
-                    opacity: 1,
-                    transition: { duration: 0.15 }
-                  }}
-                  exit={{
-                    opacity: 0,
-                    transition: { duration: 0.15, delay: 0.2 }
-                  }}
-                />
-              )}
-            </AnimatePresence>
             <Card>
               <CardTitle>
                 {item.icon && (
@@ -82,7 +55,7 @@ export const HoverEffect = ({ items, className }: { items: NavLink[]; className?
               )}
             </Card>
           </Link>
-        </motion.div>
+        </div>
       ))}
     </div>
   )
