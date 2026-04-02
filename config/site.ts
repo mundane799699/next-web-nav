@@ -813,6 +813,12 @@ export const NavData: NavData[] = [
     title: "AI编程工具",
     items: [
       {
+        title: "Help AIO 一站式AI导航",
+        icon: "/icons/www.helpaio.com-favicon-large.ico",
+        desc: "2026最新一站式AI导航平台。聚合Claude、Gemini、Codex中转站真实评测与比价，深度对比Claude Code、Codex、Gemini等AI编程工具，提供从入门到精通的AI实战教程与提示词指南，助您高效落地AI生产力方案。",
+        link: "https://www.helpaio.com"
+      },
+      {
         title: "Ai Go Code",
         icon: "/icons/www.aigocode.com-favicon-large.ico",
         desc: "Ai Go Code 提供稳定、高效的AI编程服务。支持Claude、ChatGPT等多种AI模型，帮助开发者提升10倍编程效率。立即体验AI驱动的编程助手。",
