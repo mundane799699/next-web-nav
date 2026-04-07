@@ -106,6 +106,12 @@ export const NavData: NavData[] = [
         link: "https://ramen.tools"
       },
       {
+        title: "网站出海每日分享：找需求的一些方法",
+        icon: "/icons/droidHZ.png",
+        desc: "找需求的一些方法",
+        link: "https://mp.weixin.qq.com/s/6bWXRm08FxjsH4dLslCxSw"
+      },
+      {
         title: "网站出海每日分享：找词找站找需求",
         icon: "/icons/droidHZ.png",
         desc: "词找站、站找词、站找站",
