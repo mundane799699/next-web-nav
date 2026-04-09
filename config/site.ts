@@ -695,6 +695,12 @@ export const NavData: NavData[] = [
         icon: "/icons/tokcomment.com-favicon-large.ico",
         desc: "Create fake TikTok comments in seconds. Reply bubbles, video comments, verification badges, transparent PNG. Now with Instagram, YouTube & Twitter. Free, no signup.",
         link: "https://tokcomment.com"
+      },
+      {
+        title: "MusicGPT",
+        icon: "/icons/musicgpt.com-favicon-large.ico",
+        desc: "Create music, instrumentals, beats, vocals, sounds, soundcapes with AI. World’s best. Edit files with AI. AI Voice Changer. AI Stem Splitter. AI Audio Enhancements",
+        link: "https://musicgpt.com"
       }
     ]
   },
