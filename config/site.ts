@@ -990,7 +990,7 @@ export const NavData: NavData[] = [
         title: "IKUUU VPN",
         desc: "用下来感觉还不错的机场",
         icon: "/icons/ikuuu.nl-favicon-large.ico",
-        link: "https://ikuuu.nl"
+        link: "https://ikuuu.nl/auth/register?code=Hydp"
       },
       {
         title: "EqualVPN",
