@@ -993,6 +993,12 @@ export const NavData: NavData[] = [
         link: "https://ikuuu.nl"
       },
       {
+        title: "EqualVPN",
+        desc: "EqualVPN提供国内直连的高质量住宅IP服务，避免AI降智或网站误封",
+        icon: "/icons/equaldcdn.webp",
+        link: "https://www.equaldcdn.com"
+      },
+      {
         title: "如何用住宅IP防止Claude账号被封",
         desc: "介绍了如何用指纹浏览器和住宅IP防止Claude账号被封",
         icon: "/icons/x.com-favicon.ico",
