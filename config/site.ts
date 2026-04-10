@@ -1005,6 +1005,12 @@ export const NavData: NavData[] = [
         link: "https://x.com/mkdir700/status/2031761011917848657"
       },
       {
+        title: "纯小白无脑教程:如何将梯子绑定住宅静态IP,降低节点风险度",
+        desc: "介绍了如何将梯子绑定住宅静态IP",
+        icon: "/icons/github.com-favicon.ico",
+        link: "https://github.com/QiYongchuan/MyGitBlog/issues/141"
+      },
+      {
         title: "Cliproxy",
         desc: "CliProxy是全球最快速的住宅代理，来自180+国家地区的1亿住宅IP",
         icon: "/icons/cliproxy.com-favicon-large.ico",
