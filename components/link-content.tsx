@@ -7,7 +7,7 @@ import { HoverEffect } from "@/components/ui/card-hover-effect"
 import { useConfigStore } from "@/stores"
 
 export function LinkContent() {
-  // 测试
+  // 测试1
   const { categories } = useConfigStore()
 
   return (
