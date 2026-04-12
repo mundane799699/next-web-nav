@@ -701,6 +701,12 @@ export const NavData: NavData[] = [
         icon: "/icons/musicgpt.com-favicon-large.ico",
         desc: "Create music, instrumentals, beats, vocals, sounds, soundcapes with AI. World’s best. Edit files with AI. AI Voice Changer. AI Stem Splitter. AI Audio Enhancements",
         link: "https://musicgpt.com"
+      },
+      {
+        title: "HairTry",
+        icon: "/icons/hairtry.app-favicon-large.ico",
+        desc: "上传照片，通过AI虚拟剪发模拟器试戴发型与发色。几秒内以逼真效果探索更适合你的剪裁，1000+款式可选。",
+        link: "https://hairtry.app"
       }
     ]
   },
