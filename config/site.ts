@@ -719,6 +719,12 @@ export const NavData: NavData[] = [
         icon: "/icons/www.happyhorse-ai.app.ico",
         desc: "Create AI videos in Happy Horse AI from text, images, references, or existing clips. Browser-based workflows with 720p and 1080p output.",
         link: "https://www.happyhorse-ai.app"
+      },
+      {
+        title: "ReelMind - 免费 AI 视频创作社区，创作 AI 视频并开源 AI 模型 | ReelMind",
+        icon: "/icons/reelmind.ai-favicon-large.ico",
+        desc: "探索来自全球创作者的热门创意视频，发现灵感、娱乐内容，并重新混剪你喜欢的作品。",
+        link: "https://reelmind.ai"
       }
     ]
   },
