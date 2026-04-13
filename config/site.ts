@@ -1047,6 +1047,12 @@ export const NavData: NavData[] = [
         link: "https://share.cliproxy.com/share/AI8888"
       },
       {
+        title: "Webshare | Fast & Affordable Proxies",
+        desc: "Buy anonymous and private proxy servers. 10 proxies for FREE. Download proxy server list. HTTP Proxy SOCKS5 proxy servers. Rotating proxy available. Buy fast proxy.",
+        icon: "/icons/www.webshare.io-favicon-large.ico",
+        link: "https://www.webshare.io"
+      },
+      {
         title: "AdsPower指纹浏览器",
         desc: "AdsPower指纹浏览器是一款为跨境电商,广告投放,海外社媒营销等业务提供账号矩阵管理的防关联浏览器,模拟浏览器指纹实现一台电脑多开窗口,Ads指纹浏览器适用于多个平台如跨境电商亚马逊,FB,Google等,是可以实现浏览器多开和高效团队管理协作的超级浏览器。",
         icon: "/icons/www.adspower.net-favicon-large.ico",
