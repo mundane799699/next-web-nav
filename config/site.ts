@@ -707,6 +707,18 @@ export const NavData: NavData[] = [
         icon: "/icons/hairtry.app-favicon-large.ico",
         desc: "上传照片，通过AI虚拟剪发模拟器试戴发型与发色。几秒内以逼真效果探索更适合你的剪裁，1000+款式可选。",
         link: "https://hairtry.app"
+      },
+      {
+        title: "HappyHorse AI 视频生成器 — HappyHorse AI",
+        icon: "/icons/happyhorse.app-favicon-large.ico",
+        desc: "HappyHorse AI：用文本或图片生成 HappyHorse AI 视频——1080p 电影级画质、动作合成、多镜头叙事。免费在线使用 HappyHorse AI 视频工具，无需注册。",
+        link: "https://happyhorse.app"
+      },
+      {
+        title: "Happy Horse AI Video Generator | Text, Image & Video Edit",
+        icon: "/icons/www.happyhorse-ai.app.ico",
+        desc: "Create AI videos in Happy Horse AI from text, images, references, or existing clips. Browser-based workflows with 720p and 1080p output.",
+        link: "https://www.happyhorse-ai.app"
       }
     ]
   },
@@ -849,6 +861,12 @@ export const NavData: NavData[] = [
         link: "https://www.aigocode.com"
       },
       {
+        title: "购物 - 86GameStore",
+        icon: "/icons/shop.86gamestore.com-favicon-large.ico",
+        desc: "比其他渠道便宜的多",
+        link: "https://shop.86gamestore.com/"
+      },
+      {
         title: "兔小店",
         icon: "/icons/store.tu-zi.com-favicon-large.ico",
         desc: "提供claude code、codex、gemini、cursor、gpt账号、google账户等账号购买服务。",
@@ -867,17 +885,17 @@ export const NavData: NavData[] = [
         link: "https://anyrouter.top"
       },
       {
+        title: "GPT Team 团队席位（质保）",
+        icon: "/icons/shop.cursorvip.com-favicon-large.ico",
+        desc: "GPT Team 团队席位（质保） - 一颗苹果",
+        link: "https://shop.cursorvip.com"
+      },
+      {
         title: "ChatGPT 团队席位",
         icon: "/icons/chatgpt.com-favicon-large.ico",
         desc: "ChatGPT Business Team 支付开通页面",
         link: "https://gpt.xheai.cc"
       },
-      {
-        title: "GPT Team 团队席位（质保）",
-        icon: "/icons/shop.cursorvip.com-favicon-large.ico",
-        desc: "GPT Team 团队席位（质保） - 一颗苹果",
-        link: "https://shop.cursorvip.com"
-      }
     ]
   },
   {
