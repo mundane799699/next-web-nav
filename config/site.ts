@@ -405,6 +405,30 @@ export const NavData: NavData[] = [
         link: "https://www.iloveimg.com"
       },
       {
+        title: "Photopea",
+        icon: "/icons/www.photopea.com-favicon-large.ico",
+        desc: "在线PS",
+        link: "https://www.photopea.com"
+      },
+      {
+        title: "Canva",
+        icon: "/icons/canva.com-favicon-large.ico",
+        desc: "Canva可画是免费的在线平面设计工具。使用其创建社交媒体帖子、演示文稿、海报、视频、Logo以及更多。",
+        link: "https://www.canva.com"
+      },
+      {
+        title: "Lovart",
+        icon: "/icons/www.lovart.ai-favicon-large.ico",
+        desc: "Lovart是领先的AI设计智能体。自动化您的整个创意工作流程——从标志和社交媒体图形到完整的营销活动。使用AI即时创建专业设计。",
+        link: "https://www.lovart.ai"
+      },
+      {
+        title: "2026年4月免费抠图网站/App汇总",
+        icon: "/icons/yingyuxiaochuang.png",
+        desc: "一批免费的图片编辑工具",
+        link: "https://mp.weixin.qq.com/s/XvCvvY64WWxlD3ZKqeSsmQ"
+      },
+      {
         title: "TinyPNG",
         icon: "/icons/tinypng.com-favicon-large.ico",
         desc: "Free online image optimizer for faster websites! Reduce the file size of your WEBP, JPEG and PNG Images with TinyPNG’s smart lossy compression engine.",
@@ -437,7 +461,7 @@ export const NavData: NavData[] = [
       {
         title: "AI Icon Generator",
         icon: "/icons/perchance.org-favicon-large.ico",
-        desc: "AI icon maker. Create an icon for your app, Discord server, website, YouTube channel, app folders, Android custom icons, or anything else. Can do flat style, 3D style, grids of icons, game art icons, aesthetic, cyberpunk, or any other style you can imagine. Text-to-icon AI via Stable Diffusion. Great for brainstorming icon design ideas - can do logos too. Completely free, no sign-up, no watermark.",
+        desc: "AI icon maker. Create an icon for your app, Discord server, website, YouTube channel, app folders, Android custom icons, or anything else. ",
         link: "https://perchance.org/ai-icon-generator"
       },
       {
