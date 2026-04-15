@@ -749,6 +749,12 @@ export const NavData: NavData[] = [
         icon: "/icons/reelmind.ai-favicon-large.ico",
         desc: "探索来自全球创作者的热门创意视频，发现灵感、娱乐内容，并重新混剪你喜欢的作品。",
         link: "https://reelmind.ai"
+      },
+      {
+        title: "Pilio",
+        icon: "/icons/pilio.ai-favicon-large.ico",
+        desc: "免费在线去水印工具集合，可对比 PDF 去水印、Gemini AI 图片水印去除与通用图片去水印方案。纯浏览器本地处理，文件不上传，隐私安全有保障。",
+        link: "https://pilio.ai"
       }
     ]
   },
