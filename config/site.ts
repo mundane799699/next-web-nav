@@ -1270,6 +1270,12 @@ export const NavData: NavData[] = [
         desc: "比较来自注册商3,495域扩展54的价格。检查域可用性，发现免费功能，并找到最佳域注册商。",
         icon: "/icons/zh-hans.tld-list.com-favicon.ico",
         link: "https://zh-hans.tld-list.com/"
+      },
+      {
+        title: "域名注册折扣码",
+        desc: "所有注册商的有效促销代码。在注册商处购买域名时使用这些代码可获得折扣。",
+        icon: "/icons/zh-hans.tld-list.com-favicon.ico",
+        link: "https://tld-list.com/zh-hans/%E4%BC%98%E6%83%A0%E7%A0%81"
       }
     ]
   },
