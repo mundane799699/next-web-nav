@@ -935,6 +935,35 @@ export const NavData: NavData[] = [
     ]
   },
   {
+    title: "提示词专栏",
+    items: [
+      {
+        title: "GPT Image 2 提示词",
+        icon: "/icons/youmind.com-favicon-large.ico",
+        desc: "探索 GPT Image 2 的精选提示词——OpenAI 新一代图像模型，具备像素级文字渲染、完美一致性和商用级插画品质。",
+        link: "https://youmind.com/zh-CN/gpt-image-2-prompts"
+      },
+      {
+        title: "Nano Banana Pro 免费提示词库",
+        icon: "/icons/youmind.com-favicon-large.ico",
+        desc: "发现精选的高质量 Nano Banana Pro AI 图像生成提示词集合，直接在 YouMind 中生成精美图像。",
+        link: "https://youmind.com/zh-CN/nano-banana-pro-prompts"
+      },
+      {
+        title: "Nano Banana Pro提示词图库 | AI图片提示词案例",
+        icon: "/icons/opennana.com-favicon-large.ico",
+        desc: "浏览Nano Banana Pro提示词案例图库，筛选和搜索AI图片提示词，快速复制prompt，探索大香蕉提示词灵感。",
+        link: "https://opennana.com/awesome-prompt-gallery"
+      },
+      {
+        title: "Prompt Showcase | Remotion",
+        icon: "/icons/www.remotion.dev-favicon-large.ico",
+        desc: "See what the community has built with Remotion Skills and AI coding agents.",
+        link: "https://www.remotion.dev/prompts"
+      }
+    ]
+  },
+  {
     title: "支付接入",
     items: [
       {
