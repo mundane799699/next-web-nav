@@ -1340,6 +1340,12 @@ export const NavData: NavData[] = [
         desc: "独立开发前线是独立开发指南网站，内容包含独立开发创意发现，产品实现，获取增长，流量变现等方面，旨在帮助独立开发者更快的成长，打造属于自己的盈利产品。",
         icon: "/icons/91wink.com-favicon-large.ico",
         link: "https://91wink.com/sites"
+      },
+      {
+        title: "HuntifyAI",
+        desc: "Discover the best AI tools, models, and alternatives, hunted daily. Browse AI for writing, image, video, and more on HuntifyAI.",
+        icon: "/icons/huntifyai.com-favicon-large.ico",
+        link: "https://huntifyai.com"
       }
     ]
   }
