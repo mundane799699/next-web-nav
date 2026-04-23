@@ -932,6 +932,12 @@ export const NavData: NavData[] = [
         desc: "ChatGPT Business Team 支付开通页面",
         link: "https://gpt.xheai.cc"
       },
+      {
+        title: "松松的小店",
+        icon: "/icons/ldxp.png",
+        desc: "gpt、gemini、claude",
+        link: "https://pay.ldxp.cn/shop/gpt_songsong"
+      }
     ]
   },
   {
