@@ -897,10 +897,10 @@ export const NavData: NavData[] = [
         link: "https://www.aigocode.com"
       },
       {
-        title: "购物 - 86GameStore",
-        icon: "/icons/shop.86gamestore.com-favicon-large.ico",
-        desc: "比其他渠道便宜的多",
-        link: "https://shop.86gamestore.com/"
+        title: "购物 - GPT专卖-cw",
+        icon: "/icons/shop.cursorvip.com-favicon-large.ico",
+        desc: "购物 - GPT专卖-cw",
+        link: "https://caowo.store"
       },
       {
         title: "兔小店",
