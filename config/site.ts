@@ -885,12 +885,6 @@ export const NavData: NavData[] = [
     title: "AI编程工具",
     items: [
       {
-        title: "GamsGo以更低价格共享高级订阅",
-        icon: "/icons/www.gamsgo.com-favicon-large.ico",
-        desc: "在 GamsGo.com 购买便宜、稳定的 Netflix 帐户，自动交付，Netflix 高级会员帐户和订阅帐户，以最便宜的价格出售，您可以构建自己的个人文件，享受高清和超高清的无限流媒体。",
-        link: "https://www.gamsgo.com"
-      },
-      {
         title: "Help AIO 一站式AI导航",
         icon: "/icons/www.helpaio.com-favicon-large.ico",
         desc: "2026最新一站式AI导航平台。聚合Claude、Gemini、Codex中转站真实评测与比价，深度对比Claude Code、Codex、Gemini等AI编程工具，提供从入门到精通的AI实战教程与提示词指南，助您高效落地AI生产力方案。",
@@ -901,12 +895,6 @@ export const NavData: NavData[] = [
         icon: "/icons/www.aigocode.com-favicon-large.ico",
         desc: "Ai Go Code 提供稳定、高效的AI编程服务。支持Claude、ChatGPT等多种AI模型，帮助开发者提升10倍编程效率。立即体验AI驱动的编程助手。",
         link: "https://www.aigocode.com"
-      },
-      {
-        title: "购物 - GPT专卖-cw",
-        icon: "/icons/shop.cursorvip.com-favicon-large.ico",
-        desc: "购物 - GPT专卖-cw",
-        link: "https://caowo.store"
       },
       {
         title: "兔小店",
@@ -925,6 +913,18 @@ export const NavData: NavData[] = [
         icon: "/icons/anyrouter.png",
         desc: "linux.do用户登录会送额度",
         link: "https://anyrouter.top"
+      },
+      {
+        title: "GamsGo以更低价格共享高级订阅",
+        icon: "/icons/www.gamsgo.com-favicon-large.ico",
+        desc: "在 GamsGo.com 购买便宜、稳定的 Netflix 帐户，自动交付，Netflix 高级会员帐户和订阅帐户，以最便宜的价格出售，您可以构建自己的个人文件，享受高清和超高清的无限流媒体。",
+        link: "https://www.gamsgo.com"
+      },
+      {
+        title: "购物 - GPT专卖-cw",
+        icon: "/icons/shop.cursorvip.com-favicon-large.ico",
+        desc: "购物 - GPT专卖-cw",
+        link: "https://caowo.store"
       },
       {
         title: "GPT Team 团队席位（质保）",
