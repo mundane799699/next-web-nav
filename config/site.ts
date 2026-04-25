@@ -755,6 +755,12 @@ export const NavData: NavData[] = [
         icon: "/icons/pilio.ai-favicon-large.ico",
         desc: "免费在线去水印工具集合，可对比 PDF 去水印、Gemini AI 图片水印去除与通用图片去水印方案。纯浏览器本地处理，文件不上传，隐私安全有保障。",
         link: "https://pilio.ai"
+      },
+      {
+        title: "GPT Image 2",
+        icon: "/icons/image2gpt.com-favicon-large.ico",
+        desc: "The #1 free AI image generator powered by GPT Image 2. Create, edit, and transform — text-to-image, style transfer, background removal, and more in one tool.",
+        link: "https://image2gpt.com"
       }
     ]
   },
