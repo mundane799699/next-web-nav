@@ -933,6 +933,12 @@ export const NavData: NavData[] = [
         link: "https://shop.cursorvip.com"
       },
       {
+        title: "性价比稳定撸空投AI智能体跨境电商账号",
+        icon: "/icons/web3chirou.com-favicon-large.ico",
+        desc: "性价比稳定撸空投AI智能体跨境电商账号",
+        link: "https://web3chirou.com"
+      },
+      {
         title: "ChatGPT 团队席位",
         icon: "/icons/chatgpt.com-favicon-large.ico",
         desc: "ChatGPT Business Team 支付开通页面",
