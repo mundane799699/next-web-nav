@@ -885,6 +885,12 @@ export const NavData: NavData[] = [
     title: "AI编程工具",
     items: [
       {
+        title: "GamsGo以更低价格共享高级订阅",
+        icon: "/icons/www.gamsgo.com-favicon-large.ico",
+        desc: "在 GamsGo.com 购买便宜、稳定的 Netflix 帐户，自动交付，Netflix 高级会员帐户和订阅帐户，以最便宜的价格出售，您可以构建自己的个人文件，享受高清和超高清的无限流媒体。",
+        link: "https://www.gamsgo.com"
+      },
+      {
         title: "Help AIO 一站式AI导航",
         icon: "/icons/www.helpaio.com-favicon-large.ico",
         desc: "2026最新一站式AI导航平台。聚合Claude、Gemini、Codex中转站真实评测与比价，深度对比Claude Code、Codex、Gemini等AI编程工具，提供从入门到精通的AI实战教程与提示词指南，助您高效落地AI生产力方案。",
@@ -937,6 +943,65 @@ export const NavData: NavData[] = [
         icon: "/icons/ldxp.png",
         desc: "gpt、gemini、claude",
         link: "https://pay.ldxp.cn/shop/gpt_songsong"
+      }
+    ]
+  },
+  {
+    title: "网络环境",
+    items: [
+      {
+        title: "IKUUU VPN",
+        desc: "用下来感觉还不错的机场",
+        icon: "/icons/ikuuu.nl-favicon-large.ico",
+        link: "https://ikuuu.nl/auth/register?code=Hydp"
+      },
+      {
+        title: "EqualVPN",
+        desc: "EqualVPN提供国内直连的高质量住宅IP服务，避免AI降智或网站误封",
+        icon: "/icons/equaldcdn.webp",
+        link: "https://www.equaldcdn.com"
+      },
+      {
+        title: "如何用住宅IP防止Claude账号被封",
+        desc: "介绍了如何用指纹浏览器和住宅IP防止Claude账号被封",
+        icon: "/icons/x.com-favicon.ico",
+        link: "https://x.com/mkdir700/status/2031761011917848657"
+      },
+      {
+        title: "纯小白无脑教程:如何将梯子绑定住宅静态IP,降低节点风险度",
+        desc: "介绍了如何将梯子绑定住宅静态IP",
+        icon: "/icons/github.com-favicon.ico",
+        link: "https://github.com/QiYongchuan/MyGitBlog/issues/141"
+      },
+      {
+        title: "美区apple id注册教学与购买",
+        desc: "美区apple id注册教学与购买",
+        icon: "/icons/github.com-favicon.ico",
+        link: "https://github.com/kjfx/AppleID"
+      },
+      {
+        title: "Cliproxy",
+        desc: "CliProxy是全球最快速的住宅代理，来自180+国家地区的1亿住宅IP",
+        icon: "/icons/cliproxy.com-favicon-large.ico",
+        link: "https://share.cliproxy.com/share/AI8888"
+      },
+      {
+        title: "Webshare | Fast & Affordable Proxies",
+        desc: "Buy anonymous and private proxy servers. 10 proxies for FREE. Download proxy server list. HTTP Proxy SOCKS5 proxy servers. Rotating proxy available. Buy fast proxy.",
+        icon: "/icons/www.webshare.io-favicon-large.ico",
+        link: "https://www.webshare.io"
+      },
+      {
+        title: "AdsPower指纹浏览器",
+        desc: "AdsPower指纹浏览器是一款为跨境电商,广告投放,海外社媒营销等业务提供账号矩阵管理的防关联浏览器,模拟浏览器指纹实现一台电脑多开窗口,Ads指纹浏览器适用于多个平台如跨境电商亚马逊,FB,Google等,是可以实现浏览器多开和高效团队管理协作的超级浏览器。",
+        icon: "/icons/www.adspower.net-favicon-large.ico",
+        link: "https://www.adspower.net"
+      },
+      {
+        title: "gmaibuy",
+        desc: "谷歌Google账号自助发货平台，购买出售谷歌google邮箱可用于游戏注册、Amazon注册等海外场景，Gmail辅助邮箱格式可直登已添加恢复邮件通常为hotmail、outlook等不区分大小写，Gmail邮箱采用美国姓名注册未添加任何号码，可少量免费谷歌账号进行测试项目，项目合适后再选择批发。",
+        icon: "/icons/gmailbuy.com-favicon-large.ico",
+        link: "https://gmailbuy.com"
       }
     ]
   },
@@ -1075,59 +1140,6 @@ export const NavData: NavData[] = [
         desc: "Hetzner（赫兹纳）是一家总部位于德国的老牌基础架构（IaaS）提供商。在开发者圈子里，它被公认为“性价比之王”。缺点是账号注册严苛。",
         icon: "/icons/www.hetzner.com-favicon-large.ico",
         link: "https://www.hetzner.com"
-      }
-    ]
-  },
-  {
-    title: "网络环境",
-    items: [
-      {
-        title: "IKUUU VPN",
-        desc: "用下来感觉还不错的机场",
-        icon: "/icons/ikuuu.nl-favicon-large.ico",
-        link: "https://ikuuu.nl/auth/register?code=Hydp"
-      },
-      {
-        title: "EqualVPN",
-        desc: "EqualVPN提供国内直连的高质量住宅IP服务，避免AI降智或网站误封",
-        icon: "/icons/equaldcdn.webp",
-        link: "https://www.equaldcdn.com"
-      },
-      {
-        title: "如何用住宅IP防止Claude账号被封",
-        desc: "介绍了如何用指纹浏览器和住宅IP防止Claude账号被封",
-        icon: "/icons/x.com-favicon.ico",
-        link: "https://x.com/mkdir700/status/2031761011917848657"
-      },
-      {
-        title: "纯小白无脑教程:如何将梯子绑定住宅静态IP,降低节点风险度",
-        desc: "介绍了如何将梯子绑定住宅静态IP",
-        icon: "/icons/github.com-favicon.ico",
-        link: "https://github.com/QiYongchuan/MyGitBlog/issues/141"
-      },
-      {
-        title: "Cliproxy",
-        desc: "CliProxy是全球最快速的住宅代理，来自180+国家地区的1亿住宅IP",
-        icon: "/icons/cliproxy.com-favicon-large.ico",
-        link: "https://share.cliproxy.com/share/AI8888"
-      },
-      {
-        title: "Webshare | Fast & Affordable Proxies",
-        desc: "Buy anonymous and private proxy servers. 10 proxies for FREE. Download proxy server list. HTTP Proxy SOCKS5 proxy servers. Rotating proxy available. Buy fast proxy.",
-        icon: "/icons/www.webshare.io-favicon-large.ico",
-        link: "https://www.webshare.io"
-      },
-      {
-        title: "AdsPower指纹浏览器",
-        desc: "AdsPower指纹浏览器是一款为跨境电商,广告投放,海外社媒营销等业务提供账号矩阵管理的防关联浏览器,模拟浏览器指纹实现一台电脑多开窗口,Ads指纹浏览器适用于多个平台如跨境电商亚马逊,FB,Google等,是可以实现浏览器多开和高效团队管理协作的超级浏览器。",
-        icon: "/icons/www.adspower.net-favicon-large.ico",
-        link: "https://www.adspower.net"
-      },
-      {
-        title: "gmaibuy",
-        desc: "谷歌Google账号自助发货平台，购买出售谷歌google邮箱可用于游戏注册、Amazon注册等海外场景，Gmail辅助邮箱格式可直登已添加恢复邮件通常为hotmail、outlook等不区分大小写，Gmail邮箱采用美国姓名注册未添加任何号码，可少量免费谷歌账号进行测试项目，项目合适后再选择批发。",
-        icon: "/icons/gmailbuy.com-favicon-large.ico",
-        link: "https://gmailbuy.com"
       }
     ]
   },
