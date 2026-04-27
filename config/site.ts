@@ -554,6 +554,12 @@ export const NavData: NavData[] = [
         link: "https://github.com/ixartz/Next-js-Boilerplate"
       },
       {
+        title: "VideoFly",
+        icon: "/icons/zifeixu85.png",
+        desc: "一个生产级 AI 视频生成 SaaS 模板，基于 Next.js 15 构建，支持 Sora 2、Veo 3.1 等先进 AI 模型。",
+        link: "https://github.com/zifeixu85/videofly-template"
+      },
+      {
         title: "raphael-starterkit-v1",
         icon: "/icons/liuxiaopai.jpeg",
         desc: "这是一个基于 Next.js、Supabase 和 Creem.io 构建的现代化、生产就绪的启动套件。非常适合快速构建具有身份验证、订阅和积分系统的 SaaS 应用程序，让您的 MVP 开发速度提升10倍。",
@@ -778,6 +784,12 @@ export const NavData: NavData[] = [
         desc: "james zhou写的全栈入门路径。james zhou之前是一位上班的产品经理，目前他已经入门全栈开发，并且全职投入到出海网站的事业中。",
         icon: "/icons/jameszhou.jpg",
         link: "https://guui24rhwg.feishu.cn/docx/TG3kdTydvoW1kJx170ac5H73nCg"
+      },
+      {
+        title: "Easy-Vibe 教程",
+        desc: "从零到一学习 Vibe Coding - 零基础学会用 AI 编程，掌握 Claude Code、Cursor 等 AI IDE 工具",
+        icon: "/icons/easyvibe.png",
+        link: "https://datawhalechina.github.io/easy-vibe/zh-cn"
       }
     ]
   },
@@ -890,6 +902,12 @@ export const NavData: NavData[] = [
   {
     title: "AI编程工具",
     items: [
+      {
+        title: "Aibijia — AI 订阅，一键比价",
+        icon: "/icons/aibijia.org-favicon-large.ico",
+        desc: "AI 订阅，一键比价",
+        link: "https://aibijia.org/"
+      },
       {
         title: "Help AIO 一站式AI导航",
         icon: "/icons/www.helpaio.com-favicon-large.ico",
