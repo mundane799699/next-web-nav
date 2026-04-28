@@ -773,6 +773,12 @@ export const NavData: NavData[] = [
         icon: "/icons/www.nananobanana.com-favicon-large.ico",
         desc: "Nano Banana 2&Pro 集成 GPT Image 2 与 Google Gemini 3 图像编辑能力，作为双引擎 AI 图像编辑器，支持自然语言修图、生图、多图参考与高质量输出。",
         link: "https://www.nananobanana.com"
+      },
+      {
+        title: "NanoBnana AI 图像生成器 — 秒级文本转图像 | Nano AI",
+        icon: "/icons/nanobnana.com-favicon-large.ico",
+        desc: "使用 NanoBnana 从文本生成令人惊叹的图像。快速、简单且对开发者友好，支持图生图和 API 访问。",
+        link: "https://nanobnana.com"
       }
     ]
   },
