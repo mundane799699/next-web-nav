@@ -767,6 +767,12 @@ export const NavData: NavData[] = [
         icon: "/icons/image2gpt.com-favicon-large.ico",
         desc: "The #1 free AI image generator powered by GPT Image 2. Create, edit, and transform — text-to-image, style transfer, background removal, and more in one tool.",
         link: "https://image2gpt.com"
+      },
+      {
+        title: "Nano Banana 2&Pro + GPT Image 2 | Google Gemini 3 AI 图像编辑器",
+        icon: "/icons/www.nananobanana.com-favicon-large.ico",
+        desc: "Nano Banana 2&Pro 集成 GPT Image 2 与 Google Gemini 3 图像编辑能力，作为双引擎 AI 图像编辑器，支持自然语言修图、生图、多图参考与高质量输出。",
+        link: "https://www.nananobanana.com"
       }
     ]
   },
@@ -1061,6 +1067,11 @@ export const NavData: NavData[] = [
         icon: "/icons/www.remotion.dev-favicon-large.ico",
         desc: "See what the community has built with Remotion Skills and AI coding agents.",
         link: "https://www.remotion.dev/prompts"
+      },
+      {
+        title: "GPT-Image-2 提示词 — 1000+ 条精选每日更新",
+        desc: "1000+ 条精选 GPT-Image-2 提示词，每日更新。覆盖人像摄影、海报插画、UI 样机、信息图、角色设计全场景。免费浏览、复制、收藏。",
+        link: "https://image2.fun"
       }
     ]
   },
