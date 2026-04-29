@@ -763,12 +763,6 @@ export const NavData: NavData[] = [
         link: "https://pilio.ai"
       },
       {
-        title: "GPT Image 2",
-        icon: "/icons/image2gpt.com-favicon-large.ico",
-        desc: "The #1 free AI image generator powered by GPT Image 2. Create, edit, and transform — text-to-image, style transfer, background removal, and more in one tool.",
-        link: "https://image2gpt.com"
-      },
-      {
         title: "Nano Banana 2&Pro + GPT Image 2 | Google Gemini 3 AI 图像编辑器",
         icon: "/icons/www.nananobanana.com-favicon-large.ico",
         desc: "Nano Banana 2&Pro 集成 GPT Image 2 与 Google Gemini 3 图像编辑能力，作为双引擎 AI 图像编辑器，支持自然语言修图、生图、多图参考与高质量输出。",
@@ -779,6 +773,18 @@ export const NavData: NavData[] = [
         icon: "/icons/nanobnana.com-favicon-large.ico",
         desc: "使用 NanoBnana 从文本生成令人惊叹的图像。快速、简单且对开发者友好，支持图生图和 API 访问。",
         link: "https://nanobnana.com"
+      },
+      {
+        title: "GPT Image 2",
+        icon: "/icons/image2gpt.com-favicon-large.ico",
+        desc: "The #1 free AI image generator powered by GPT Image 2. Create, edit, and transform — text-to-image, style transfer, background removal, and more in one tool.",
+        link: "https://image2gpt.com"
+      },
+      {
+        title: "GPT Image 2: Free AI Image Generator & Photo Editor Online",
+        icon: "/icons/gpt-image2.net-favicon-large.ico",
+        desc: "Create, edit & enhance images with GPT Image 2. Text-to-image in 4K, accurate text rendering & cinematic quality. No skills needed. Try free today.",
+        link: "https://gpt-image2.net"
       }
     ]
   },
