@@ -998,16 +998,64 @@ export const NavData: NavData[] = [
     title: "网络环境",
     items: [
       {
+        title: "良心云",
+        desc: "一个月6块，1000g流量",
+        icon: "/icons/xn--9kqz23b19z.com-favicon-large.ico",
+        link: "https://xn--9kqz23b19z.com/#/register?code=icPy2ZHF"
+      },
+      {
         title: "IKUUU VPN",
         desc: "用下来感觉还不错的机场",
         icon: "/icons/ikuuu.nl-favicon-large.ico",
-        link: "https://ikuuu.nl/auth/register?code=Hydp"
+        link: "https://ikuuu.win/auth/register?code=Hydp"
       },
       {
         title: "EqualVPN",
         desc: "EqualVPN提供国内直连的高质量住宅IP服务，避免AI降智或网站误封",
         icon: "/icons/equaldcdn.webp",
         link: "https://www.equaldcdn.com"
+      },
+      {
+        title: "求可用的梯子，现在的梯子挂了",
+        desc: "看评论回复",
+        icon: "/icons/v2ex.com-favicon-large.ico",
+        link: "https://v2ex.com/t/1209006"
+      },
+      {
+        title: "SSR-V2ray-Trojan机场推荐",
+        desc: "SSR-V2ray-Trojan机场推荐",
+        icon: "/icons/github.com-favicon.ico",
+        link: "https://github.com/hwanz/SSR-V2ray-Trojan"
+      },
+      {
+        title: "2026年4月 完整小白自建稳定VPN教程（优化版）",
+        desc: "2026年4月 完整小白自建稳定VPN教程（优化版）",
+        icon: "/icons/www.sagasu.art-favicon-large.ico",
+        link: "https://www.sagasu.art/p/complete-vpn-tutorial-for-beginners-optimal-version"
+      },
+      {
+        title: "VPN Guide",
+        desc: "列了三个机场",
+        icon: "/icons/vpnstools.com-favicon-large.ico",
+        link: "https://vpnstools.com"
+      },
+      {
+        title: "求梯子便宜好用的(   ˊ ᵕ ˋ 💦)俺梯子到期了",
+        desc: "看底下评论",
+        icon: "/icons/x.com.ico",
+        link: "https://x.com/Xxxxx62778/status/2017217946247106780"
+      },
+      {
+        title: "x上分享的一些梯子",
+        desc: "x上分享的一些梯子",
+        icon: "/icons/x.com.ico",
+        link: "/images/vpn.jpg"
+      },
+      {
+        title: "电脑端、安卓端、IOS端使用链式代理住宅IP方案",
+        desc: "电脑端、安卓端、IOS端使用链式代理住宅IP方案",
+        icon: "/icons/bulianglin.com-favicon-large.ico",
+        link: "https://bulianglin.com/archives/relay-1.html"
       },
       {
         title: "如何用住宅IP防止Claude账号被封",
