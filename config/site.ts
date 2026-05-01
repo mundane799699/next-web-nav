@@ -1064,6 +1064,12 @@ export const NavData: NavData[] = [
         link: "https://x.com/mkdir700/status/2031761011917848657"
       },
       {
+        title: "Clash Verge可视化页面配置链式代理2.0",
+        desc: "Clash Verge可视化页面配置链式代理2.0",
+        icon: "/icons/notion.so-favicon-large.ico",
+        link: "https://www.notion.so/Clash-Verge-2-0-2d8924b9831480d1a05fdb83005cb6ad"
+      },
+      {
         title: "纯小白无脑教程:如何将梯子绑定住宅静态IP,降低节点风险度",
         desc: "介绍了如何将梯子绑定住宅静态IP",
         icon: "/icons/github.com-favicon.ico",
