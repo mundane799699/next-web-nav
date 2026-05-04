@@ -236,6 +236,12 @@ export const NavData: NavData[] = [
         link: "https://alternativeto.net"
       },
       {
+        title: "AI工具 | AIStart.ai — 你的专属 AI 启动台",
+        icon: "/icons/aistart.ai-favicon-large.ico",
+        desc: "精选 AI 工具目录与个人启动台：首页智能需求框、收藏与智能全文搜索。写作、图像、编程、视频等。",
+        link: "https://aistart.ai/"
+      },
+      {
         title: "500.tools",
         icon: "/icons/500.tools-favicon-large.ico",
         desc: "A curated list of the 500 best tools.",
