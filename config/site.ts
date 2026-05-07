@@ -933,6 +933,12 @@ export const NavData: NavData[] = [
         link: "https://aibijia.org/"
       },
       {
+        title: "AppStore.cx - App Store 各区价格与换算",
+        icon: "查看 App Store 各区 App 与内购价格、换算价和历史变动。",
+        desc: "/icons/appstore.cx-favicon-large.ico",
+        link: "https://appstore.cx"
+      },
+      {
         title: "Help AIO 一站式AI导航",
         icon: "/icons/www.helpaio.com-favicon-large.ico",
         desc: "2026最新一站式AI导航平台。聚合Claude、Gemini、Codex中转站真实评测与比价，深度对比Claude Code、Codex、Gemini等AI编程工具，提供从入门到精通的AI实战教程与提示词指南，助您高效落地AI生产力方案。",
