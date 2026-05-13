@@ -34,6 +34,18 @@ export const NavData: NavData[] = [
     title: "需求挖掘",
     items: [
       {
+        title: "reddit/SideProject",
+        icon: "/icons/reddit_sideproject.webp",
+        desc: "reddit SideProject。自然提及不要硬广。",
+        link: "https://www.reddit.com/r/SideProject"
+      },
+      {
+        title: "reddit/IndieDev",
+        icon: "/icons/reddit_indiedev.webp",
+        desc: "周五 Feedback Friday",
+        link: "https://www.reddit.com/r/IndieDev"
+      },
+      {
         title: "github trending",
         icon: "/icons/github.com-favicon.ico",
         desc: "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
