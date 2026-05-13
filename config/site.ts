@@ -130,6 +130,18 @@ export const NavData: NavData[] = [
         link: "https://mp.weixin.qq.com/s/fbCxrI2JZGoraXpOgNQeKA"
       },
       {
+        title: "网站出海每日分享：找需求的一些方法",
+        icon: "/icons/droidHZ.png",
+        desc: "找需求的一些方法",
+        link: "https://mp.weixin.qq.com/s/6bWXRm08FxjsH4dLslCxSw"
+      },
+      {
+        title: "网站出海每日分享：收集插件抱怨找需求",
+        icon: "/icons/droidHZ.png",
+        desc: "收集插件抱怨找需求",
+        link: "https://mp.weixin.qq.com/s/k5HBpg2CPBZ8vGy1cLmNVg"
+      },
+      {
         title: "打洞周报第21期-假期总结",
         icon: "/icons/lixiang.png",
         desc: "文章分享了怎么通过站找站来挖掘需求",
