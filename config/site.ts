@@ -323,6 +323,12 @@ export const NavData: NavData[] = [
         icon: "/icons/frogdr.com-favicon-large.ico",
         desc: "FrogDR helps you tracking and growing your Domain Rating. Get more backlinks, improve your SEO and increase your Domain Authority.",
         link: "https://frogdr.com"
+      },
+      {
+        title: "前端已死？重生之在 YouMind 做增长工程师",
+        icon: "/icons/zongyuan.png",
+        desc: "主要讲产品增长方法",
+        link: "https://mp.weixin.qq.com/s/LBFRHtkhqOffepCaNKD60A"
       }
     ]
   },
