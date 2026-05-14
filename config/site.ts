@@ -964,8 +964,8 @@ export const NavData: NavData[] = [
       },
       {
         title: "AppStore.cx - App Store 各区价格与换算",
-        icon: "查看 App Store 各区 App 与内购价格、换算价和历史变动。",
-        desc: "/icons/appstore.cx-favicon-large.ico",
+        icon: "/icons/appstore.cx-favicon-large.ico",
+        desc: "查看 App Store 各区 App 与内购价格、换算价和历史变动。",
         link: "https://appstore.cx"
       },
       {
