@@ -130,12 +130,6 @@ export const NavData: NavData[] = [
         link: "https://mp.weixin.qq.com/s/fbCxrI2JZGoraXpOgNQeKA"
       },
       {
-        title: "网站出海每日分享：找需求的一些方法",
-        icon: "/icons/droidHZ.png",
-        desc: "找需求的一些方法",
-        link: "https://mp.weixin.qq.com/s/6bWXRm08FxjsH4dLslCxSw"
-      },
-      {
         title: "网站出海每日分享：收集插件抱怨找需求",
         icon: "/icons/droidHZ.png",
         desc: "收集插件抱怨找需求",
@@ -1005,6 +999,12 @@ export const NavData: NavData[] = [
         link: "https://www.gamsgo.com"
       },
       {
+        title: "土区半价订阅ChatGPT Plus",
+        icon: "/icons/x.com.ico",
+        desc: "土区半价订阅ChatGPT Plus",
+        link: "https://x.com/Lonely__MH/status/2050968016826048899"
+      },
+      {
         title: "购物 - GPT专卖-cw",
         icon: "/icons/shop.cursorvip.com-favicon-large.ico",
         desc: "购物 - GPT专卖-cw",
@@ -1028,12 +1028,6 @@ export const NavData: NavData[] = [
         desc: "ChatGPT Business Team 支付开通页面",
         link: "https://gpt.xheai.cc"
       },
-      {
-        title: "松松的小店",
-        icon: "/icons/ldxp.png",
-        desc: "gpt、gemini、claude",
-        link: "https://pay.ldxp.cn/shop/gpt_songsong"
-      }
     ]
   },
   {
