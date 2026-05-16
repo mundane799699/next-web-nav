@@ -1255,6 +1255,12 @@ export const NavData: NavData[] = [
         icon: "/icons/poki.com-favicon.ico",
         desc: "与Poki (宝玩)一起探索免费在线游戏的世界！即刻玩耍，无需下载，享受与所有设备兼容的游戏。",
         link: "https://poki.com"
+      },
+      {
+        title: "Duckmath Unblocked Games",
+        icon: "Play hundreds of unblocked games free online! No downloads needed. Access your favorite games at school with our collection of unblocked games.",
+        desc: "/icons/duckmath.org-favicon-large.ico",
+        link: "https://duckmath.org"
       }
     ]
   },
