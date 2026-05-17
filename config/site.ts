@@ -191,6 +191,76 @@ export const NavData: NavData[] = [
     ]
   },
   {
+    title: "外链建设",
+    items: [
+      {
+        title: "掌握这些方法，外链多到根本发不完",
+        icon: "/icons/chengyi.png",
+        desc: "程艺Truman分享的关于外链发布方法和寻找外链发布渠道",
+        link: "https://mp.weixin.qq.com/s/OhcyI51O-gKPo8cbWwmX0A"
+      },
+      {
+        title: "网站出海每日分享：搜索语法找外链",
+        icon: "/icons/droidHZ.png",
+        desc: "droidHZ分享的通过搜索语法找外链的方法",
+        link: "https://mp.weixin.qq.com/s/_zc6_RuTnJ8LVLn0MGIwOw"
+      },
+      {
+        title: "学会“抄”，出海网站的外链多到根本发不完",
+        icon: "/icons/ai-biancheng-chuhai.png",
+        desc: "教你如何通过抄作业的方式，快速获取外链。",
+        link: "https://mp.weixin.qq.com/s/DLIW-egBucY-EOcMS_9_Sw"
+      },
+      {
+        title: "1000UserGuide",
+        icon: "/icons/1000userguide.com-favicon.ico",
+        desc: "本手册旨在为开发者提供一个全面的获客资源，列出国内外适合独立开发者和创业者早期产品启动的曝光渠道。通过利用这些渠道，你可以有效地推广你的产品，接触目标受众，并找到你的第一批1000个用户.",
+        link: "https://1000userguide.com"
+      },
+      {
+        title: "BacklinkHelper",
+        icon: "/icons/backlinkhelper.com-favicon-large.ico",
+        desc: "BacklinkHelper：适用于SEO用户的免费浏览器插件。快速填充链接表单，生成自然评论，管理、去重并追踪外链。",
+        link: "https://backlinkhelper.com"
+      },
+      {
+        title: "100+ DIR",
+        icon: "/icons/globe_with_meridians.png",
+        desc: "100多个导航站合集，免费提交的和付费提交的都有",
+        link: "https://potent-measure-31f.notion.site/14368f418f50804ba419d3ce7a333fa8?v=14368f418f508191a695000c6fcd329a"
+      },
+      {
+        title: "Products by Indie Hackers",
+        icon: "/icons/www.indiehackers.com-favicon-large.ico",
+        desc: "Discover hundreds of businesses, startups, and side projects that are making money online, and learn how they got to where they are today.",
+        link: "https://indiehackers.com/products"
+      },
+      {
+        title: "BestLinks",
+        desc: "Ahrefs反向链接批量获取工具。BestLinks可以帮助您获取任意网站的高质量反向链接，批量导出方便SEO分析。",
+        link: "https://bestlinks.530.news"
+      },
+      {
+        title: "AISAC - AI摘要&评论生成器",
+        icon: "/icons/aisac.co-favicon-large.ico",
+        desc: "快速添加博客外链，比较适合游戏站，用于快速添加博客评论",
+        link: "https://aisac.co"
+      },
+      {
+        title: "做了产品，首发先把这些地方发完再说",
+        icon: "/icons/x.com.ico",
+        desc: "做了产品，首发先把这些地方发完再说。这些地方既有流量，又方便建外链拉DR。",
+        link: "https://x.com/yangyi/status/2055581344605065461"
+      },
+      {
+        title: "Uneed Directories",
+        icon: "/icons/uneed-directories.com-favicon-large.ico",
+        desc: "A collection of directories to promote your startup, side project, or business.",
+        link: "https://uneed-directories.com"
+      }
+    ]
+  },
+  {
     title: "AI导航站",
     items: [
       {
@@ -326,64 +396,7 @@ export const NavData: NavData[] = [
       }
     ]
   },
-  {
-    title: "外链建设",
-    items: [
-      {
-        title: "掌握这些方法，外链多到根本发不完",
-        icon: "/icons/chengyi.png",
-        desc: "程艺Truman分享的关于外链发布方法和寻找外链发布渠道",
-        link: "https://mp.weixin.qq.com/s/OhcyI51O-gKPo8cbWwmX0A"
-      },
-      {
-        title: "网站出海每日分享：搜索语法找外链",
-        icon: "/icons/droidHZ.png",
-        desc: "droidHZ分享的通过搜索语法找外链的方法",
-        link: "https://mp.weixin.qq.com/s/_zc6_RuTnJ8LVLn0MGIwOw"
-      },
-      {
-        title: "学会“抄”，出海网站的外链多到根本发不完",
-        icon: "/icons/ai-biancheng-chuhai.png",
-        desc: "教你如何通过抄作业的方式，快速获取外链。",
-        link: "https://mp.weixin.qq.com/s/DLIW-egBucY-EOcMS_9_Sw"
-      },
-      {
-        title: "1000UserGuide",
-        icon: "/icons/1000userguide.com-favicon.ico",
-        desc: "本手册旨在为开发者提供一个全面的获客资源，列出国内外适合独立开发者和创业者早期产品启动的曝光渠道。通过利用这些渠道，你可以有效地推广你的产品，接触目标受众，并找到你的第一批1000个用户.",
-        link: "https://1000userguide.com"
-      },
-      {
-        title: "BacklinkHelper",
-        icon: "/icons/backlinkhelper.com-favicon-large.ico",
-        desc: "BacklinkHelper：适用于SEO用户的免费浏览器插件。快速填充链接表单，生成自然评论，管理、去重并追踪外链。",
-        link: "https://backlinkhelper.com"
-      },
-      {
-        title: "100+ DIR",
-        icon: "/icons/globe_with_meridians.png",
-        desc: "100多个导航站合集，免费提交的和付费提交的都有",
-        link: "https://potent-measure-31f.notion.site/14368f418f50804ba419d3ce7a333fa8?v=14368f418f508191a695000c6fcd329a"
-      },
-      {
-        title: "Products by Indie Hackers",
-        icon: "/icons/www.indiehackers.com-favicon-large.ico",
-        desc: "Discover hundreds of businesses, startups, and side projects that are making money online, and learn how they got to where they are today.",
-        link: "https://indiehackers.com/products"
-      },
-      {
-        title: "BestLinks",
-        desc: "Ahrefs反向链接批量获取工具。BestLinks可以帮助您获取任意网站的高质量反向链接，批量导出方便SEO分析。",
-        link: "https://bestlinks.530.news"
-      },
-      {
-        title: "AISAC - AI摘要&评论生成器",
-        icon: "/icons/aisac.co-favicon-large.ico",
-        desc: "快速添加博客外链，比较适合游戏站，用于快速添加博客评论",
-        link: "https://aisac.co"
-      }
-    ]
-  },
+  
   {
     title: "浏览器插件推荐",
     items: [
