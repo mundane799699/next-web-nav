@@ -389,6 +389,12 @@ export const NavData: NavData[] = [
         link: "https://frogdr.com"
       },
       {
+        title: "Create your Google Sitemap Online - XML Sitemaps Generator",
+        icon: "/icons/www.xml-sitemaps.com-favicon-large.ico",
+        desc: "Free Online Google Sitemap Generator. XML-sitemaps.com provides free online sitemap generator service, creating an XML sitemap that can be submitted to Google, Bing and other search engines to help them crawl your website better. It will also generate an HTML site map to allow your website visitors to navigate easier.",
+        link: "https://www.xml-sitemaps.com"
+      },
+      {
         title: "前端已死？重生之在 YouMind 做增长工程师",
         icon: "/icons/zongyuan.png",
         desc: "主要讲产品增长方法",
