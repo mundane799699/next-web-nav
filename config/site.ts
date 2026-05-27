@@ -828,6 +828,36 @@ export const NavData: NavData[] = [
         icon: "/icons/gpt-image2.net-favicon-large.ico",
         desc: "Create, edit & enhance images with GPT Image 2. Text-to-image in 4K, accurate text rendering & cinematic quality. No skills needed. Try free today.",
         link: "https://gpt-image2.net"
+      },
+      {
+        title : "TopMediai – All-in-One AI Video, Music & Voiceover Platform",
+        icon: "/icons/www.topmediai.com-favicon-large.ico",
+        desc: "TopMediai is your all-in-one platform for AI video, music, and voiceover creation. Empower your content with smart, fast, and creative AI solutions.",
+        link: "https://www.topmediai.com"
+      },
+      {
+        title: "OpenMusic AI",
+        icon: "/icons/www.openmusic.ai-favicon-large.ico",
+        desc: "Use OpenMusic AI, the free all-in-one AI music generator, to create full songs and lyrics from text. Turn your ideas into studio-quality music instantly.",
+        link: "https://www.openmusic.ai"
+      },
+      {
+        title: "AI Make Song",
+        icon: "/icons/www.aimakesong.com-favicon-large.ico",
+        desc: "Turn your ideas into music now! Use our free AI song maker, song lyrics generator & other tools to turn text or lyrics into unique, royalty-free songs in seconds. No music skills needed!",
+        link: "https://www.aimakesong.com"
+      },
+      {
+        title: "Huewrite - AI文本人性化工具 | 将AI转化为人类写作 | Hue Write",
+        icon: "/icons/huewrite.com-favicon-large.ico",
+        desc: "HueWrite是一款超过1,003,000名用户信赖的免费AI文本人性化工具。将AI生成的内容转化为自然的人类写作，绕过AI检测器。99.6%的有效性",
+        link: "https://huewrite.com"
+      },
+      {
+        title: "SuperHumanizer: Humanize AI | 100% Free AI Humanizer",
+        icon: "/icons/superhumanizer.ai-favicon-large.ico",
+        desc: "Use SuperHumanizer to humanize AI text instantly. Our free AI humanizer helps you convert AI text to human writing and avoid AI detection.",
+        link: "https://superhumanizer.ai"
       }
     ]
   },
