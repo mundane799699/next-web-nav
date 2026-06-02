@@ -1,77 +1,11 @@
-import { NavData as DefaultNavConfig } from "@/config/site"
+import { NavData, NavGroup } from "@/config/site"
 import { create } from "zustand"
-import { createJSONStorage, persist } from "zustand/middleware"
-import { NavLink } from "@/config/site"
-
-// Export initial data for reset functionality
-export const initialNavData = DefaultNavConfig
-
-export interface NavCategory {
-  title: string
-  items: NavLink[]
-}
 
 interface NavConfigState {
-  // 状态属性改为小驼峰
-  categories: NavCategory[]
-  // 操作方法命名优化：移除冗余的Nav前缀
-  setCategories: (data: NavCategory[]) => void
-  addCategory: (category: NavCategory) => void
-  updateCategory: (index: number, category: NavCategory) => void
-  removeCategory: (index: number) => void
-  addLink: (categoryIndex: number, link: NavLink) => void
-  updateLink: (categoryIndex: number, linkIndex: number, link: NavLink) => void
-  removeLink: (categoryIndex: number, linkIndex: number) => void
+  // 顶级分组（只读，数据源为 config/site.ts）
+  groups: NavGroup[]
 }
 
-export const useConfigStore = create<NavConfigState>()(
-  persist(
-    (set) => ({
-      // 使用更明确的初始值命名
-      categories: initialNavData, // Use the exported initialNavData here
-      setCategories: (data) => set({ categories: data }),
-      addCategory: (category) => set((state) => ({ categories: [...state.categories, category] })),
-      updateCategory: (index, category) =>
-        set((state) => {
-          const updated = [...state.categories]
-          updated[index] = category
-          return { categories: updated }
-        }),
-      removeCategory: (index) =>
-        set((state) => ({
-          categories: state.categories.filter((_, i) => i !== index)
-        })),
-      addLink: (categoryIndex, link) =>
-        set((state) => {
-          const updated = [...state.categories]
-          updated[categoryIndex] = {
-            ...updated[categoryIndex],
-            items: [...updated[categoryIndex].items, link]
-          }
-          return { categories: updated }
-        }),
-      updateLink: (categoryIndex, linkIndex, link) =>
-        set((state) => {
-          const updated = [...state.categories]
-          updated[categoryIndex] = {
-            ...updated[categoryIndex],
-            items: updated[categoryIndex].items.map((item, i) => (i === linkIndex ? link : item))
-          }
-          return { categories: updated }
-        }),
-      removeLink: (categoryIndex, linkIndex) =>
-        set((state) => {
-          const updated = [...state.categories]
-          updated[categoryIndex] = {
-            ...updated[categoryIndex],
-            items: updated[categoryIndex].items.filter((_, i) => i !== linkIndex)
-          }
-          return { categories: updated }
-        })
-    }),
-    {
-      name: "nav-config-store",
-      storage: createJSONStorage(() => localStorage)
-    }
-  )
-)
+export const useConfigStore = create<NavConfigState>(() => ({
+  groups: NavData
+}))

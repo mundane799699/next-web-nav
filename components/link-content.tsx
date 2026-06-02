@@ -4,11 +4,13 @@ import Image from "next/image"
 import Link from "next/link"
 
 import { HoverEffect } from "@/components/ui/card-hover-effect"
+import { getAllCategories } from "@/config/site"
 import { useConfigStore } from "@/stores"
 
 export function LinkContent() {
-  // 测试2222
-  const { categories } = useConfigStore()
+  const { groups } = useConfigStore()
+  // 拍平成二级分类，保持与侧边栏一致的扁平序号作为锚点 id
+  const categories = getAllCategories(groups)
 
   return (
     <div className="w-full pb-96 pt-4">

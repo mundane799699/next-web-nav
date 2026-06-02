@@ -22,8 +22,8 @@ import {
 
 import { Icons } from "./components/icons"
 import { ThemeToggle } from "./components/theme-toggle"
+import { getAllCategories } from "@/config/site"
 import { useConfigStore } from "@/stores"
-import SettingDialog from "./components/setting-dialog"
 
 // 定义 props 类型
 interface SiteHeaderProps {
@@ -38,7 +38,9 @@ export function SiteHeader({ onMenuClick }: SiteHeaderProps) {
     command()
   }, [])
 
-  const { categories } = useConfigStore()
+  const { groups } = useConfigStore()
+  // 搜索列表用拍平后的二级分类
+  const categories = getAllCategories(groups)
 
   return (
     <header className="sticky top-0 z-40 w-full bg-background dark:border-slate-50/[0.06] lg:border-b lg:border-slate-900/10">
@@ -81,7 +83,6 @@ export function SiteHeader({ onMenuClick }: SiteHeaderProps) {
               </Button>
             </Link>
             <ThemeToggle />
-            <SettingDialog />
           </div>
         </nav>
       </div>

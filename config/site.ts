@@ -24,12 +24,21 @@ export interface NavLink {
   tip?: string
 }
 
-type NavData = {
+/** 二级分类：一组导航链接 */
+export interface NavCategory {
   title: string
   items: NavLink[]
 }
 
-export const NavData: NavData[] = [
+/** 顶级分组：包含若干二级分类，icon 为 lucide 图标名 */
+export interface NavGroup {
+  title: string
+  icon: string
+  children: NavCategory[]
+}
+
+// 扁平的二级分类清单（顺序无关，分组时按标题引用）
+const categoryList: NavCategory[] = [
   {
     title: "需求挖掘",
     items: [
@@ -402,7 +411,7 @@ export const NavData: NavData[] = [
       }
     ]
   },
-  
+
   {
     title: "浏览器插件推荐",
     items: [
@@ -836,7 +845,7 @@ export const NavData: NavData[] = [
         link: "https://gpt-image2.net"
       },
       {
-        title : "TopMediai – All-in-One AI Video, Music & Voiceover Platform",
+        title: "TopMediai – All-in-One AI Video, Music & Voiceover Platform",
         icon: "/icons/www.topmediai.com-favicon-large.ico",
         desc: "TopMediai is your all-in-one platform for AI video, music, and voiceover creation. Empower your content with smart, fast, and creative AI solutions.",
         link: "https://www.topmediai.com"
@@ -1076,7 +1085,7 @@ export const NavData: NavData[] = [
         icon: "/icons/chatgpt.com-favicon-large.ico",
         desc: "ChatGPT Business Team 支付开通页面",
         link: "https://gpt.xheai.cc"
-      },
+      }
     ]
   },
   {
@@ -1301,8 +1310,8 @@ export const NavData: NavData[] = [
       },
       {
         title: "Duckmath Unblocked Games",
-        icon: "Play hundreds of unblocked games free online! No downloads needed. Access your favorite games at school with our collection of unblocked games.",
-        desc: "/icons/duckmath.org-favicon-large.ico",
+        desc: "Play hundreds of unblocked games free online! No downloads needed. Access your favorite games at school with our collection of unblocked games.",
+        icon: "/icons/duckmath.org-favicon-large.ico",
         link: "https://duckmath.org"
       }
     ]
@@ -1566,3 +1575,48 @@ export const NavData: NavData[] = [
     ]
   }
 ]
+
+// 按标题取出二级分类（缺失会在构建分组时立即暴露）
+const pick = (...titles: string[]): NavCategory[] =>
+  titles.map((title) => {
+    const category = categoryList.find((item) => item.title === title)
+    if (!category) throw new Error(`未找到分类: ${title}`)
+    return category
+  })
+
+// 顶级分组：把 26 个二级分类归到 6 个组
+export const NavData: NavGroup[] = [
+  {
+    title: "需求与灵感",
+    icon: "Lightbulb",
+    children: pick("需求挖掘", "模仿对象", "游戏站")
+  },
+  {
+    title: "开发与设计",
+    icon: "Code2",
+    children: pick("UI设计", "代码模板", "API供应商", "AI编程工具", "浏览器插件推荐", "提示词专栏")
+  },
+  {
+    title: "推广与SEO",
+    icon: "Megaphone",
+    children: pick("社区", "外链建设", "AI导航站", "SEO优化")
+  },
+  {
+    title: "部署与运营",
+    icon: "Rocket",
+    children: pick("网站托管", "服务器推荐", "域名查询", "网络环境", "支付接入")
+  },
+  {
+    title: "学习与资讯",
+    icon: "GraduationCap",
+    children: pick("新手专区", "教程推荐", "技术总结", "github仓库", "心灵加油站", "公众号推荐", "博主推荐")
+  },
+  {
+    title: "其他",
+    icon: "Compass",
+    children: pick("其他导航站")
+  }
+]
+
+// 把嵌套分组拍平成二级分类数组，供主内容与搜索复用
+export const getAllCategories = (groups: NavGroup[]): NavCategory[] => groups.flatMap((group) => group.children)
