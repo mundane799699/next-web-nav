@@ -7,6 +7,7 @@ import {
   ChevronDown,
   Code2,
   Compass,
+  Copy,
   GraduationCap,
   Lightbulb,
   LucideIcon,
@@ -24,6 +25,7 @@ interface SidebarProps {
 // 分组图标名 → lucide 组件映射
 const groupIcons: Record<string, LucideIcon> = {
   Lightbulb,
+  Copy,
   Code2,
   Megaphone,
   Palette,

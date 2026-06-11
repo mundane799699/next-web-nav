@@ -676,7 +676,7 @@ const categoryList: NavCategory[] = [
     ]
   },
   {
-    title: "模仿对象",
+    title: "SaaS 案例展示",
     items: [
       {
         title: "MkSaaS Showcase",
@@ -695,7 +695,12 @@ const categoryList: NavCategory[] = [
         icon: "/icons/nexty.dev-favicon-large.ico",
         desc: "Products built with NEXTY.DEV",
         link: "https://nexty.dev/showcases"
-      },
+      }
+    ]
+  },
+  {
+    title: "AI 图片生成与编辑",
+    items: [
       {
         title: "imgeditor.co(原nanobanana.ai)",
         icon: "/icons/imgeditor.co-favicon-large.ico",
@@ -715,17 +720,40 @@ const categoryList: NavCategory[] = [
         link: "https://ghiblio.art"
       },
       {
-        title: "Gemini Watermark Cleaner",
-        icon: "/icons/geminiwatermarkcleaner.com-favicon-large.ico",
-        desc: "Gemini Watermark Cleaner is a gemini watermark remover and Google AI Studio watermark remover for remove Gemini Nano Banana watermark from images. It is designed for gemini.google.com and aistudio.google.com, automatically detecting and removing watermarks as users download images.",
-        link: "https://geminiwatermarkcleaner.com"
+        title: "HairTry",
+        icon: "/icons/hairtry.app-favicon-large.ico",
+        desc: "上传照片，通过AI虚拟剪发模拟器试戴发型与发色。几秒内以逼真效果探索更适合你的剪裁，1000+款式可选。",
+        link: "https://hairtry.app"
       },
       {
-        title: "remusic.ai",
-        icon: "/icons/remusic.ai-favicon-large.ico",
-        desc: "Generate full-length songs in seconds with Remusic - a free AI music generator that generates high-quality tracks up to 4 minutes long instantly.",
-        link: "https://remusic.ai"
+        title: "Nano Banana 2&Pro + GPT Image 2 | Google Gemini 3 AI 图像编辑器",
+        icon: "/icons/www.nananobanana.com-favicon-large.ico",
+        desc: "Nano Banana 2&Pro 集成 GPT Image 2 与 Google Gemini 3 图像编辑能力，作为双引擎 AI 图像编辑器，支持自然语言修图、生图、多图参考与高质量输出。",
+        link: "https://www.nananobanana.com"
       },
+      {
+        title: "NanoBnana AI 图像生成器 — 秒级文本转图像 | Nano AI",
+        icon: "/icons/nanobnana.com-favicon-large.ico",
+        desc: "使用 NanoBnana 从文本生成令人惊叹的图像。快速、简单且对开发者友好，支持图生图和 API 访问。",
+        link: "https://nanobnana.com"
+      },
+      {
+        title: "GPT Image 2",
+        icon: "/icons/image2gpt.com-favicon-large.ico",
+        desc: "The #1 free AI image generator powered by GPT Image 2. Create, edit, and transform — text-to-image, style transfer, background removal, and more in one tool.",
+        link: "https://image2gpt.com"
+      },
+      {
+        title: "GPT Image 2: Free AI Image Generator & Photo Editor Online",
+        icon: "/icons/gpt-image2.net-favicon-large.ico",
+        desc: "Create, edit & enhance images with GPT Image 2. Text-to-image in 4K, accurate text rendering & cinematic quality. No skills needed. Try free today.",
+        link: "https://gpt-image2.net"
+      }
+    ]
+  },
+  {
+    title: "AI 视频生成与创作",
+    items: [
       {
         title: "vmake.ai",
         icon: "/icons/vmake.ai-favicon-large.ico",
@@ -751,72 +779,6 @@ const categoryList: NavCategory[] = [
         link: "https://seedance2video.io"
       },
       {
-        title: "Superpower ChatGPT",
-        icon: "/icons/spchatgpt.com-favicon-large.ico",
-        desc: "ChatGPT with Folders, Search, Enhanced GPT Store, Image Gallery, Minimap, Side-by-Side Voice GPT, Right-click Functions, Reference chats, Auto GPT Folders, Auto Archive, Export, Prompt Optimizer, Prompt Chains, Hidden Models and more",
-        link: "https://spchatgpt.com"
-      },
-      {
-        title: "Banana Prompts",
-        icon: "/icons/www.bananaprompts.xyz-favicon-large.ico",
-        desc: "Discover and share AI-generated images and videos with the prompts that power them. Browse cinematic AI videos, explore stunning artwork, and learn from the community's most-loved creations.",
-        link: "https://www.bananaprompts.xyz"
-      },
-      {
-        title: "Cutout.Pro",
-        icon: "/icons/www.cutout.pro-favicon-large.ico",
-        desc: "All-in-one visual design platform with AI photo and video editing tools. Automatic background removal, image restoration, graphic design, content generation, text-to-speech, digital humans, AI image generation, image editing and image-to-video. With Cutout.Pro, optimize your content and transform your design ideas into special assets with just one click.",
-        link: "https://www.cutout.pro"
-      },
-      {
-        title: "AI Song Generator",
-        icon: "/icons/aisonggenerator.io-favicon-large.ico",
-        desc: "AI Song Generator is a cutting-edge AI-powered tool that lets users create original music effortlessly. Anyone can generate royalty-free music.",
-        link: "https://aisonggenerator.io"
-      },
-      {
-        title: "flux-context.org",
-        icon: "/icons/flux-context.org-favicon-large.ico",
-        desc: "The All-in-One AI platform for stunning image, video, and music creation. Harness the power of FLUX AI for hyper-realistic images, bring your ideas to life with leading video models, and generate original songs with AI Music.",
-        link: "https://flux-context.org"
-      },
-      {
-        title: "flux-ai.io",
-        icon: "/icons/flux-ai.io-favicon-large.ico",
-        desc: "Free to create image & video with Flux AI. Transform Text / Image into magic Image with official Flux AI, powered by Flux.2, Flux Kontext, Nano Banana, Seedream.",
-        link: "https://flux-ai.io"
-      },
-      {
-        title: "Brand Maker",
-        icon: "/icons/brandmaker.so-favicon-large.ico",
-        desc: "AI-powered brand asset generation platform for creating complete brand systems including logos, color palettes, and visual assets",
-        link: "https://brandmaker.so"
-      },
-      {
-        title: "Remover.video",
-        icon: "/icons/remover.video-favicon-large.ico",
-        desc: "Professional AI-powered tool to remove text, watermark and logos from videos online. Free video editor supporting TikTok, Instagram and all social media formats.",
-        link: "https://remover.video"
-      },
-      {
-        title: "TikTok Comment Generator",
-        icon: "/icons/tokcomment.com-favicon-large.ico",
-        desc: "Create fake TikTok comments in seconds. Reply bubbles, video comments, verification badges, transparent PNG. Now with Instagram, YouTube & Twitter. Free, no signup.",
-        link: "https://tokcomment.com"
-      },
-      {
-        title: "MusicGPT",
-        icon: "/icons/musicgpt.com-favicon-large.ico",
-        desc: "Create music, instrumentals, beats, vocals, sounds, soundcapes with AI. World’s best. Edit files with AI. AI Voice Changer. AI Stem Splitter. AI Audio Enhancements",
-        link: "https://musicgpt.com"
-      },
-      {
-        title: "HairTry",
-        icon: "/icons/hairtry.app-favicon-large.ico",
-        desc: "上传照片，通过AI虚拟剪发模拟器试戴发型与发色。几秒内以逼真效果探索更适合你的剪裁，1000+款式可选。",
-        link: "https://hairtry.app"
-      },
-      {
         title: "HappyHorse AI 视频生成器 — HappyHorse AI",
         icon: "/icons/happyhorse.app-favicon-large.ico",
         desc: "HappyHorse AI：用文本或图片生成 HappyHorse AI 视频——1080p 电影级画质、动作合成、多镜头叙事。免费在线使用 HappyHorse AI 视频工具，无需注册。",
@@ -833,42 +795,29 @@ const categoryList: NavCategory[] = [
         icon: "/icons/reelmind.ai-favicon-large.ico",
         desc: "探索来自全球创作者的热门创意视频，发现灵感、娱乐内容，并重新混剪你喜欢的作品。",
         link: "https://reelmind.ai"
+      }
+    ]
+  },
+  {
+    title: "AI 音乐与音频",
+    items: [
+      {
+        title: "remusic.ai",
+        icon: "/icons/remusic.ai-favicon-large.ico",
+        desc: "Generate full-length songs in seconds with Remusic - a free AI music generator that generates high-quality tracks up to 4 minutes long instantly.",
+        link: "https://remusic.ai"
       },
       {
-        title: "Pilio",
-        icon: "/icons/pilio.ai-favicon-large.ico",
-        desc: "免费在线去水印工具集合，可对比 PDF 去水印、Gemini AI 图片水印去除与通用图片去水印方案。纯浏览器本地处理，文件不上传，隐私安全有保障。",
-        link: "https://pilio.ai"
+        title: "AI Song Generator",
+        icon: "/icons/aisonggenerator.io-favicon-large.ico",
+        desc: "AI Song Generator is a cutting-edge AI-powered tool that lets users create original music effortlessly. Anyone can generate royalty-free music.",
+        link: "https://aisonggenerator.io"
       },
       {
-        title: "Nano Banana 2&Pro + GPT Image 2 | Google Gemini 3 AI 图像编辑器",
-        icon: "/icons/www.nananobanana.com-favicon-large.ico",
-        desc: "Nano Banana 2&Pro 集成 GPT Image 2 与 Google Gemini 3 图像编辑能力，作为双引擎 AI 图像编辑器，支持自然语言修图、生图、多图参考与高质量输出。",
-        link: "https://www.nananobanana.com"
-      },
-      {
-        title: "NanoBnana AI 图像生成器 — 秒级文本转图像 | Nano AI",
-        icon: "/icons/nanobnana.com-favicon-large.ico",
-        desc: "使用 NanoBnana 从文本生成令人惊叹的图像。快速、简单且对开发者友好，支持图生图和 API 访问。",
-        link: "https://nanobnana.com"
-      },
-      {
-        title: "GPT Image 2",
-        icon: "/icons/image2gpt.com-favicon-large.ico",
-        desc: "The #1 free AI image generator powered by GPT Image 2. Create, edit, and transform — text-to-image, style transfer, background removal, and more in one tool.",
-        link: "https://image2gpt.com"
-      },
-      {
-        title: "GPT Image 2: Free AI Image Generator & Photo Editor Online",
-        icon: "/icons/gpt-image2.net-favicon-large.ico",
-        desc: "Create, edit & enhance images with GPT Image 2. Text-to-image in 4K, accurate text rendering & cinematic quality. No skills needed. Try free today.",
-        link: "https://gpt-image2.net"
-      },
-      {
-        title: "TopMediai – All-in-One AI Video, Music & Voiceover Platform",
-        icon: "/icons/www.topmediai.com-favicon-large.ico",
-        desc: "TopMediai is your all-in-one platform for AI video, music, and voiceover creation. Empower your content with smart, fast, and creative AI solutions.",
-        link: "https://www.topmediai.com"
+        title: "MusicGPT",
+        icon: "/icons/musicgpt.com-favicon-large.ico",
+        desc: "Create music, instrumentals, beats, vocals, sounds, soundcapes with AI. World’s best. Edit files with AI. AI Voice Changer. AI Stem Splitter. AI Audio Enhancements",
+        link: "https://musicgpt.com"
       },
       {
         title: "OpenMusic AI",
@@ -881,6 +830,93 @@ const categoryList: NavCategory[] = [
         icon: "/icons/www.aimakesong.com-favicon-large.ico",
         desc: "Turn your ideas into music now! Use our free AI song maker, song lyrics generator & other tools to turn text or lyrics into unique, royalty-free songs in seconds. No music skills needed!",
         link: "https://www.aimakesong.com"
+      }
+    ]
+  },
+  {
+    title: "去水印与内容清理",
+    items: [
+      {
+        title: "Gemini Watermark Cleaner",
+        icon: "/icons/geminiwatermarkcleaner.com-favicon-large.ico",
+        desc: "Gemini Watermark Cleaner is a gemini watermark remover and Google AI Studio watermark remover for remove Gemini Nano Banana watermark from images. It is designed for gemini.google.com and aistudio.google.com, automatically detecting and removing watermarks as users download images.",
+        link: "https://geminiwatermarkcleaner.com"
+      },
+      {
+        title: "Remover.video",
+        icon: "/icons/remover.video-favicon-large.ico",
+        desc: "Professional AI-powered tool to remove text, watermark and logos from videos online. Free video editor supporting TikTok, Instagram and all social media formats.",
+        link: "https://remover.video"
+      },
+      {
+        title: "Pilio",
+        icon: "/icons/pilio.ai-favicon-large.ico",
+        desc: "免费在线去水印工具集合，可对比 PDF 去水印、Gemini AI 图片水印去除与通用图片去水印方案。纯浏览器本地处理，文件不上传，隐私安全有保障。",
+        link: "https://pilio.ai"
+      }
+    ]
+  },
+  {
+    title: "综合 AI 创作平台",
+    items: [
+      {
+        title: "Cutout.Pro",
+        icon: "/icons/www.cutout.pro-favicon-large.ico",
+        desc: "All-in-one visual design platform with AI photo and video editing tools. Automatic background removal, image restoration, graphic design, content generation, text-to-speech, digital humans, AI image generation, image editing and image-to-video. With Cutout.Pro, optimize your content and transform your design ideas into special assets with just one click.",
+        link: "https://www.cutout.pro"
+      },
+      {
+        title: "flux-context.org",
+        icon: "/icons/flux-context.org-favicon-large.ico",
+        desc: "The All-in-One AI platform for stunning image, video, and music creation. Harness the power of FLUX AI for hyper-realistic images, bring your ideas to life with leading video models, and generate original songs with AI Music.",
+        link: "https://flux-context.org"
+      },
+      {
+        title: "flux-ai.io",
+        icon: "/icons/flux-ai.io-favicon-large.ico",
+        desc: "Free to create image & video with Flux AI. Transform Text / Image into magic Image with official Flux AI, powered by Flux.2, Flux Kontext, Nano Banana, Seedream.",
+        link: "https://flux-ai.io"
+      },
+      {
+        title: "TopMediai – All-in-One AI Video, Music & Voiceover Platform",
+        icon: "/icons/www.topmediai.com-favicon-large.ico",
+        desc: "TopMediai is your all-in-one platform for AI video, music, and voiceover creation. Empower your content with smart, fast, and creative AI solutions.",
+        link: "https://www.topmediai.com"
+      },
+      {
+        title: "visualgpt.io",
+        icon: "/icons/visualgpt.io-favicon-large.ico",
+        desc: "VisualGPT is an all-in-one AI platform to generate, edit, and enhance images and videos. Create stunning, high-quality photos & videos for any creative project.",
+        link: "https://visualgpt.io"
+      }
+    ]
+  },
+  {
+    title: "内容、效率与营销工具",
+    items: [
+      {
+        title: "Superpower ChatGPT",
+        icon: "/icons/spchatgpt.com-favicon-large.ico",
+        desc: "ChatGPT with Folders, Search, Enhanced GPT Store, Image Gallery, Minimap, Side-by-Side Voice GPT, Right-click Functions, Reference chats, Auto GPT Folders, Auto Archive, Export, Prompt Optimizer, Prompt Chains, Hidden Models and more",
+        link: "https://spchatgpt.com"
+      },
+      {
+        title: "Banana Prompts",
+        icon: "/icons/www.bananaprompts.xyz-favicon-large.ico",
+        desc: "Discover and share AI-generated images and videos with the prompts that power them. Browse cinematic AI videos, explore stunning artwork, and learn from the community's most-loved creations.",
+        link: "https://www.bananaprompts.xyz"
+      },
+      {
+        title: "Brand Maker",
+        icon: "/icons/brandmaker.so-favicon-large.ico",
+        desc: "AI-powered brand asset generation platform for creating complete brand systems including logos, color palettes, and visual assets",
+        link: "https://brandmaker.so"
+      },
+      {
+        title: "TikTok Comment Generator",
+        icon: "/icons/tokcomment.com-favicon-large.ico",
+        desc: "Create fake TikTok comments in seconds. Reply bubbles, video comments, verification badges, transparent PNG. Now with Instagram, YouTube & Twitter. Free, no signup.",
+        link: "https://tokcomment.com"
       },
       {
         title: "Huewrite - AI文本人性化工具 | 将AI转化为人类写作 | Hue Write",
@@ -893,12 +929,6 @@ const categoryList: NavCategory[] = [
         icon: "/icons/superhumanizer.ai-favicon-large.ico",
         desc: "Use SuperHumanizer to humanize AI text instantly. Our free AI humanizer helps you convert AI text to human writing and avoid AI detection.",
         link: "https://superhumanizer.ai"
-      },
-      {
-        title: "visualgpt.io",
-        icon: "/icons/visualgpt.io-favicon-large.ico",
-        desc: "VisualGPT is an all-in-one AI platform to generate, edit, and enhance images and videos. Create stunning, high-quality photos & videos for any creative project.",
-        link: "https://visualgpt.io"
       }
     ]
   },
@@ -1621,7 +1651,20 @@ export const NavData: NavGroup[] = [
   {
     title: "需求与灵感",
     icon: "Lightbulb",
-    children: pick("需求挖掘", "模仿对象", "游戏站")
+    children: pick("需求挖掘", "游戏站")
+  },
+  {
+    title: "模仿对象",
+    icon: "Copy",
+    children: pick(
+      "SaaS 案例展示",
+      "AI 图片生成与编辑",
+      "AI 视频生成与创作",
+      "AI 音乐与音频",
+      "去水印与内容清理",
+      "综合 AI 创作平台",
+      "内容、效率与营销工具"
+    )
   },
   {
     title: "开发与设计",
