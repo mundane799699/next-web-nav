@@ -32,6 +32,9 @@ yarn-error.log*
 # turbo
 .turbo
 
+# TypeScript incremental build cache
+*.tsbuildinfo
+
 # local git worktrees
 .worktrees/
 
