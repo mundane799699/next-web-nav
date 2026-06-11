@@ -12,6 +12,7 @@ import {
   LucideIcon,
   Mail,
   Megaphone,
+  Palette,
   Rocket
 } from "lucide-react"
 import { useConfigStore } from "@/stores"
@@ -25,6 +26,7 @@ const groupIcons: Record<string, LucideIcon> = {
   Lightbulb,
   Code2,
   Megaphone,
+  Palette,
   Rocket,
   GraduationCap,
   Compass
