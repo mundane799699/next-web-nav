@@ -873,6 +873,12 @@ const categoryList: NavCategory[] = [
         icon: "/icons/superhumanizer.ai-favicon-large.ico",
         desc: "Use SuperHumanizer to humanize AI text instantly. Our free AI humanizer helps you convert AI text to human writing and avoid AI detection.",
         link: "https://superhumanizer.ai"
+      },
+      {
+        title: "visualgpt.io",
+        icon: "/icons/visualgpt.io-favicon-large.ico",
+        desc: "VisualGPT is an all-in-one AI platform to generate, edit, and enhance images and videos. Create stunning, high-quality photos & videos for any creative project.",
+        link: "https://visualgpt.io"
       }
     ]
   },
@@ -1461,6 +1467,12 @@ const categoryList: NavCategory[] = [
         icon: "/icons/wuzhibianshizui.jpg",
         desc: "无知便是罪的b站账号",
         link: "https://space.bilibili.com/26724530"
+      },
+      {
+        title: "ShawnHacks",
+        icon: "/icons/shawnhacks.jpg",
+        desc: "Indie Maker ｜古文爱好者 ｜不害｜素食主义｜分享独立开发的一些思考，踩过的坑，积累的经验和学到的东西｜最近新作：一站式跨平台的录屏工具http://screentell.com",
+        link: "https://x.com/ShawnHacks"
       }
     ]
   },
