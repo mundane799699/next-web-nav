@@ -454,7 +454,7 @@ const categoryList: NavCategory[] = [
     ]
   },
   {
-    title: "UI设计",
+    title: "图片处理",
     items: [
       {
         title: "iLoveIMG",
@@ -469,18 +469,6 @@ const categoryList: NavCategory[] = [
         link: "https://www.photopea.com"
       },
       {
-        title: "Canva",
-        icon: "/icons/canva.com-favicon-large.ico",
-        desc: "Canva可画是免费的在线平面设计工具。使用其创建社交媒体帖子、演示文稿、海报、视频、Logo以及更多。",
-        link: "https://www.canva.com"
-      },
-      {
-        title: "Lovart",
-        icon: "/icons/www.lovart.ai-favicon-large.ico",
-        desc: "Lovart是领先的AI设计智能体。自动化您的整个创意工作流程——从标志和社交媒体图形到完整的营销活动。使用AI即时创建专业设计。",
-        link: "https://www.lovart.ai"
-      },
-      {
         title: "2026年4月免费抠图网站/App汇总",
         icon: "/icons/yingyuxiaochuang.png",
         desc: "一批免费的图片编辑工具",
@@ -491,7 +479,12 @@ const categoryList: NavCategory[] = [
         icon: "/icons/tinypng.com-favicon-large.ico",
         desc: "Free online image optimizer for faster websites! Reduce the file size of your WEBP, JPEG and PNG Images with TinyPNG’s smart lossy compression engine.",
         link: "https://tinypng.com"
-      },
+      }
+    ]
+  },
+  {
+    title: "Logo 与图标",
+    items: [
       {
         title: "Logo.Surf",
         icon: "/icons/www.logo.surf-favicon.ico",
@@ -523,28 +516,33 @@ const categoryList: NavCategory[] = [
         link: "https://perchance.org/ai-icon-generator"
       },
       {
-        title: "tinyshots",
-        icon: "/icons/tinyshots.png",
-        desc: "Upload a screenshot, style it with backgrounds, rounded corners, and shadows, then export as PNG.",
-        link: "https://www.tinyshots.app"
-      },
-      {
         title: "favicon.io",
         icon: "/icons/favicon.io-favicon-large.ico",
         desc: "The only favicon generator you need for your next project. Quickly generate your favicon from text, image, or choose from hundreds of emojis.",
         link: "https://favicon.io"
       },
       {
-        title: "tweakcn",
-        icon: "/icons/tweakcn.com-favicon-large.ico",
-        desc: "Customize theme for shadcn/ui with tweakcn's interactive editor. Supports Tailwind CSS v4, Shadcn UI, and custom styles. Modify properties, preview changes, and get the code in real time.",
-        link: "https://tweakcn.com"
-      },
-      {
         title: "Favicon.im",
         icon: "/icons/favicon.im-favicon-large.ico",
         desc: "即时获取、显示和下载任何网站的图标。为开发者提供简单、快速、免费的图标API。",
         link: "https://favicon.im"
+      }
+    ]
+  },
+  {
+    title: "UI 设计与生成",
+    items: [
+      {
+        title: "Canva",
+        icon: "/icons/canva.com-favicon-large.ico",
+        desc: "Canva可画是免费的在线平面设计工具。使用其创建社交媒体帖子、演示文稿、海报、视频、Logo以及更多。",
+        link: "https://www.canva.com"
+      },
+      {
+        title: "Lovart",
+        icon: "/icons/www.lovart.ai-favicon-large.ico",
+        desc: "Lovart是领先的AI设计智能体。自动化您的整个创意工作流程——从标志和社交媒体图形到完整的营销活动。使用AI即时创建专业设计。",
+        link: "https://www.lovart.ai"
       },
       {
         title: "Ideogram",
@@ -563,6 +561,17 @@ const categoryList: NavCategory[] = [
         icon: "/icons/stitch.withgoogle.com-favicon-large.ico",
         desc: "Stitch generates UIs for mobile and web applications, making design ideation fast and easy.",
         link: "https://stitch.withgoogle.com"
+      }
+    ]
+  },
+  {
+    title: "社交分享图",
+    items: [
+      {
+        title: "tinyshots",
+        icon: "/icons/tinyshots.png",
+        desc: "Upload a screenshot, style it with backgrounds, rounded corners, and shadows, then export as PNG.",
+        link: "https://www.tinyshots.app"
       },
       {
         title: "Free Open Graph Generator",
@@ -575,6 +584,17 @@ const categoryList: NavCategory[] = [
         icon: "/icons/opengraph.design-favicon-large.ico",
         desc: "Generate beautiful Open Graph & Twitter images with zero effort.",
         link: "https://opengraph.design"
+      }
+    ]
+  },
+  {
+    title: "主题与样式",
+    items: [
+      {
+        title: "tweakcn",
+        icon: "/icons/tweakcn.com-favicon-large.ico",
+        desc: "Customize theme for shadcn/ui with tweakcn's interactive editor. Supports Tailwind CSS v4, Shadcn UI, and custom styles. Modify properties, preview changes, and get the code in real time.",
+        link: "https://tweakcn.com"
       }
     ]
   },
@@ -1596,7 +1616,7 @@ const pick = (...titles: string[]): NavCategory[] =>
     return category
   })
 
-// 顶级分组：把 26 个二级分类归到 6 个组
+// 顶级分组：把 30 个二级分类归到 7 个组
 export const NavData: NavGroup[] = [
   {
     title: "需求与灵感",
@@ -1606,7 +1626,12 @@ export const NavData: NavGroup[] = [
   {
     title: "开发与设计",
     icon: "Code2",
-    children: pick("UI设计", "代码模板", "API供应商", "AI编程工具", "浏览器插件推荐", "提示词专栏")
+    children: pick("代码模板", "API供应商", "AI编程工具", "浏览器插件推荐", "提示词专栏")
+  },
+  {
+    title: "UI设计",
+    icon: "Palette",
+    children: pick("图片处理", "Logo 与图标", "UI 设计与生成", "社交分享图", "主题与样式")
   },
   {
     title: "推广与SEO",
