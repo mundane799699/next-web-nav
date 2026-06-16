@@ -748,6 +748,12 @@ const categoryList: NavCategory[] = [
         icon: "/icons/gpt-image2.net-favicon-large.ico",
         desc: "Create, edit & enhance images with GPT Image 2. Text-to-image in 4K, accurate text rendering & cinematic quality. No skills needed. Try free today.",
         link: "https://gpt-image2.net"
+      },
+      {
+        title: "BeadPattern",
+        icon: "/icons/beadpattern.net-favicon-large.ico",
+        desc: "A free AI bead pattern generator that turns text prompts and photos into printable Perler, Hama, and fuse bead patterns with color codes, bead counts, and editable grids.",
+        link: "https://beadpattern.net"
       }
     ]
   },
@@ -929,6 +935,17 @@ const categoryList: NavCategory[] = [
         icon: "/icons/superhumanizer.ai-favicon-large.ico",
         desc: "Use SuperHumanizer to humanize AI text instantly. Our free AI humanizer helps you convert AI text to human writing and avoid AI detection.",
         link: "https://superhumanizer.ai"
+      }
+    ]
+  },
+  {
+    title: "视频与媒体工具",
+    items: [
+      {
+        title: "m3u8 Player",
+        icon: "/icons/m3u8-player.net-favicon-large.ico",
+        desc: "An online m3u8/HLS video player. Play .m3u8 streaming links directly in your browser — no download or install needed.",
+        link: "https://m3u8-player.net"
       }
     ]
   },
@@ -1369,6 +1386,18 @@ const categoryList: NavCategory[] = [
         desc: "Play hundreds of unblocked games free online! No downloads needed. Access your favorite games at school with our collection of unblocked games.",
         icon: "/icons/duckmath.org-favicon-large.ico",
         link: "https://duckmath.org"
+      },
+      {
+        title: "Bear Clicker Game",
+        desc: "BearClicker, A New Bear Clicker Game Online, Create unique bear compositions, experience fun sound effects, and immerse yourself on bearclicker net",
+        icon: "/icons/bearclicker.net-favicon-large.ico",
+        link: "https://bearclicker.net"
+      },
+      {
+        title: "Toon Tone - Official Free Cartoon Color Guessing Game",
+        desc: "Play the official Toon Tone game, a free 5-round cartoon color guessing game. Use HSB sliders to match character colors from memory. No signup.",
+        icon: "/icons/toontone.app-favicon-large.ico",
+        link: "https://toontone.app"
       }
     ]
   },
@@ -1663,7 +1692,8 @@ export const NavData: NavGroup[] = [
       "AI 音乐与音频",
       "去水印与内容清理",
       "综合 AI 创作平台",
-      "内容、效率与营销工具"
+      "内容、效率与营销工具",
+      "视频与媒体工具"
     )
   },
   {
