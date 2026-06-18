@@ -115,6 +115,12 @@ const categoryList: NavCategory[] = [
         link: "https://appsumo.com"
       },
       {
+        title: "Softonic",
+        icon: "/icons/softonic.ico",
+        desc: "Softonic is the place to discover the best applications for your device, offering you reviews, news, articles and free downloads. Welcome to your app guide!",
+        link: "https://appsumo.com"
+      },
+      {
         title: "AI Graveyard",
         icon: "/icons/dang.ai-favicon-large.ico",
         desc: "The AI industry moves fast, here's a list of legacy AI tools and services that didn't make the cut. A tribute to AI and creators building in the AI space.",
