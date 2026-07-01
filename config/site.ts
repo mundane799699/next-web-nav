@@ -118,7 +118,7 @@ const categoryList: NavCategory[] = [
         title: "Softonic",
         icon: "/icons/softonic.ico",
         desc: "Softonic is the place to discover the best applications for your device, offering you reviews, news, articles and free downloads. Welcome to your app guide!",
-        link: "https://appsumo.com"
+        link: "https://en.softonic.com"
       },
       {
         title: "AI Graveyard",
