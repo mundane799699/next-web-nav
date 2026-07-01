@@ -1453,14 +1453,20 @@ const categoryList: NavCategory[] = [
       {
         title: "海外AI产品新手复盘：4个月赚到1刀，15天破1000刀",
         icon: "/icons/wangmazha.jpg",
-        desc: "王马扎大佬的复盘文章，非常值得一读",
+        desc: "王马扎大佬的复盘文章，非常值得反复阅读",
         link: "https://zhizhe888.feishu.cn/docx/Z40jdqs7woO8sxxDtgFcG6sDnVb"
+      },
+      {
+        title: "摸索一年，走上出海web道路月入 4w 刀，万字记录历程，分享实操",
+        icon: "/icons/xiaoerduo.png",
+        desc: "小耳朵大佬的复盘文章，非常值得反复阅读",
+        link: "https://mp.weixin.qq.com/s/yjrpkSH_WzmZgpRerBdGEQ"
       },
       {
         title: "独立开发两年如何收入10万美刀",
         icon: "/icons/mksaas.me-favicon-large.ico",
         desc: "来自fox的独立开发经验分享。fox毕业于清华大学，目前就职于微信团队。",
-        link: "https://mksaas.me/blog/2025"
+        link: "https://mkdollar.com/blog/2025"
       },
       {
         title: "加入哥飞社群一年，终于做出一个月近 900K流量的网站.",
