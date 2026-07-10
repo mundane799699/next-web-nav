@@ -43,6 +43,12 @@ const categoryList: NavCategory[] = [
     title: "需求挖掘",
     items: [
       {
+        title: "Starter Story",
+        icon: "/icons/starterstory_favicon.ico",
+        desc: "Explore thousands of real, profitable businesses — every revenue figure researched and source-checked. Free to explore, filter, and export straight to ChatGPT.",
+        link: "https://www.starterstory.com"
+      },
+      {
         title: "reddit/SideProject",
         icon: "/icons/reddit_sideproject.webp",
         desc: "reddit SideProject。自然提及不要硬广。",
