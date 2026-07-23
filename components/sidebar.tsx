@@ -4,6 +4,7 @@ import { ReactNode, useEffect, useMemo, useRef, useState } from "react"
 import Image from "next/image"
 import { AnimatePresence, motion } from "framer-motion"
 import {
+  Bot,
   ChevronDown,
   Code2,
   Compass,
@@ -27,6 +28,7 @@ const groupIcons: Record<string, LucideIcon> = {
   Lightbulb,
   Copy,
   Code2,
+  Bot,
   Megaphone,
   Palette,
   Rocket,
@@ -151,21 +153,29 @@ export function Sidebar({ onLinkClick }: SidebarProps) {
           {groups.map((group, groupIndex) => {
             const Icon = groupIcons[group.icon] ?? Compass
             const open = openGroup === groupIndex
+            // 只有一个二级分类时，分组头即叶子：无箭头、点击直接跳转
+            const isLeaf = group.children.length === 1
+            const groupOffset = groupOffsets[groupIndex]
             return (
               <div key={group.title}>
-                {/* 顶级分组头：点击展开/收起（手风琴） */}
-                <NavItem onClick={() => toggleGroup(groupIndex)}>
+                {/* 顶级分组头：叶子直接跳转，否则展开/收起（手风琴） */}
+                <NavItem
+                  active={isLeaf && activeId === groupOffset}
+                  onClick={() => (isLeaf ? handleCategoryClick(groupOffset) : toggleGroup(groupIndex))}
+                >
                   <div className="flex items-center gap-3 p-2 text-sm">
                     <Icon className="h-5 w-5 shrink-0" />
                     <span className="flex-1 truncate">{group.title}</span>
-                    <ChevronDown
-                      className={`h-4 w-4 shrink-0 transition-transform duration-200 ${open ? "" : "-rotate-90"}`}
-                    />
+                    {!isLeaf && (
+                      <ChevronDown
+                        className={`h-4 w-4 shrink-0 transition-transform duration-200 ${open ? "" : "-rotate-90"}`}
+                      />
+                    )}
                   </div>
                 </NavItem>
                 {/* 二级分类列表 */}
                 <AnimatePresence initial={false}>
-                  {open && (
+                  {!isLeaf && open && (
                     <motion.div
                       initial={{ height: 0, opacity: 0 }}
                       animate={{ height: "auto", opacity: 1 }}

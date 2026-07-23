@@ -1154,10 +1154,10 @@ const categoryList: NavCategory[] = [
         link: "https://x.com/Lonely__MH/status/2050968016826048899"
       },
       {
-        title: "购物 - GPT专卖-cw",
-        icon: "/icons/shop.cursorvip.com-favicon-large.ico",
-        desc: "购物 - GPT专卖-cw",
-        link: "https://caowo.store"
+        title: "APP喵的小店 - 链动小铺",
+        icon: "/icons/pay.ldxp.ico",
+        desc: "gpt plus成品号",
+        link: "https://pay.ldxp.cn/shop/LKTZE76P"
       },
       {
         title: "GPT Team 团队席位（质保）",
@@ -1723,7 +1723,12 @@ export const NavData: NavGroup[] = [
   {
     title: "开发与设计",
     icon: "Code2",
-    children: pick("代码模板", "API供应商", "AI编程工具", "浏览器插件推荐", "提示词专栏")
+    children: pick("代码模板", "API供应商", "浏览器插件推荐", "提示词专栏")
+  },
+  {
+    title: "AI编程工具",
+    icon: "Bot",
+    children: pick("AI编程工具")
   },
   {
     title: "UI设计",
