@@ -1394,6 +1394,12 @@ const categoryList: NavCategory[] = [
     title: "游戏站",
     items: [
       {
+        title: "itch.io",
+        icon: "/icons/itch.ico",
+        desc: "itch.io is a simple way to find, download and distribute indie games online. Whether you're a developer looking to upload your game or just someone looking for something new to play itch.io has you covered.",
+        link: "https://itch.io"
+      },
+      {
         title: "Poki",
         icon: "/icons/poki.com-favicon.ico",
         desc: "与Poki (宝玩)一起探索免费在线游戏的世界！即刻玩耍，无需下载，享受与所有设备兼容的游戏。",
@@ -1652,6 +1658,12 @@ const categoryList: NavCategory[] = [
     title: "其他导航站",
     items: [
       {
+        title: "AI 网站出海开发者社区 - 实战分享与工具推荐",
+        desc: "每天分享真实的出海经验、增长策略、踩坑复盘和实用工具，陪你一起从0到1，做出全球用户喜欢的产品",
+        icon: "/icons/aichuhai.png",
+        link: "https://aichuhai.dev"
+      },
+      {
         title: "IndieHub",
         desc: "IndieHub is a community for Indie Makers to discover tools, launch products, and ship applications faster and better.",
         icon: "/icons/indiehub.best-favicon-large.ico",
@@ -1751,7 +1763,7 @@ export const NavData: NavGroup[] = [
     children: pick("新手专区", "教程推荐", "技术总结", "github仓库", "心灵加油站", "公众号推荐", "博主推荐")
   },
   {
-    title: "其他",
+    title: "其他导航站",
     icon: "Compass",
     children: pick("其他导航站")
   }
