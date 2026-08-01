@@ -1176,6 +1176,12 @@ const categoryList: NavCategory[] = [
         icon: "/icons/chatgpt.com-favicon-large.ico",
         desc: "ChatGPT Business Team 支付开通页面",
         link: "https://gpt.xheai.cc"
+      },
+      {
+        title: "kimik3 — Free Kimi K3 Chat, Pricing & Prompts Guide",
+        icon: "/icons/www.kimik3.svg",
+        desc: "kimik3 is the unofficial Kimi K3 guide — a free kimik3 chat, working examples, honest pricing vs Claude & GPT, and a prompt cheat sheet. Run Kimi K3 inside your kimik3 workspace today.",
+        link: "https://www.kimik3.net"
       }
     ]
   },
