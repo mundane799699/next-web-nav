@@ -46,7 +46,7 @@ const categoryList: NavCategory[] = [
         title: "哥伦布 — AI 工具站增长情报库",
         icon: "/icons/columbus.png",
         desc: "持续追踪 4630 个 AI 工具站的流量趋势、SEO 打法、变现方式与技术栈拆解。给独立开发者找可复制的增长样本。",
-        link: "https://columbus.tools"
+        link: "https://columbus.tools/?aff=666"
       },
       {
         title: "SiteData：用于 SEO、广告和流量研究的网站情报",
