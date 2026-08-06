@@ -43,6 +43,30 @@ const categoryList: NavCategory[] = [
     title: "需求挖掘",
     items: [
       {
+        title: "哥伦布 — AI 工具站增长情报库",
+        icon: "/icons/columbus.png",
+        desc: "持续追踪 4630 个 AI 工具站的流量趋势、SEO 打法、变现方式与技术栈拆解。给独立开发者找可复制的增长样本。",
+        link: "https://columbus.tools"
+      },
+      {
+        title: "SiteData：用于 SEO、广告和流量研究的网站情报",
+        icon: "/icons/sitedata.ico",
+        desc: "使用 SiteData 的一体化网站情报工具，分析网站流量、SEO 关键词、Google Ads 活动、AdSense 发布商 ID、DR、WHOIS 和竞争对手信号。",
+        link: "https://sitedata.dev"
+      },
+      {
+        title: "Keywords Cafe",
+        icon: "/icons/keywords.png",
+        desc: "Curated opportunity signals, rankings, and editorial research for global builders.",
+        link: "https://keywords.cafe"
+      },
+      {
+        title: "Traffic.cv",
+        icon: "/icons/traffic.cv-favicon-large.ico",
+        desc: "Traffic.cv is a free website traffic checker that allows you to check the traffic of any website. Get traffic volume, sources, trends, top keywords and more.",
+        link: "https://traffic.cv"
+      },
+      {
         title: "Starter Story",
         icon: "/icons/starterstory_favicon.ico",
         desc: "Explore thousands of real, profitable businesses — every revenue figure researched and source-checked. Free to explore, filter, and export straight to ChatGPT.",
@@ -77,12 +101,6 @@ const categoryList: NavCategory[] = [
         icon: "/icons/trends.google.com-favicon-large.ico",
         desc: "Google 趋势是一个免费的工具，可以让你了解当前的热门搜索和趋势。",
         link: "https://trends.google.com/trends/"
-      },
-      {
-        title: "Traffic.cv",
-        icon: "/icons/traffic.cv-favicon-large.ico",
-        desc: "Traffic.cv is a free website traffic checker that allows you to check the traffic of any website. Get traffic volume, sources, trends, top keywords and more.",
-        link: "https://traffic.cv"
       },
       {
         title: "Products by Indie Hackers",
