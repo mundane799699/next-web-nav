@@ -1738,9 +1738,14 @@ const pick = (...titles: string[]): NavCategory[] =>
 // 顶级分组：把 30 个二级分类归到 7 个组
 export const NavData: NavGroup[] = [
   {
-    title: "需求与灵感",
+    title: "需求挖掘",
     icon: "Lightbulb",
-    children: pick("需求挖掘", "游戏站")
+    children: pick("需求挖掘")
+  },
+  {
+    title: "游戏站",
+    icon: "Gamepad2",
+    children: pick("游戏站")
   },
   {
     title: "模仿对象",

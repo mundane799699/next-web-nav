@@ -9,6 +9,7 @@ import {
   Code2,
   Compass,
   Copy,
+  Gamepad2,
   GraduationCap,
   Lightbulb,
   LucideIcon,
@@ -26,6 +27,7 @@ interface SidebarProps {
 // 分组图标名 → lucide 组件映射
 const groupIcons: Record<string, LucideIcon> = {
   Lightbulb,
+  Gamepad2,
   Copy,
   Code2,
   Bot,
