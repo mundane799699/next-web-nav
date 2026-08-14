@@ -309,6 +309,12 @@ const categoryList: NavCategory[] = [
     title: "AI导航站",
     items: [
       {
+        title: "FreeAi.run",
+        icon: "/icons/www.freeai.ico",
+        desc: "Discover the best free AI tools across all categories. Browse a curated directory of AI resources for productivity, creativity, and content creation.",
+        link: "https://www.freeai.run"
+      },
+      {
         title: "toolify",
         icon: "/icons/www.toolify.ai-favicon-large.ico",
         desc: "Toolify is the largest AI tools directory & GPT Store Apps. Over 28100+ AI Websites and AI Tools. AI Tools list and GPTs Store Apps list are auto updated by ChatGPT.",
@@ -738,6 +744,12 @@ const categoryList: NavCategory[] = [
     title: "AI 图片生成与编辑",
     items: [
       {
+        title: "NanoPhoto.AI - AI makes video and photo editing simple",
+        icon: "/icons/nanophoto.png",
+        desc: "NanoPhoto.AI is a professional AI video and photo editor platform offering AI video editing (Sora 2 Pro, Sora Storyboard) and AI photo editing (Nano Banana)",
+        link: "https://nanophoto.ai"
+      },
+      {
         title: "imgeditor.co(原nanobanana.ai)",
         icon: "/icons/imgeditor.co-favicon-large.ico",
         desc: "Edit images with natural language using Nano Banana's advanced AI powered by Google DeepMind. Ranked #1 on LMArena. Transform any photo with simple text prompts.",
@@ -879,6 +891,12 @@ const categoryList: NavCategory[] = [
     title: "去水印与内容清理",
     items: [
       {
+        title: "Gemini Watermark Remover: Free, Video & Image",
+        icon: "/icons/geminiwatermark.ico",
+        desc: "Remove the visible Gemini and Google Flow watermark from Gemini Omni videos and AI images online. Local browser processing, no upload, and original quality.",
+        link: "https://geminiwatermark.io"
+      },
+      {
         title: "Gemini Watermark Cleaner",
         icon: "/icons/geminiwatermarkcleaner.com-favicon-large.ico",
         desc: "Gemini Watermark Cleaner is a gemini watermark remover and Google AI Studio watermark remover for remove Gemini Nano Banana watermark from images. It is designed for gemini.google.com and aistudio.google.com, automatically detecting and removing watermarks as users download images.",
@@ -934,8 +952,38 @@ const categoryList: NavCategory[] = [
     ]
   },
   {
-    title: "内容、效率与营销工具",
+    title: "其他工具",
     items: [
+      {
+        title: "Convert audio and video to text online for free",
+        icon: "/icons/www.uniscribe.png",
+        desc: "UniScribe lets you upload audio and video files or paste YouTube Links, quickly turning them into text with AI. It also creates summaries, mind maps, and key questions, and lets you export the text in different formats.",
+        link: "https://www.uniscribe.co"
+      },
+      {
+        title: "Free Video to GIF Converter Online - High Quality | Kommodo",
+        icon: "/icons/kommodo.png",
+        desc: "Convert video to GIF online for free in high quality. Two-pass palette optimization, no upload required. Works in your browser.",
+        link: "https://kommodo.ai/tools/video-to-gif"
+      },
+      {
+        title: "免费AI视频转可编辑PPT/幻灯片工具 | Video2PPT",
+        icon: "/icons/video2ppt.png",
+        desc: "永久免费 & 无需登录。一键将视频转换为可编辑的 PPT 和 PDF。AI 自动处理本地文件、Bilibili、YouTube 及屏幕录制。安全隐私保护。",
+        link: "https://video2ppt.com"
+      },
+      {
+        title: "Video to Text AI Converter - Transcribe Video to Text Free",
+        icon: "/icons/video2text.png",
+        desc: "Transcribe video and audio to text with AI, supporting 99 languages including English, Spanish, Portuguese and more, featuring speaker diarization and timestamps.",
+        link: "https://video2text.net"
+      },
+      {
+        title: "Read PDF Aloud Online - Free PDF Voice Reader",
+        icon: "/icons/readpdfaloud.png",
+        desc: "Read PDF aloud for free with natural AI voices! Convert any PDF, including scanned files via OCR, into natural speech. Supports 142+ languages.",
+        link: "https://readpdfaloud.com"
+      },
       {
         title: "Superpower ChatGPT",
         icon: "/icons/spchatgpt.com-favicon-large.ico",
@@ -975,13 +1023,25 @@ const categoryList: NavCategory[] = [
     ]
   },
   {
-    title: "视频与媒体工具",
+    title: "adsense工具站",
     items: [
+      {
+        title: "Timestamp Camera Online - Add Date, Time, Location, QR, Signature",
+        icon: "/icons/www.timestampcameras.ico",
+        desc: "Browser-based timestamp camera for photos. Add date, time, address, GPS-style location, signatures, QR codes, and proof-style overlays without installing an app.",
+        link: "https://www.timestampcameras.com"
+      },
       {
         title: "m3u8 Player",
         icon: "/icons/m3u8-player.net-favicon-large.ico",
         desc: "An online m3u8/HLS video player. Play .m3u8 streaming links directly in your browser — no download or install needed.",
         link: "https://m3u8-player.net"
+      },
+      {
+        title: "Token Calculator for LLMs | OpenAI, Claude, Gemini Cost Estimator",
+        icon: "/icons/token-calculator.ico",
+        desc: "Token calculator for LLM prompts, documents, code, and chat messages. Count tokens locally and estimate OpenAI, Claude, and Gemini API costs.",
+        link: "https://token-calculator.net"
       }
     ]
   },
@@ -1757,8 +1817,8 @@ export const NavData: NavGroup[] = [
       "AI 音乐与音频",
       "去水印与内容清理",
       "综合 AI 创作平台",
-      "内容、效率与营销工具",
-      "视频与媒体工具"
+      "其他工具",
+      "adsense工具站"
     )
   },
   {
