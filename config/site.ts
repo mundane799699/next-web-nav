@@ -67,6 +67,11 @@ const categoryList: NavCategory[] = [
         link: "https://traffic.cv"
       },
       {
+        title: "AI 工具榜 · AI Tools Radar",
+        desc: "AI 工具站增长情报:真实流量、增长曲线、渠道构成、外链来源,免费公开。",
+        link: "https://ppop123.github.io/ai-tools-radar"
+      },
+      {
         title: "Starter Story",
         icon: "/icons/starterstory_favicon.ico",
         desc: "Explore thousands of real, profitable businesses — every revenue figure researched and source-checked. Free to explore, filter, and export straight to ChatGPT.",
