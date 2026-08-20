@@ -723,7 +723,7 @@ const categoryList: NavCategory[] = [
     ]
   },
   {
-    title: "SaaS 案例展示",
+    title: "SaaS案例",
     items: [
       {
         title: "MkSaaS Showcase",
@@ -746,7 +746,7 @@ const categoryList: NavCategory[] = [
     ]
   },
   {
-    title: "AI 图片生成与编辑",
+    title: "AI图片",
     items: [
       {
         title: "NanoPhoto.AI - AI makes video and photo editing simple",
@@ -811,7 +811,7 @@ const categoryList: NavCategory[] = [
     ]
   },
   {
-    title: "AI 视频生成与创作",
+    title: "AI视频",
     items: [
       {
         title: "vmake.ai",
@@ -858,7 +858,7 @@ const categoryList: NavCategory[] = [
     ]
   },
   {
-    title: "AI 音乐与音频",
+    title: "AI音乐",
     items: [
       {
         title: "remusic.ai",
@@ -893,7 +893,7 @@ const categoryList: NavCategory[] = [
     ]
   },
   {
-    title: "去水印与内容清理",
+    title: "去水印",
     items: [
       {
         title: "Gemini Watermark Remover: Free, Video & Image",
