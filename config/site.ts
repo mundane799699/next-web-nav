@@ -1183,6 +1183,12 @@ const categoryList: NavCategory[] = [
     title: "AI编程工具",
     items: [
       {
+        title: "PriceAI | AI 低价卡网订阅与中转 API 比价雷达",
+        icon: "/icons/priceai.svg",
+        desc: "购买 AI 订阅或接入 API 前，先理解官方订阅、卡网订阅、官方 API 和中转 API 的价格差异、来源、库存与风险边界。",
+        link: "https://priceai.cc"
+      },
+      {
         title: "Aibijia — AI 订阅，一键比价",
         icon: "/icons/aibijia.org-favicon-large.ico",
         desc: "AI 订阅，一键比价",
@@ -1816,11 +1822,11 @@ export const NavData: NavGroup[] = [
     title: "模仿对象",
     icon: "Copy",
     children: pick(
-      "SaaS 案例展示",
-      "AI 图片生成与编辑",
-      "AI 视频生成与创作",
-      "AI 音乐与音频",
-      "去水印与内容清理",
+      "SaaS案例",
+      "AI图片",
+      "AI视频",
+      "AI音乐",
+      "去水印",
       "综合 AI 创作平台",
       "其他工具",
       "adsense工具站"
